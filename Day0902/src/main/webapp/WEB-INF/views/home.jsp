@@ -16,6 +16,7 @@
 <a>배재현</a>
 <a>송산기</a>
 <a>민호형</a>
+<a>링고</a>
 
 <a href="/test1">결제api</a>
 <a href="/Sample">주소api</a>
