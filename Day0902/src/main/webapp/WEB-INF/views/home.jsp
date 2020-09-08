@@ -25,5 +25,7 @@
 <a href="/login">구글로그인api</a>
 <a href="/video">비디오api</a>
 <h1>송현기</h1>
+
+<a href="lecture">lecture.jsp로 이동하기</a>
 </body>
 </html>
