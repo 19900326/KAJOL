@@ -62,4 +62,9 @@ public class HomeController {
 		return "video";
 	}
 	
+	@RequestMapping(value = "/lecture", method = RequestMethod.GET)
+	public String lecture() {
+		return "lecture";
+	}
+	
 }
