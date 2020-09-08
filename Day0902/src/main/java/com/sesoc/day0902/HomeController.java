@@ -71,4 +71,11 @@ public class HomeController {
 		return "song";
 	}
 	
+	@RequestMapping(value = "/lecture", method = RequestMethod.GET)
+	public String lecture() {
+		return "lecture";
+	}
+	
+
+	
 }

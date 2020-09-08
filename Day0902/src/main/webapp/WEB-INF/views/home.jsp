@@ -28,13 +28,12 @@
 <a href="/what">whatapi</a>
 <h1>송현기</h1>
 
-
 <h1>송현기2</h1>
 
 
 <a href="/song">Song.jsp로 이동하기</a>
 
-
+<a href="/lecture">lecture.jsp로 이동하기</a>
 
 </body>
 </html>
