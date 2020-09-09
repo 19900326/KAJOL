@@ -35,5 +35,7 @@
 
 <a href="/lecture">lecture.jsp로 이동하기</a>
 
+<a href="/art">art.jsp로 이동하기</a>
+
 </body>
 </html>
