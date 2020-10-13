@@ -18,14 +18,27 @@
 <a>민호형</a>
 <a>링고</a>
 <a>아이고난</a>
+<a>배먹어 배</a>
 <a>배가 달아</a>
 
 <a href="/test1">결제api</a>
 <a href="/Sample">주소api</a>
 <a href="/login">구글로그인api</a>
 <a href="/video">비디오api</a>
+
+<a href="/what">whatapi</a>
 <h1>송현기</h1>
 
-<a href="lecture">lecture.jsp로 이동하기</a>
+<h1>송현기2</h1>
+
+
+
+<a href="/song">Song.jsp로 이동하기</a>
+<a href="/homepage">homepage.jsp로 이동하기</a>
+
+<a href="/lecture">lecture.jsp로 이동하기</a>
+
+<a href="/art">art.jsp로 이동하기</a>
+
 </body>
 </html>
