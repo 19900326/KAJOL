@@ -258,7 +258,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       <div class="brand_header">
         <a href="/" class="brand_logo">
-          <span class="visually_hidden">인프런</span><svg width="110" id="icon_brand_logo" class="brand_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 90"><path class="A" d="M79.1 31.6c-2-4.6-4.7-8.7-8.1-12.2-3.5-3.5-7.5-6.3-12.1-8.3S49.3 8 43.9 8c-5.2 0-10.2.9-14.9 2.9s-8.8 4.7-12.4 8.1c-3.6 3.5-6.4 7.5-8.4 12.1A37.14 37.14 0 0 0 5.1 46c0 5.2.9 10.2 2.9 14.9s4.7 8.8 8.2 12.4 7.6 6.4 12.2 8.4c4.7 2 9.6 3.1 14.9 3.1l38.3.3.3-38.5c.1-5.3-.9-10.3-2.8-15zM74 77.4l-30.7-.3c-4.2 0-8.2-.9-11.9-2.5s-7-3.9-9.8-6.7A32.99 32.99 0 0 1 15 58c-1.6-3.8-2.3-7.7-2.3-11.9 0-4.3.9-8.3 2.5-12s3.9-6.9 6.7-9.7c2.9-2.8 6.2-4.9 9.9-6.5 3.8-1.6 7.7-2.3 11.9-2.3 4.3 0 8.3.9 12 2.5s6.9 3.8 9.7 6.7c2.8 2.8 4.9 6.1 6.5 9.8s2.3 7.7 2.3 12L74 77.4z"/><path class="A" d="M76.9 83.7c-.9 0-1.8-.3-2.5-1L27.6 35.1c-1.4-1.4-1.3-3.6 0-4.9 1.4-1.4 3.6-1.3 4.9 0l46.8 47.6c1.4 1.4 1.3 3.6 0 4.9-.6.7-1.5 1-2.4 1z"/><path class="A" d="M43.1 47.3c-.4 0-.8-.1-1.2-.2-1.8-.7-2.8-2.7-2.1-4.5l6.3-17.3c.7-1.8 2.7-2.8 4.5-2.1s2.8 2.7 2.1 4.5L46.4 45c-.5 1.4-1.9 2.3-3.3 2.3zm12.2 16.2H33.5C31.6 63.5 30 62 30 60c0-1.9 1.6-3.5 3.5-3.5h21.8c1.9 0 3.5 1.6 3.5 3.5 0 2-1.5 3.5-3.5 3.5zm44.1-32.4V85H88.8V31.1h10.6zm5.6 16.5c1.4-3.2 3.3-6.1 5.8-8.5 2.4-2.4 5.3-4.4 8.6-5.8s6.8-2.1 10.4-2.1c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.6 5.8c2.5 2.4 4.4 5.3 5.8 8.5s2.1 6.7 2.1 10.5v27h-10.7v-27c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.4-1.3-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.7v-27c.2-3.7.9-7.2 2.3-10.5zm76.1-26.2c-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v5.5h21.6v10.7h-21.6V85h-10.7V36.4c0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.4 6.8-2.1 10.4-2.1h5.3v10.7h-5.3c-2.1 0-4.2.4-6.2 1.2zm43.2-11.9V85h-10.7V9.5h10.7zM270.5 66l7.6 7.6-3.7 3.7c-2.6 2.6-5.5 4.5-8.8 5.9s-6.7 2-10.3 2-7-.7-10.3-2c-3.3-1.4-6.2-3.3-8.8-5.9s-4.6-5.6-5.9-8.9-1.9-6.7-1.9-10.1.6-6.8 1.9-10.1 3.2-6.2 5.9-8.9c2.6-2.6 5.6-4.6 8.9-5.9s6.7-2 10.1-2 6.8.7 10.1 2 6.3 3.3 8.9 5.9l3.7 3.7L248 72.9c3 1.5 6.3 2 9.7 1.5s6.4-2.1 8.9-4.6l3.9-3.8zm-26.8-19.3c-3.2 3.2-4.8 7-4.8 11.5 0 2.5.6 4.8 1.7 7.1l10.6-10.6 6.4-6.3 4.7-4.7c-3-1.5-6.3-2-9.7-1.6-3.3.5-6.3 2.1-8.9 4.6zm64.8-15.6c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.5 5.8a27.88 27.88 0 0 1 5.8 8.5c1.4 3.2 2.1 6.7 2.1 10.5v27h-26.9c-3.7 0-7.2-.7-10.4-2.1-3.3-1.4-6.2-3.3-8.6-5.8-2.5-2.5-4.4-5.4-5.8-8.6-1.4-3.3-2.1-6.8-2.1-10.4 0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.5 6.8-2.2 10.4-2.2zm16.2 43.2V58c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.3-1.3s-4.4.4-6.4 1.3c-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3s.4 4.4 1.3 6.4c.8 2 2 3.7 3.5 5.2s3.2 2.6 5.2 3.5c2 .8 4.1 1.3 6.4 1.3h16.3zm46.2-43.2v10.7h-5.4c-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.8V58c0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.4 6.8-2.1 10.4-2.1h5.6zm5.3 16.5c1.4-3.2 3.3-6.1 5.8-8.5 2.4-2.4 5.3-4.4 8.6-5.8s6.8-2.1 10.4-2.1c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.6 5.8c2.5 2.4 4.4 5.3 5.8 8.5s2.1 6.7 2.1 10.5v27h-10.7v-27c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.4-1.3-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.7v-27c.2-3.7.9-7.2 2.3-10.5z"/><title>인프런 브랜드 로고</title></svg>
+          <span class="visually_hidden">인프런</span>
+          <img src="/resources/img/냉면.png">
         </a> 
       </div>
       
@@ -282,208 +283,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
 <ul class="navbar-dropdown is-boxed">
   <li>
-    <a class="navbar-item" href="/courses/it-programming">韓国語</a>
+    <a class="navbar-item" href="/courses/it-programming">基礎韓国語１</a>
     <ul class="navbar-dropdown is-boxed step_menu step_2">
       <li>
         <a class="navbar-item" href="/courses/it-programming/web-dev">웹 개발</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=web-dev">웹 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=javascript">Javascript</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=front-end">Front-End</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=web-publish">웹 퍼블리싱</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=back-end">Back-End</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=nodejs">Node.js</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=react">React</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=spring">Spring</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/web-dev/?skill=web-app">웹앱</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/mobile-app">모바일 앱 개발</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=mobile-app">모바일 앱 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=android">Android</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=ios">iOS</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=swift">Swift</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=kotlin">Kotlin</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=firebase">Firebase</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=google-flutter">Flutter</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=information-security">정보보안</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=ionic">IONIC</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=javascript">Javascript</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/mobile-app/?skill=react-native">React Native</a></li>
+      
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/game-dev">게임 개발</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=game-dev">게임개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=unity">Unity</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=c-sharp">C#</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=unreal">Unreal Engine</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=ios">iOS</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=algorithm">알고리즘</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=javascript">Javascript</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=c-plus">C++</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=scratch">Scratch</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=blueprint">UE Blueprints</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/game-dev/?skill=nodejs">Node.js</a></li>
+        
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/programming-lang">프로그래밍 언어</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=javascript">Javascript</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=algorithm">알고리즘</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=r-programming">R</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=c">C</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=web-crawling">웹 크롤링</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=mobile-app">모바일 앱 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=web-dev">웹 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-lang/?skill=c-sharp">C#</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/algorithm">알고리즘</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=algorithm">알고리즘</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=coding-test">코딩 테스트</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=oop">객체지향</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=ai">인공지능</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=mathmatics">수학</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=c-plus">C++</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=ssafy">SSAFY</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=deep-learning">딥러닝</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=c">C</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/algorithm/?skill=data-structure">자료구조</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/framework-library">프레임워크 및 라이브러리</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=react">React</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=web-dev">웹 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=front-end">Front-End</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=javascript">Javascript</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=spring">Spring</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=nodejs">Node.js</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=back-end">Back-End</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=vuejs">Vue.js</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=mobile-app">모바일 앱 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/framework-library/?skill=django">Django</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/dev-data-science">데이터 사이언스</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=machine-learning">머신러닝</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=deep-learning">딥러닝</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=ai">인공지능</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=Data Visualization">데이터 시각화</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=opencv">OpenCV</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=pandas">Pandas</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=tensorflow">Tensorflow</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=r-programming">R</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=keras">Keras</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-data-science/?skill=reinforcement-learning">강화학습</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/database-dev">데이터베이스</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=database">데이터베이스</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=sql">SQL</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=mysql">MySQL</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=back-end">Back-End</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=java-persistence-api">JPA</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=spring-data-jpa">Spring Data JPA</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=ms-sql">MSSQL</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=oracle">Oracle</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=Data Visualization">데이터 시각화</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/database-dev/?skill=spring">Spring</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/server-dev">서버 개발</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=back-end">Back-End</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=linux">Linux</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=spring">Spring</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=nodejs">Node.js</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=cloud">클라우드</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=spring-data-jpa">Spring Data JPA</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=java-persistence-api">JPA</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=docker">Docker</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=database">데이터베이스</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=firebase">Firebase</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/server-dev/?skill=django">Django</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/dev-blockchain">블록체인 개발</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=blockchain">블록체인</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=etherium">Ethereum</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=dapp">DApp</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=solidity">Solidity</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=truffle">Truffle</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=react">React</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=web-app">웹앱</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=docker">Docker</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-blockchain/?skill=hyperledger-fabric">Hyperledger</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/programming-tool">개발 도구</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=git">Git</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=version-control-system">버전관리시스템</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=web-dev">웹 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=github">Github</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=jetbrains">Jetbrains</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=swift">Swift</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=ios">iOS</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=linux">Linux</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=back-end">Back-End</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=mobile-app">모바일 앱 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/programming-tool/?skill=javascript">Javascript</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it-programming/dev-besides">교양 ・ 기타</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=employment">취업</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=react-native">React Native</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=refactoring">리팩토링</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=civic-hack">시빅해킹</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=communication">커뮤니케이션</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=coding-test">코딩 테스트</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=ios">iOS</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=game-dev">게임개발</a></li>
-          <li><a class="navbar-item" href="/courses/it-programming/dev-besides/?skill=interview">면접</a></li>
         </ul>
       </li>
     </ul>
@@ -494,95 +355,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>
         <a class="navbar-item" href="/courses/it/security">보안</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it/security/?skill=information-security">정보보안</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=penetration-testing">모의해킹</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=malware">악성코드</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=forensic">Forensic</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=android">Android</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=reversing">리버싱</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=system-hacking">시스템 해킹</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=network">네트워크</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=windows">Microsoft Windows</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=injection">인젝션</a></li>
-          <li><a class="navbar-item" href="/courses/it/security/?skill=metasploit">Metasploit</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it/automation">자동화</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=devops">DevOps</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=system-automation">시스템 자동화</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=docker">Docker</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=ansible">Ansible</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=kubernetes">Kubernetes</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=linux">Linux</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=back-end">Back-End</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=github">Github</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=cicd">CI/CD</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=deep-learning">딥러닝</a></li>
-          <li><a class="navbar-item" href="/courses/it/automation/?skill=keras">Keras</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it/infra">인프라</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=aws">AWS</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=devops">DevOps</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=cloud">클라우드</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=linux">Linux</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=back-end">Back-End</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=docker">Docker</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=information-security">정보보안</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=ansible">Ansible</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=kubernetes">Kubernetes</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=system-automation">시스템 자동화</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=azure">Azure</a></li>
-          <li><a class="navbar-item" href="/courses/it/infra/?skill=serverless">서버리스</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it/iot">사물인터넷</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=arduino">Arduino</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=iot">IoT</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=network">네트워크</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=dron">드론 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=raspberry-pi">Raspberry Pi</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=c">C</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=nodejs">Node.js</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=linux">Linux</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=web-dev">웹 개발</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=bigdata">빅데이터</a></li>
-          <li><a class="navbar-item" href="/courses/it/iot/?skill=mongodb">MongoDB</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it/blockchain">블록체인</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=blockchain">블록체인</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=dapp">DApp</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=etherium">Ethereum</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=truffle">Truffle</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=solidity">Solidity</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=react">React</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=mongodb">MongoDB</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=docker">Docker</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=javascript">Javascript</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=chatbot">챗봇</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=hyperledger-fabric">Hyperledger</a></li>
-          <li><a class="navbar-item" href="/courses/it/blockchain/?skill=java">Java</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/it/it-besides">기타</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/it/it-besides/?skill=chrome-extention">Chrome Extention</a></li>
-          <li><a class="navbar-item" href="/courses/it/it-besides/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/it/it-besides/?skill=agile">애자일</a></li>
-          <li><a class="navbar-item" href="/courses/it/it-besides/?skill=writing">집필</a></li>
         </ul>
       </li>
     </ul>
@@ -593,63 +390,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>
         <a class="navbar-item" href="/courses/data-science/data-analysis">데이터 분석</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=Data Visualization">데이터 시각화</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=r-programming">R</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=excel">Excel</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=web-crawling">웹 크롤링</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=pandas">Pandas</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=ms-office">MS-Office</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=data-science">데이터 과학</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=machine-learning">머신러닝</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=business-automation">업무자동화</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-analysis/?skill=tableau">Tableau</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/data-science/artificial-intelligence">인공지능</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=deep-learning">딥러닝</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=machine-learning">머신러닝</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=ai">인공지능</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=tensorflow">Tensorflow</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=keras">Keras</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=opencv">OpenCV</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=reinforcement-learning">강화학습</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=computer-vision">컴퓨터 비전</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=data-science">데이터 과학</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/artificial-intelligence/?skill=neural-network">인공신경망</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/data-science/data-database">데이터베이스</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=sql">SQL</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=database">데이터베이스</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=ms-sql">MSSQL</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=oracle">Oracle</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=r-programming">R</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=data-science">데이터 과학</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=maria-db">MariaDB</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=Data Visualization">데이터 시각화</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=heidi-sql">HeidiSQL</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=rdbms">RDMBS</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-database/?skill=python">Python</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/data-science/data-besides">기타</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/data-science/data-besides/?skill=process-mining">Process Mining</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-besides/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-besides/?skill=bigdata">빅데이터</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-besides/?skill=data-science">데이터 과학</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-besides/?skill=rpa">RPA</a></li>
-          <li><a class="navbar-item" href="/courses/data-science/data-besides/?skill=python">Python</a></li>
         </ul>
       </li>
     </ul>
@@ -660,127 +415,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>
         <a class="navbar-item" href="/courses/creative/3d-modeling">3D 모델링</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=3d-modeling">3D 모델링</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=maya">MAYA</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=3ds-max">3ds MAX</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=cad">CAD</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=sketch-up">SketchUp</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=cinema4d">Cinema 4D</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=revit">Revit</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=zbrush">ZBrush</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=vray">V-Ray</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=Rhino">Rhino</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=enscape">Enscape</a></li>
-          <li><a class="navbar-item" href="/courses/creative/3d-modeling/?skill=blender">Blender</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/creative/webapp-design">웹앱 디자인</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=web-design">웹 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=web-publish">웹 퍼블리싱</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=responsive-web">반응형 웹</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=jquery">jQuery</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=uxui">UX/UI</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=web-dev">웹 개발</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=interactive web">인터랙티브 웹</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=app-design">모바일 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=prototyping">프로토타이핑</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=javascript">Javascript</a></li>
-          <li><a class="navbar-item" href="/courses/creative/webapp-design/?skill=clone-coding">클론코딩</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/creative/ux-ui">UX/UI</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=uxui">UX/UI</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=web-design">웹 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=app-design">모바일 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=interactive web">인터랙티브 웹</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=web-publish">웹 퍼블리싱</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=adobe-xd">XD</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=responsive-web">반응형 웹</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=prototyping">프로토타이핑</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=javascript">Javascript</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=front-end">Front-End</a></li>
-          <li><a class="navbar-item" href="/courses/creative/ux-ui/?skill=clone-coding">클론코딩</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/creative/graphic-design">그래픽 디자인</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=photoshop">Photoshop</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=illustrator">Illustrator</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=cad">CAD</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=app-design">모바일 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=drawing">드로잉</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=uxui">UX/UI</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=character-design">캐릭터 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=3d-modeling">3D 모델링</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=emoticon">이모티콘</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=web-design">웹 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=lightroom">Lightroom</a></li>
-          <li><a class="navbar-item" href="/courses/creative/graphic-design/?skill=animate">Animate</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/creative/creative-tools">디자인 도구</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=photoshop">Photoshop</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=illustrator">Illustrator</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=uxui">UX/UI</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=sketch">Sketch</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=drawing">드로잉</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=app-design">모바일 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=sketch-up">SketchUp</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=3d-modeling">3D 모델링</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=web-design">웹 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=cinema4d">Cinema 4D</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=lightroom">Lightroom</a></li>
-          <li><a class="navbar-item" href="/courses/creative/creative-tools/?skill=aftereffect">After Effects</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/creative/video-editing">영상</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=aftereffect">After Effects</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=Video-Production">영상제작</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=premiere">Premiere Pro</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=youtube-creator">유투브</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=power-director">PowerDirector</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=character-design">캐릭터 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=maya">MAYA</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=cinema4d">Cinema 4D</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=motion-graphic">모션 그래픽</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=camtasia">Camtasia</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=motion">Motion</a></li>
-          <li><a class="navbar-item" href="/courses/creative/video-editing/?skill=sound system">음향 시스템</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/creative/vr-ar">VR/AR</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/vr-ar/?skill=unity">Unity</a></li>
-          <li><a class="navbar-item" href="/courses/creative/vr-ar/?skill=vr-ar">VR/AR</a></li>
-          <li><a class="navbar-item" href="/courses/creative/vr-ar/?skill=game-dev">게임개발</a></li>
-          <li><a class="navbar-item" href="/courses/creative/vr-ar/?skill=3d-modeling">3D 모델링</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/creative/sound">사운드(Sound)</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/sound/?skill=sound system">음향 시스템</a></li>
-          <li><a class="navbar-item" href="/courses/creative/sound/?skill=music-compose">작곡</a></li>
-          <li><a class="navbar-item" href="/courses/creative/sound/?skill=studio-one">Studio One</a></li>
-          <li><a class="navbar-item" href="/courses/creative/sound/?skill=cakewalk">Cakewalk</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/creative/creative-besides">기타</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/creative/creative-besides/?skill=communication">커뮤니케이션</a></li>
         </ul>
       </li>
     </ul>
@@ -791,103 +465,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>
         <a class="navbar-item" href="/courses/business/office">오피스</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/business/office/?skill=ms-office">MS-Office</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=excel">Excel</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=powerpoint">PowerPoint</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=presentation">PT</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=business-automation">업무자동화</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=project-management">프로젝트 관리</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=copywriting">카피라이팅</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=word">Word</a></li>
-          <li><a class="navbar-item" href="/courses/business/office/?skill=Data Visualization">데이터 시각화</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/business/project-manage">기획, 전략, PM</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=presentation">PT</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=powerpoint">PowerPoint</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=project-management">프로젝트 관리</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=copywriting">카피라이팅</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=notion">Notion</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=collaboration_tool">협업 툴</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=writing">집필</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=경영노하우">경영노하우</a></li>
-          <li><a class="navbar-item" href="/courses/business/project-manage/?skill=civic-hack">시빅해킹</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/business/marketing">마케팅</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=digital-marketing">디지털 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=marketing-theory">마케팅 이론</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=performance-marketing">퍼포먼스 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=growth-hacking">그로스해킹</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=blog">블로그</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=smart-store">스마트스토어</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=establishment">창업</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=facebook-pixel">Facebook Pixel</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=facebook-advertise">Facebook Ads</a></li>
-          <li><a class="navbar-item" href="/courses/business/marketing/?skill=naver-keyword">네이버 키워드 검색</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/business/task-automation">업무 자동화</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=business-automation">업무자동화</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=excel">Excel</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=ms-office">MS-Office</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=vba">VBA</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=uipath">UiPath</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=rpa">RPA</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=web-crawling">웹 크롤링</a></li>
-          <li><a class="navbar-item" href="/courses/business/task-automation/?skill=chrome-extention">Chrome Extention</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/business/finance-management">금융, 경영</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=financial-technology">재테크</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=chart-analysis">차트분석</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=accounting">회계</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=Investment">투자</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=data-analysis">데이터 분석</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=tax">세무</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=financial-management">재무</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=경영노하우">경영노하우</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=chatbot">챗봇</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=human-resource">HR</a></li>
-          <li><a class="navbar-item" href="/courses/business/finance-management/?skill=knowhow">사무실무</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/business/business-besides">기타</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=presentation">PT</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=economics">경제학</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=writing">집필</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=ms-office">MS-Office</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=chrome-extention">Chrome Extention</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=mango-board">망고보드</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=copywriting">카피라이팅</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=react-native">React Native</a></li>
-          <li><a class="navbar-item" href="/courses/business/business-besides/?skill=english">영어</a></li>
         </ul>
       </li>
     </ul>
@@ -898,28 +500,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>
         <a class="navbar-item" href="/courses/academics/math">수학</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=mathmatics">수학</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=algorithm">알고리즘</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=statistics">통계</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=integral-differential">미적분</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=linear-algebra">선형대수학</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=r-programming">R</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=scratch">Scratch</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=procession">행렬</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=tensorflow">Tensorflow</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=machine-learning">머신러닝</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=topology">위상수학</a></li>
-          <li><a class="navbar-item" href="/courses/academics/math/?skill=ai">인공지능</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/academics/foreign-language">외국어</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/academics/foreign-language/?skill=Chinese">중국어</a></li>
-          <li><a class="navbar-item" href="/courses/academics/foreign-language/?skill=english">영어</a></li>
-          <li><a class="navbar-item" href="/courses/academics/foreign-language/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/academics/foreign-language/?skill=japanese">일본어</a></li>
-          <li><a class="navbar-item" href="/courses/academics/foreign-language/?skill=business-productivity">업무 생산성</a></li>
         </ul>
       </li>
       <li>
@@ -936,64 +521,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>
         <a class="navbar-item" href="/courses/ career/get-jobs">취업 ・ 이직</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=employment">취업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=interview">면접</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=경영노하우">경영노하우</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=mobile-app">모바일 앱 개발</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=blockchain">블록체인</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=establishment">창업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=c-plus">C++</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=web-publish">웹 퍼블리싱</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=communication">커뮤니케이션</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=portfolio">포트폴리오</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/ career/personal-branding">개인 브랜딩</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=writing">집필</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=book-pub">출간</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=presentation">PT</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=copywriting">카피라이팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=relationship">대인관계</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=Video-Production">영상제작</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=youtube-creator">유투브</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=speech">스피치</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/ career/business-start-up">창업</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=smart-store">스마트스토어</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=establishment">창업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=blog">블로그</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=digital-marketing">디지털 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=경영노하우">경영노하우</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=knowhow">사무실무</a></li>
         </ul>
       </li>
       <li>
         <a class="navbar-item" href="/courses/ career/career-besides">기타</a>
         <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=writing">집필</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=blog">블로그</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=book-pub">출간</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=digital-marketing">디지털 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=Video-Production">영상제작</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=relationship">대인관계</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=employment">취업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=python">Python</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=wordpress">Wordpress</a></li>
         </ul>
       </li>
     </ul>
