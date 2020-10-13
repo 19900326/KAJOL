@@ -71,11 +71,23 @@ public class HomeController {
 		return "song";
 	}
 	
+
+	@RequestMapping(value = "/homepage", method = RequestMethod.GET)
+	public String homepage() {
+		return "homepage";
+	}
+	
+
 	@RequestMapping(value = "/lecture", method = RequestMethod.GET)
 	public String lecture() {
 		return "lecture";
 	}
 	
+	@RequestMapping(value = "/art", method = RequestMethod.GET)
+	public String art() {
+		return "art";
+	}
 
 	
+
 }

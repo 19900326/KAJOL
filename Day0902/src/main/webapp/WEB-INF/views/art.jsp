@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>art</title>
 </head>
 <body>
-	<h1>안녕</h1>
+		<h1>예술은 폭발이야</h1>
 </body>
 </html>
