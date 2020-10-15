@@ -283,274 +283,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
 <ul class="navbar-dropdown is-boxed">
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語１</a>
-    <ul class="navbar-dropdown is-boxed step_menu step_2">
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/web-dev">웹 개발</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/mobile-app">모바일 앱 개발</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-      
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/game-dev">게임 개발</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/programming-lang">프로그래밍 언어</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/algorithm">알고리즘</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/framework-library">프레임워크 및 라이브러리</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/dev-data-science">데이터 사이언스</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/database-dev">데이터베이스</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/server-dev">서버 개발</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/dev-blockchain">블록체인 개발</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/programming-tool">개발 도구</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it-programming/dev-besides">교양 ・ 기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-    </ul>
+    <a class="navbar-item" href="/courses/it-programming">基礎韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it">IT 보안 ・ 네트워크</a>
-    <ul class="navbar-dropdown is-boxed step_menu step_2">
-      <li>
-        <a class="navbar-item" href="/courses/it/security">보안</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it/automation">자동화</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it/infra">인프라</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it/iot">사물인터넷</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it/blockchain">블록체인</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/it/it-besides">기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-    </ul>
+    <a class="navbar-item" href="/courses/it-programming">基礎韓国語2</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/data-science">데이터 사이언스</a>
-    <ul class="navbar-dropdown is-boxed step_menu step_2">
-      <li>
-        <a class="navbar-item" href="/courses/data-science/data-analysis">데이터 분석</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/data-science/artificial-intelligence">인공지능</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/data-science/data-database">데이터베이스</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/data-science/data-besides">기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-    </ul>
+    <a class="navbar-item" href="/courses/it-programming">中級韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/creative">크리에이티브</a>
-    <ul class="navbar-dropdown is-boxed step_menu step_2">
-      <li>
-        <a class="navbar-item" href="/courses/creative/3d-modeling">3D 모델링</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/creative/webapp-design">웹앱 디자인</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/creative/ux-ui">UX/UI</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/creative/graphic-design">그래픽 디자인</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/creative/creative-tools">디자인 도구</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/creative/video-editing">영상</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/creative/vr-ar">VR/AR</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/creative/sound">사운드(Sound)</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/creative/creative-besides">기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-    </ul>
+    <a class="navbar-item" href="/courses/it-programming">中級韓国語2</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/business">업무 스킬</a>
-    <ul class="navbar-dropdown is-boxed step_menu step_2">
-      <li>
-        <a class="navbar-item" href="/courses/business/office">오피스</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/business/project-manage">기획, 전략, PM</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/business/marketing">마케팅</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/business/task-automation">업무 자동화</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/business/finance-management">금융, 경영</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/business/business-besides">기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-    </ul>
+    <a class="navbar-item" href="/courses/it-programming">高級韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/academics">직무기초 ・ 학문</a>
-    <ul class="navbar-dropdown is-boxed step_menu step_2">
-      <li>
-        <a class="navbar-item" href="/courses/academics/math">수학</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/academics/foreign-language">외국어</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/academics/academic-besides">기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/academics/academic-besides/?skill=economics">경제학</a></li>
-        </ul>
-      </li>
-    </ul>
+    <a class="navbar-item" href="/courses/it-programming">高級韓国語2</a>
   </li>
-  <li>
-    <a class="navbar-item" href="/courses/ career">커리어</a>
-    <ul class="navbar-dropdown is-boxed step_menu step_2">
-      <li>
-        <a class="navbar-item" href="/courses/ career/get-jobs">취업 ・ 이직</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/personal-branding">개인 브랜딩</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/business-start-up">창업</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/career-besides">기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-        </ul>
-      </li>
-    </ul>
+   <li>
+    <a class="navbar-item" href="/courses/it-programming">ドラマで学ぶ韓国語</a>
+  </li>
+   <li>
+    <a class="navbar-item" href="/courses/it-programming">ToKL</a>
   </li>
 </ul>
           </div>
-          <a href="/roadmaps" class="navbar-item">로드맵</a>
-          
-  <div class="has-dropdown is-hoverable navbar-item icon_drop_menu">
-    <a href="/community/questions" class="navbar-link "><span>커뮤니티</span></a>
-      <div class="navbar-dropdown is-boxed is-right">
-        <a class="navbar-item" href="/community/questions"><span class="icon"><i class="fal fa-comment-alt-edit"></i></span> <span class="name">묻고 답하기</span></a><a class="navbar-item" href="/community/reviews"><span class="icon"><i class="fal fa-stars"></i></span> <span class="name">수강평 모아보기</span></a><a class="navbar-item" href="/pages?type=blog"><span class="icon"><i class="far fa-scroll"></i></span> <span class="name">인프런 블로그</span></a><a class="navbar-item" href="/request-to-inflearn"><span class="icon"><i class="far fa-comment-smile"></i></span> <span class="name">강의 · 기능요청</span></a>
-      </div>
-    </a>
-  </div>
         </div>
         <div class="navbar-right">
           
@@ -558,7 +315,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <input type="text" class="input" placeholder="">
     <i class="far fa-search"></i>
   </div>
-          <a href="/open-knowledge" class="navbar-item">지식공유참여</a>
           
   <div class="navbar-item buttons">
     <a role="button" class="button space-inset-4 signin">ログイン</a>
@@ -1287,8 +1043,8 @@ CSS에 날개를 달아준 천사 👼</h1>
                   
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #333333;">설레는 신규 강의가 도착했어요 💐</h1>
-                <p class="text is-1" style="color: #333333">새로운 강의는 어떤 것들이 있을까요? <br/>나에게 필요한 강의는 없는지 확인해보세요!</p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #333333;">新たな講義のお知らせが来ました 💐</h1>
+                <p class="text is-1" style="color: #333333">新たな講義では何があるのか <br/>自分に必要な講義を確認してみてください。</p>
               </div>
             </div>
           </div>
@@ -1374,11 +1130,11 @@ CSS에 날개를 달아준 천사 👼</h1>
       <div class="container show-more-container">
         <div class="show-more-box">
           <div class="show-more-header">
-            <h3>진행중인 모든 이벤트</h3>
-            <button type="button" class="e-close-show-more">닫기</button>
+            <h3>行われているイベント</h3>
+            <button type="button" class="e-close-show-more">閉める</button>
           </div>
           <div class="show-more-list">
-            <ul><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="63">나에게 맞는 강의</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="99">Sass 👼</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="95">RxJs 입문 🔮</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="88">입사 지원 팁!</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="93">코딩 입문 강의</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="59">새로운 강의 🎁</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="85">카톡 친구 할인!</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="87">인프런은 🌱</span></li></ul>
+            <ul><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="63">自分の実力に合う講義</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="99">ドラマで学ぶ韓国語</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="95">基礎韓国語</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="88">韓国語の勉強のチップ</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="93">講義の割引イベント</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="59">新たな講義</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="85">勉強のプラン作成イベント</span></li><li><span class="pagination-bullet e-selecet-bullet hero-bullet" data-id="87">KAJOLとは</span></li></ul>
           </div>
         </div>
       </div>
@@ -1391,7 +1147,7 @@ CSS에 날개를 달아준 천사 👼</h1>
         講義と先生を探しましょう。
         </h1>
         <div class="search_wrapper">
-          <input class="input e_search_input" type="text" placeholder="배우고 싶은 지식을 입력해보세요.">
+          <input class="input e_search_input" type="text" placeholder="講義、先生の検索">
           <button class="button e_search_submit">
             <span class="icon"><i class="far fa-search"></i></span>
           </button>
