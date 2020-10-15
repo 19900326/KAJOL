@@ -906,8 +906,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/be9d801c-1eb7-4308-b72b-2f0dbc85d90e/%E1%84%82%E1%85%A1%E1%84%8B%E1%85%A6%E1%84%80%E1%85%A6%20%E1%84%86%E1%85%A1%E1%86%BD%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5sadasdsads.png" alt="나에게 맞는 강의 알아보기">
-                <img class="banner-mobile-image" src="https://cdn.inflearn.com/public/main_sliders/520b7f1a-ae59-40c4-8adc-7ea1a699f2fb/meme.png" alt="나에게 맞는 강의 알아보기">
+                <img class="banner-pc-image" src="https://1.bp.blogspot.com/-Huek6p8BLZ0/XTPn4FYYtQI/AAAAAAABTuE/535xQKn8cF8ACIMBhDbVZhx6QjXdjbpgACLcBGAs/s800/book_hon_no_mushi_man.png" alt="自分の実力に合う講義を探してみましょう。">
+                <img class="banner-mobile-image" src="https://1.bp.blogspot.com/-Huek6p8BLZ0/XTPn4FYYtQI/AAAAAAABTuE/535xQKn8cF8ACIMBhDbVZhx6QjXdjbpgACLcBGAs/s800/book_hon_no_mushi_man.png" alt="自分の実力に合う講義を探してみましょう。">
                 
               </div>
               <div class="cover_left" id="cover_left_0" style="background: linear-gradient(to bottom, rgba(55, 54, 114, 0), rgba(55, 54, 114, 0.47) 69%, #373672 100%)">
@@ -915,8 +915,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #ffffff;">나에게 맞는 강의 알아보기</h1>
-                <p class="text is-1" style="color: #ffffff">어떤 강의를 선택해야 할 지 고민이라면? <br/>지금 알아보세요!</p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #ffffff;">自分の実力に合う講義を探してみましょう。</h1>
+                <p class="text is-1" style="color: #ffffff">自分の実力を確認してみよう。</p>
               </div>
             </div>
           </div>
@@ -925,26 +925,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a class="scene swiper-slide" href="/course/css에-날개를-달아주는-sass-scss">
           <div
             class="scene_content"
-            style="background-color: #CF649A"
+            style="background-color: #685849"
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/1f15c0b8-8863-44c7-a092-fe12e974f2d4/sass.jpg" alt="Sass,
-CSS에 날개를 달아준 천사 👼">
-                <img class="banner-mobile-image" src="https://cdn.inflearn.com/public/main_sliders/b00d370b-5f22-43f0-903e-cdda8a5d71c0/sass.jpg" alt="Sass,
-CSS에 날개를 달아준 천사 👼">
+                <img class="banner-pc-image" src="https://ww.namu.la/s/b696f1038228fa662f0dabb9bd7316fd1011cc6a639c7648972263a5db3e674c9736b28a3a75e0d1c526c2e8a55482435e479d6a7db0b4dc7b50c2a686462b32c4f8acf31c4ac35dd6a72390e31f3bfe1428c3b305946ab8fbf0c31b13e0e1311f40bf0b68cd915a87502fd0b4eed204" alt="ドラマで学ぶ韓国語">
+                <img class="banner-mobile-image" src="https://ww.namu.la/s/b696f1038228fa662f0dabb9bd7316fd1011cc6a639c7648972263a5db3e674c9736b28a3a75e0d1c526c2e8a55482435e479d6a7db0b4dc7b50c2a686462b32c4f8acf31c4ac35dd6a72390e31f3bfe1428c3b305946ab8fbf0c31b13e0e1311f40bf0b68cd915a87502fd0b4eed204" alt="ドラマで学ぶ韓国語">
                 
               </div>
-              <div class="cover_left" id="cover_left_1" style="background: linear-gradient(to bottom, rgba(207, 100, 154, 0), rgba(207, 100, 154, 0.47) 69%, #CF649A 100%)">
+              <div class="cover_left" id="cover_left_1">
                 <div class="hero-tags empty">
                   
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #FFFFFF;">Sass,
-CSS에 날개를 달아준 천사 👼</h1>
-                <p class="text is-1" style="color: #FFFFFF">CSS의 정석은 Sass로 익히기!
-#CSS 확장언어
-#Sass #능률과 재미 #웹 분야 중급</p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #FFFFFF;">ドラマで学ぶ韓国語</h1>
+                <p class="text is-1" style="color: #FFFFFF">最新ドラマで楽しく勉強しましょう!
+#サイコだけど大丈夫
+#他の
+#ドラマも
+#たくさんあります。</p>
               </div>
             </div>
           </div>
@@ -957,10 +956,8 @@ CSS에 날개를 달아준 천사 👼</h1>
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/861296cb-5cf3-4bed-a487-8df6bf09be74/%EB%A7%88%EB%B2%95%EC%82%AC.png" alt="RxJs로 
-비동기 작업을 쉽고 빠르게!">
-                <img class="banner-mobile-image" src="https://cdn.inflearn.com/public/main_sliders/0a52b70e-a0f6-4768-ab6f-b2bf93c015a5/%EB%A7%88%EB%B2%95%EC%82%AC.png" alt="RxJs로 
-비동기 작업을 쉽고 빠르게!">
+                <img class="banner-pc-image" src="https://cdn.crowdpic.net/list-thumb/thumb_l_9D3B0DB13040B99D3D647CA9DDB0E9B0.jpg" alt="基礎韓国語">
+                <img class="banner-mobile-image" src="https://cdn.crowdpic.net/list-thumb/thumb_l_9D3B0DB13040B99D3D647CA9DDB0E9B0.jpg" alt="基礎韓国語">
                 
               </div>
               <div class="cover_left" id="cover_left_2" style="background: linear-gradient(to bottom, rgba(249, 249, 249, 0), rgba(249, 249, 249, 0.47) 69%, #F9F9F9 100%)">
@@ -968,11 +965,10 @@ CSS에 날개를 달아준 천사 👼</h1>
                   
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #000000;">RxJs로 
-비동기 작업을 쉽고 빠르게!</h1>
-                <p class="text is-1" style="color: #000000">RxJs여 마법을 보여주세요🔮
-#긴장하지마 #시간의 마법사
-#비동기작업 이젠 두렵지 않아</p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #000000;">基礎韓国語</h1>
+                <p class="text is-1" style="color: #000000">韓国語を勉強しましょう。
+#今日から #始まる
+#いっぽいっぽ韓国語</p>
               </div>
             </div>
           </div>
@@ -985,20 +981,19 @@ CSS에 날개를 달아준 천사 👼</h1>
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/d8e5e24f-0eba-4dab-b2d3-d27364e51d99/weekly-inflearn-15-1200-k.jpg" alt="서류 합격을 부르는
+                <img class="banner-pc-image" src="/resources/img/韓国語の勉強のチップ.png" alt="서류 합격을 부르는
 입사 지원 팁!">
-                <img class="banner-mobile-image" src="https://cdn.inflearn.com/public/main_sliders/f1dfea41-f494-4352-8d51-83c5a94f2fe3/weekly-inflearn-15-1200-k.jpg" alt="서류 합격을 부르는
+                <img class="banner-mobile-image" src="/resources/img/韓国語の勉強のチップ.png" alt="서류 합격을 부르는
 입사 지원 팁!">
                 
               </div>
               <div class="cover_left" id="cover_left_3" style="background: linear-gradient(to bottom, rgba(246, 247, 249, 0), rgba(246, 247, 249, 0.47) 69%, #F6F7F9 100%)">
                 <div class="hero-tags ">
-                  <div style="color:#333333;background-color:#ffffff;">주간 인프런 #15</div>
+                  <div style="color:#333333;background-color:#ffffff;">週間 KAJOL #15</div>
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #000000;">서류 합격을 부르는
-입사 지원 팁!</h1>
-                <p class="text is-1" style="color: #000000">각자 원하는 성과를 거둘 수 있도록</p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #000000;">韓国語の勉強のチップ</h1>
+                <p class="text is-1" style="color: #000000">韓国語をより易く学ぼう。</p>
               </div>
             </div>
           </div>
@@ -1011,17 +1006,17 @@ CSS에 날개를 달아준 천사 👼</h1>
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/45d9e9bd-80fa-48f0-8311-cf4328127a74/블로그 2안_메인히어로-2.jpg" alt="프로그래밍 입문 가이드 '끝판왕'">
-                <img class="banner-mobile-image" src="https://cdn.inflearn.com/public/main_sliders/aef15207-b0cb-40ca-a99f-53e56d57785c/블로그 2안_메인히어로-2.jpg" alt="프로그래밍 입문 가이드 '끝판왕'">
+                <img class="banner-pc-image" src="https://cdn.pixabay.com/photo/2017/05/26/05/38/discount-2345221_960_720.png" alt="割引">
+                <img class="banner-mobile-image" src="https://cdn.pixabay.com/photo/2017/05/26/05/38/discount-2345221_960_720.png" alt="割引">
                 
               </div>
               <div class="cover_left" id="cover_left_4" style="background: linear-gradient(to bottom, rgba(18, 34, 56, 0), rgba(18, 34, 56, 0.47) 69%, #122238 100%)">
                 <div class="hero-tags ">
-                  <div style="color:#FF2E1E;background-color:#ffffff;">큐레이션</div>
+                  <div style="color:#FF2E1E;background-color:#ffffff;">割引</div>
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #ffffff;">프로그래밍 입문 가이드 '끝판왕'</h1>
-                <p class="text is-1" style="color: #ffffff">누구에게나 열려 있고 <br/>누구나 참여 가능한 코딩의 세계<br/></p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #ffffff;">講義の割引イベント</h1>
+                <p class="text is-1" style="color: #ffffff">誰でも <br/>大幅に割引できる。<br/></p>
               </div>
             </div>
           </div>
@@ -1057,17 +1052,17 @@ CSS에 날개를 달아준 천사 👼</h1>
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/f54a1ba2-071b-4aa1-97d0-5f4a73bdf32f/10_1200.png" alt="우리 친구해요. <br/>">
-                <img class="banner-mobile-image" src="https://cdn.inflearn.com/public/main_sliders/0853f7ea-ad24-4d42-9626-cf9ac9a15718/카톡플친640_480.jpg" alt="우리 친구해요. <br/>">
+                <img class="banner-pc-image" src="https://lh3.googleusercontent.com/proxy/jxttwXy03GxTRs5Ap_3JHJqPvzNbHQrD0q-0ckonw2wHIYSJLY0RWfdU9WVbd_EAi121Lni48uDLVgvcmA-JAl4R4PYlABvTvt-D3uKhYGvdPXGuWMrpAjgx9sS_FTKSt6pGlnplRH42rduF" alt="プラン<br/>">
+                <img class="banner-mobile-image" src="https://lh3.googleusercontent.com/proxy/jxttwXy03GxTRs5Ap_3JHJqPvzNbHQrD0q-0ckonw2wHIYSJLY0RWfdU9WVbd_EAi121Lni48uDLVgvcmA-JAl4R4PYlABvTvt-D3uKhYGvdPXGuWMrpAjgx9sS_FTKSt6pGlnplRH42rduF" alt="プラン<br/>">
                 
               </div>
               <div class="cover_left" id="cover_left_6" style="background: linear-gradient(to bottom, rgba(250, 250, 250, 0), rgba(250, 250, 250, 0.47) 69%, #FAFAFA 100%)">
                 <div class="hero-tags ">
-                  <div style="color:#ffffff;background-color:#55C079;">10% 할인</div>
+                  <div style="color:#ffffff;background-color:#55C079;">イベント</div>
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #333333;">우리 친구해요. <br/></h1>
-                <p class="text is-1" style="color: #333333">인프런 카카오톡 채널추가하고 </br>특별 할인쿠폰을 받아보세요.</p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #333333;">勉強のプラン作成イベント<br/></h1>
+                <p class="text is-1" style="color: #333333">勉強のプランを書いて、</br>特別なプレゼンをもらいましょう。</p>
               </div>
             </div>
           </div>
@@ -1088,13 +1083,11 @@ CSS에 날개를 달아준 천사 👼</h1>
               </div>
               <div class="cover_left" id="cover_left_7" style="background: linear-gradient(to bottom, rgba(89, 207, 146, 0), rgba(89, 207, 146, 0.47) 69%, #59cf92 100%)">
                 <div class="hero-tags ">
-                  <div style="color:#1DC078;background-color:#ffffff;">인프런 소개</div>
+                  <div style="color:#1DC078;background-color:#ffffff;">KAJOLとは</div>
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #ffffff;">우리는 성장기회의
-평등을 추구합니다.</h1>
-                <p class="text is-1" style="color: #ffffff">꿈을 이루기 위해, 원하는것을 얻기 위한 배움을 누구나 누릴 수 있도록!
-인프런과 함께 배우고, 나누고, 성장하세요.</p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #ffffff;">私達は誰でも易く韓国語が勉強できることを目指しています。</h1>
+                <p class="text is-1" style="color: #ffffff">KAJOLと一緒に勉強して、韓国語を上達しましょう。</p>
               </div>
             </div>
           </div>
