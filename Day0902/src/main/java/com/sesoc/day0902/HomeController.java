@@ -83,9 +83,9 @@ public class HomeController {
 		return "lecture";
 	}
 	
-	@RequestMapping(value = "/art", method = RequestMethod.GET)
-	public String art() {
-		return "art";
+	@RequestMapping(value = "/Mypage", method = RequestMethod.GET)
+	public String Mypage() {
+		return "Mypage";
 	}
 
 	

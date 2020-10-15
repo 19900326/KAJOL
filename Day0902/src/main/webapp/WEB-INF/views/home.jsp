@@ -40,5 +40,7 @@
 
 <a href="/art">art.jsp로 이동하기</a>
 
+<a href="/Mypage">Mypage.jsp로 이동하기</a>
+
 </body>
 </html>
