@@ -906,8 +906,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://1.bp.blogspot.com/-Huek6p8BLZ0/XTPn4FYYtQI/AAAAAAABTuE/535xQKn8cF8ACIMBhDbVZhx6QjXdjbpgACLcBGAs/s800/book_hon_no_mushi_man.png" alt="自分の実力に合う講義を探してみましょう。">
-                <img class="banner-mobile-image" src="https://1.bp.blogspot.com/-Huek6p8BLZ0/XTPn4FYYtQI/AAAAAAABTuE/535xQKn8cF8ACIMBhDbVZhx6QjXdjbpgACLcBGAs/s800/book_hon_no_mushi_man.png" alt="自分の実力に合う講義を探してみましょう。">
+                <img class="banner-pc-image" src="/resources/img/banner1.png" alt="自分の実力に合う講義を探してみましょう。">
+                <img class="banner-mobile-image" src="/resources/img/banner1.png" alt="自分の実力に合う講義を探してみましょう。">
                 
               </div>
               <div class="cover_left" id="cover_left_0" style="background: linear-gradient(to bottom, rgba(55, 54, 114, 0), rgba(55, 54, 114, 0.47) 69%, #373672 100%)">
@@ -929,8 +929,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://ww.namu.la/s/b696f1038228fa662f0dabb9bd7316fd1011cc6a639c7648972263a5db3e674c9736b28a3a75e0d1c526c2e8a55482435e479d6a7db0b4dc7b50c2a686462b32c4f8acf31c4ac35dd6a72390e31f3bfe1428c3b305946ab8fbf0c31b13e0e1311f40bf0b68cd915a87502fd0b4eed204" alt="ドラマで学ぶ韓国語">
-                <img class="banner-mobile-image" src="https://ww.namu.la/s/b696f1038228fa662f0dabb9bd7316fd1011cc6a639c7648972263a5db3e674c9736b28a3a75e0d1c526c2e8a55482435e479d6a7db0b4dc7b50c2a686462b32c4f8acf31c4ac35dd6a72390e31f3bfe1428c3b305946ab8fbf0c31b13e0e1311f40bf0b68cd915a87502fd0b4eed204" alt="ドラマで学ぶ韓国語">
+                <img class="banner-pc-image" src="/resources/img/banner2.png" alt="ドラマで学ぶ韓国語">
+                <img class="banner-mobile-image" src="/resources/img/banner2.png" alt="ドラマで学ぶ韓国語">
                 
               </div>
               <div class="cover_left" id="cover_left_1">
@@ -956,8 +956,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.crowdpic.net/list-thumb/thumb_l_9D3B0DB13040B99D3D647CA9DDB0E9B0.jpg" alt="基礎韓国語">
-                <img class="banner-mobile-image" src="https://cdn.crowdpic.net/list-thumb/thumb_l_9D3B0DB13040B99D3D647CA9DDB0E9B0.jpg" alt="基礎韓国語">
+                <img class="banner-pc-image" src="/resources/img/banner3.jpg" alt="banner3">
+                <img class="banner-mobile-image" src="/resources/img/banner3.jpg" alt="banner3">
                 
               </div>
               <div class="cover_left" id="cover_left_2" style="background: linear-gradient(to bottom, rgba(249, 249, 249, 0), rgba(249, 249, 249, 0.47) 69%, #F9F9F9 100%)">
@@ -981,10 +981,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="/resources/img/韓国語の勉強のチップ.png" alt="서류 합격을 부르는
-입사 지원 팁!">
-                <img class="banner-mobile-image" src="/resources/img/韓国語の勉強のチップ.png" alt="서류 합격을 부르는
-입사 지원 팁!">
+                <img class="banner-pc-image" src="/resources/img/banner4.png" alt="banner4">
+                <img class="banner-mobile-image" src="/resources/img/banner4.png" alt="banner4">
                 
               </div>
               <div class="cover_left" id="cover_left_3" style="background: linear-gradient(to bottom, rgba(246, 247, 249, 0), rgba(246, 247, 249, 0.47) 69%, #F6F7F9 100%)">
@@ -1006,8 +1004,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.pixabay.com/photo/2017/05/26/05/38/discount-2345221_960_720.png" alt="割引">
-                <img class="banner-mobile-image" src="https://cdn.pixabay.com/photo/2017/05/26/05/38/discount-2345221_960_720.png" alt="割引">
+                <img class="banner-pc-image" src="/resources/img/banner5.png" alt="banner5">
+                <img class="banner-mobile-image" src="/resources/img/banner5.png" alt="banner5">
                 
               </div>
               <div class="cover_left" id="cover_left_4" style="background: linear-gradient(to bottom, rgba(18, 34, 56, 0), rgba(18, 34, 56, 0.47) 69%, #122238 100%)">
@@ -1029,8 +1027,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/7c9e34bc-0b5e-4bf5-b8db-eb057b0eca2c/%E1%84%90%E1%85%A2%E1%86%A8%E1%84%87%E1%85%A2%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4.png" alt="설레는 신규 강의가 도착했어요 💐">
-                <img class="banner-mobile-image" src="https://cdn.inflearn.com/public/main_sliders/fb9443fe-2796-498e-9990-7a09b96610d5/new.png" alt="설레는 신규 강의가 도착했어요 💐">
+                <img class="banner-pc-image" src="/resources/img/banner6.png" alt="banner6">
+                <img class="banner-mobile-image" src="/resources/img/banner6.png" alt="banner6">
                 
               </div>
               <div class="cover_left" id="cover_left_5" style="background: linear-gradient(to bottom, rgba(255, 213, 146, 0), rgba(255, 213, 146, 0.47) 69%, #ffd592 100%)">
@@ -1052,8 +1050,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="https://lh3.googleusercontent.com/proxy/jxttwXy03GxTRs5Ap_3JHJqPvzNbHQrD0q-0ckonw2wHIYSJLY0RWfdU9WVbd_EAi121Lni48uDLVgvcmA-JAl4R4PYlABvTvt-D3uKhYGvdPXGuWMrpAjgx9sS_FTKSt6pGlnplRH42rduF" alt="プラン<br/>">
-                <img class="banner-mobile-image" src="https://lh3.googleusercontent.com/proxy/jxttwXy03GxTRs5Ap_3JHJqPvzNbHQrD0q-0ckonw2wHIYSJLY0RWfdU9WVbd_EAi121Lni48uDLVgvcmA-JAl4R4PYlABvTvt-D3uKhYGvdPXGuWMrpAjgx9sS_FTKSt6pGlnplRH42rduF" alt="プラン<br/>">
+                <img class="banner-pc-image" src="/resources/img/banner7.png" alt="banner7<br/>">
+                <img class="banner-mobile-image" src="/resources/img/banner7.png" alt="banner7<br/>">
                 
               </div>
               <div class="cover_left" id="cover_left_6" style="background: linear-gradient(to bottom, rgba(250, 250, 250, 0), rgba(250, 250, 250, 0.47) 69%, #FAFAFA 100%)">
@@ -3969,77 +3967,7 @@ Python을 접목하여 복잡한 과정을 한번에!</p>
   </main>
       
       
-  <footer class="footer">
-    <div class="wrapper">
-      <div class="footer_top menu_list_cover">
-        
-        <div class="menu_list ">
-          <div class="list_title">인프런 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
-          <div class="menu_sublist">
-            <a href="/notices" class="list_link">공지사항</a><a href="/inflearn" class="list_link">인프런 소개</a><a href="/pages" class="list_link">블로그</a><a href="/pages/with-us" class="list_link">채용 안내</a>
-          </div>
-        </div>
-        <div class="menu_list ">
-          <div class="list_title">고객센터 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
-          <div class="menu_sublist">
-            <a href="/faq" class="list_link">자주묻는 질문</a><a href="/certificate" class="list_link">수료증 확인</a><a href="/policy/terms-of-service" class="list_link">이용약관</a><a href="/policy/privacy" class="list_link">개인정보취급방침</a>
-          </div>
-        </div>
-        <div class="menu_list ">
-          <div class="list_title">신청하기 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
-          <div class="menu_sublist">
-            <a href="/open-knowledge" class="list_link">지식공유참여</a><a href="/intro-group" class="list_link">인프런 비즈니스</a><a href="/university" class="list_link">인프런 X 대학교</a>
-          </div>
-        </div>
-        <div class="menu_list is-hidden-mobile">
-          <div class="list_title">학습하기 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
-          <div class="menu_sublist">
-            <a href="/courses/it-programming" class="list_link">IT 프로그래밍</a><a href="/courses/creative" class="list_link">크리에이티브</a><a href="/courses/business" class="list_link">업무스킬</a><a href="/course-code" class="list_link">수강권 등록</a>
-          </div>
-        </div>
-        <div class="menu_list is-hidden-mobile">
-          <div class="list_title">커뮤니티 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
-          <div class="menu_sublist">
-            <a href="/roadmaps" class="list_link">학습로드맵</a><a href="/community/questions" class="list_link">묻고 답하기</a><a href="/community/reviews" class="list_link">수강평 모아보기</a><a href="/request-to-inflearn" class="list_link">강의 · 기능요청</a>
-          </div>
-        </div>
-      </div>
-      <div class="footer_bottom">
-        <div class="footer_bottom_left footer_info">
-          <div class="footer_info_top">
-            <span class="is-hidden-mobile"><a href="/"><svg width="85" id="icon_brand_logo" class="brand_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 90"><path class="A" d="M79.1 31.6c-2-4.6-4.7-8.7-8.1-12.2-3.5-3.5-7.5-6.3-12.1-8.3S49.3 8 43.9 8c-5.2 0-10.2.9-14.9 2.9s-8.8 4.7-12.4 8.1c-3.6 3.5-6.4 7.5-8.4 12.1A37.14 37.14 0 0 0 5.1 46c0 5.2.9 10.2 2.9 14.9s4.7 8.8 8.2 12.4 7.6 6.4 12.2 8.4c4.7 2 9.6 3.1 14.9 3.1l38.3.3.3-38.5c.1-5.3-.9-10.3-2.8-15zM74 77.4l-30.7-.3c-4.2 0-8.2-.9-11.9-2.5s-7-3.9-9.8-6.7A32.99 32.99 0 0 1 15 58c-1.6-3.8-2.3-7.7-2.3-11.9 0-4.3.9-8.3 2.5-12s3.9-6.9 6.7-9.7c2.9-2.8 6.2-4.9 9.9-6.5 3.8-1.6 7.7-2.3 11.9-2.3 4.3 0 8.3.9 12 2.5s6.9 3.8 9.7 6.7c2.8 2.8 4.9 6.1 6.5 9.8s2.3 7.7 2.3 12L74 77.4z"/><path class="A" d="M76.9 83.7c-.9 0-1.8-.3-2.5-1L27.6 35.1c-1.4-1.4-1.3-3.6 0-4.9 1.4-1.4 3.6-1.3 4.9 0l46.8 47.6c1.4 1.4 1.3 3.6 0 4.9-.6.7-1.5 1-2.4 1z"/><path class="A" d="M43.1 47.3c-.4 0-.8-.1-1.2-.2-1.8-.7-2.8-2.7-2.1-4.5l6.3-17.3c.7-1.8 2.7-2.8 4.5-2.1s2.8 2.7 2.1 4.5L46.4 45c-.5 1.4-1.9 2.3-3.3 2.3zm12.2 16.2H33.5C31.6 63.5 30 62 30 60c0-1.9 1.6-3.5 3.5-3.5h21.8c1.9 0 3.5 1.6 3.5 3.5 0 2-1.5 3.5-3.5 3.5zm44.1-32.4V85H88.8V31.1h10.6zm5.6 16.5c1.4-3.2 3.3-6.1 5.8-8.5 2.4-2.4 5.3-4.4 8.6-5.8s6.8-2.1 10.4-2.1c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.6 5.8c2.5 2.4 4.4 5.3 5.8 8.5s2.1 6.7 2.1 10.5v27h-10.7v-27c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.4-1.3-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.7v-27c.2-3.7.9-7.2 2.3-10.5zm76.1-26.2c-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v5.5h21.6v10.7h-21.6V85h-10.7V36.4c0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.4 6.8-2.1 10.4-2.1h5.3v10.7h-5.3c-2.1 0-4.2.4-6.2 1.2zm43.2-11.9V85h-10.7V9.5h10.7zM270.5 66l7.6 7.6-3.7 3.7c-2.6 2.6-5.5 4.5-8.8 5.9s-6.7 2-10.3 2-7-.7-10.3-2c-3.3-1.4-6.2-3.3-8.8-5.9s-4.6-5.6-5.9-8.9-1.9-6.7-1.9-10.1.6-6.8 1.9-10.1 3.2-6.2 5.9-8.9c2.6-2.6 5.6-4.6 8.9-5.9s6.7-2 10.1-2 6.8.7 10.1 2 6.3 3.3 8.9 5.9l3.7 3.7L248 72.9c3 1.5 6.3 2 9.7 1.5s6.4-2.1 8.9-4.6l3.9-3.8zm-26.8-19.3c-3.2 3.2-4.8 7-4.8 11.5 0 2.5.6 4.8 1.7 7.1l10.6-10.6 6.4-6.3 4.7-4.7c-3-1.5-6.3-2-9.7-1.6-3.3.5-6.3 2.1-8.9 4.6zm64.8-15.6c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.5 5.8a27.88 27.88 0 0 1 5.8 8.5c1.4 3.2 2.1 6.7 2.1 10.5v27h-26.9c-3.7 0-7.2-.7-10.4-2.1-3.3-1.4-6.2-3.3-8.6-5.8-2.5-2.5-4.4-5.4-5.8-8.6-1.4-3.3-2.1-6.8-2.1-10.4 0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.5 6.8-2.2 10.4-2.2zm16.2 43.2V58c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.3-1.3s-4.4.4-6.4 1.3c-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3s.4 4.4 1.3 6.4c.8 2 2 3.7 3.5 5.2s3.2 2.6 5.2 3.5c2 .8 4.1 1.3 6.4 1.3h16.3zm46.2-43.2v10.7h-5.4c-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.8V58c0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.4 6.8-2.1 10.4-2.1h5.6zm5.3 16.5c1.4-3.2 3.3-6.1 5.8-8.5 2.4-2.4 5.3-4.4 8.6-5.8s6.8-2.1 10.4-2.1c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.6 5.8c2.5 2.4 4.4 5.3 5.8 8.5s2.1 6.7 2.1 10.5v27h-10.7v-27c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.4-1.3-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.7v-27c.2-3.7.9-7.2 2.3-10.5z"/><title>인프런 브랜드 로고</title></svg></a></span>
-            <span><a href="/policy/privacy">개인정보취급방침</a></span>
-            <span><a href="/policy/terms-of-service">이용약관</a></span>
-          </div>
-          <div class="footer_info_bottom">
-            <div class="is-mobile info_label">
-              (주)인프랩 사업자 정보
-              <span class="is-mobile info_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span>
-            </div>
-            <div class="info-dropdown"">
-              <span class="is-hidden-mobile">(주)인프랩 | </span>
-              <span>대표자 : 이형주 | </span>
-              <span>사업자번호 : 499-81-00612 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=4998100612" target="_blank">사업자 정보 확인</a> | </span>
-              <br class="is-mobile">
-              <span>개인정보보호책임자 : 구자유 | </span>
-              <span>통신판매업 : 2018-성남분당B-0062</span>
-              <br class="is-hidden-mobile">
-              <span>주소 : 성남시 분당구 삼평동 판교역로 240 삼환하이팩스 A동 208-1호 ㅣ </span>
-              <span>이메일: <a href="mailto:info@inflearn.com">info@inflearn.com</a></span>
-            </div>
-            ©INFLAB. ALL RIGHTS RESERVED
-          </div>
-        </div>
-        <div class="footer_bottom_right is-hidden-mobile">
-          <a href="https://post.naver.com/inflearn"><i class="text">N</i></a>
-          <a href="https://blog.naver.com/inflearn"><i class="text">B</i></a>
-          <a href="https://www.instagram.com/inflearn__official"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.youtube.com/channel/UC0Y0T9JpgIBbyGDjvy9PbOg"><i class="fab fa-youtube"></i></a>
-          <a href="https://www.facebook.com/inflearn"><i class="fab fa-facebook-f"></i></a>
-        </div>
-      </div> 
-    </div>
-  </footer>
+ 
       
 <div class="loading_spinner_container">
   <svg
@@ -4162,6 +4090,43 @@ Python을 접목하여 복잡한 과정을 한번에!</p>
       })();
     </script>
     <!-- End Channel Plugin -->
-  
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  	<script type="text/javascript">
+  		$(function() {
+  			var spanList = $("span[data-id='63']");
+  			console.log(spanList);
+  			spanList.innerHTML = "自分の実力に合う講義";
+
+  			var sl = $("span[data-id='99']");
+  			console.log(sl);
+  			sl.innerHTML = "ドラマで学ぶ韓国語";
+
+  			var sl = $("span[data-id='95']");
+  			console.log(sl);
+  			sl.innerHTML = "基礎韓国語";
+
+  			var sl = $("span[data-id='88']");
+  			console.log(sl);
+  			sl.innerHTML = "韓国語の勉強のチップ";
+
+  			var sl = $("span[data-id='93']");
+  			console.log(sl);
+  			sl.innerHTML = "講義の割引イベント";
+
+  			var sl = $("span[data-id='59']");
+  			console.log(sl);
+  			sl.innerHTML = "新たな講義";
+
+  			var sl = $("span[data-id='85']");
+  			console.log(sl);
+  			sl.innerHTML = "勉強のプラン作成イベント";
+
+  			var sl = $("span[data-id='87']");
+  			console.log(sl);
+  			sl.innerHTML = "KAJOLとは";
+
+  			
+  	  	});
+  	</script>
   </body>
 </html>
