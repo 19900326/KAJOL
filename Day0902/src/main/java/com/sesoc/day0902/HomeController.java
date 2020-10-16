@@ -87,6 +87,11 @@ public class HomeController {
 	public String art() {
 		return "art";
 	}
+	
+	@RequestMapping(value = "/Mypage", method = RequestMethod.GET)
+	public String Mypage() {
+		return "Mypage";
+	}
 
 	
 
