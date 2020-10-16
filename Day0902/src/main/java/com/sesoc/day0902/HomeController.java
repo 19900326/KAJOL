@@ -98,6 +98,14 @@ public class HomeController {
 		return "Class";
 	}
 
+	@RequestMapping(value = "/loginInsert", method = RequestMethod.GET)
+	public String loginInsert() {
+		return "loginInsert";
+	}
 	
+	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
+	public String signUp() {
+		return "signUp";
+	}
 
 }
