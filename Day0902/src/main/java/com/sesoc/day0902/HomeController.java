@@ -77,11 +77,6 @@ public class HomeController {
 		return "homepage";
 	}
 	
-
-	@RequestMapping(value = "/lecture", method = RequestMethod.GET)
-	public String lecture() {
-		return "lecture";
-	}
 	
 	@RequestMapping(value = "/art", method = RequestMethod.GET)
 	public String art() {
@@ -98,6 +93,14 @@ public class HomeController {
 		return "Class";
 	}
 
+	@RequestMapping(value = "/loginInsert", method = RequestMethod.GET)
+	public String loginInsert() {
+		return "loginInsert";
+	}
 	
+	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
+	public String signUp() {
+		return "signUp";
+	}
 
 }
