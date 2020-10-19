@@ -13,6 +13,8 @@
 		ID :<input type="text" name="id">
 		PW :<input type="password" name="pw">
 		Name :<input type="text" name="name">
+		
+		
 	
 	</form>
 </body>
