@@ -264,7 +264,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="/" class="brand_logo">
           <span class="visually_hidden">KAJOL</span>
           <img src="resources/img/LOGO.png">
-          <title>인프런 브랜드 로고</title>
+          <title>KAJOL</title>
         </a> 
       </div>
       
@@ -280,7 +280,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="/" class="brand_logo">
           <span class="visually_hidden">KAJOL</span>
           <img src="resources/img/LOGO.png">
-          <title>인프런 브랜드 로고</title>
+          <title>KAJOL</title>
         </a>
       </div>
       <div class="navbar-menu">
