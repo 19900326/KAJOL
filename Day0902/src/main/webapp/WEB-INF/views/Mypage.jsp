@@ -332,10 +332,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div><div class="list_el dropdown_el">
       <div class="title">
         <span class="icon"><i class="fal fa-ellipsis-h-alt"></i></span> <span class="name">もっと</span>
-        <span class="caret_el">
-          <span class="icon"><i class="fas fa-chevron-down"></i></span>
-          <span class="icon"><i class="fas fa-chevron-up"></i></span>
-        </span>
+        
       </div>
       <div class="sub_list">
         <div class="list_el">
