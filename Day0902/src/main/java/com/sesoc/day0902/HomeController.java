@@ -77,11 +77,6 @@ public class HomeController {
 		return "homepage";
 	}
 	
-
-	@RequestMapping(value = "/lecture", method = RequestMethod.GET)
-	public String lecture() {
-		return "lecture";
-	}
 	
 	@RequestMapping(value = "/art", method = RequestMethod.GET)
 	public String art() {
