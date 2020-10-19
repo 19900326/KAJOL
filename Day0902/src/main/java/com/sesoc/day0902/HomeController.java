@@ -1,4 +1,4 @@
-package com.sesoc.day0902.controller;
+package com.sesoc.day0902;
 
 import java.text.DateFormat;
 import java.util.Date;
