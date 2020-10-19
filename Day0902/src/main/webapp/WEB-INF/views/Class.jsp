@@ -6,6 +6,7 @@
 <html lang="ko-KR">
   
 <head>
+<script type="text/javascript" src="/resources/js/jquery-3.4.1.js"></script> 
   <meta charset="utf-8" />
   <meta name="user_id" content="387257" />
   <!--<meta
@@ -1575,6 +1576,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       })();
     </script>
     <!-- End Channel Plugin -->
-  
+    
+  	<script type="text/javascript">
+		$(function() {
+			var span = $("span.section_all");
+			span.innerHTML = "リストを見る";
+			
+			span.onclick = function() {
+				var temp = $("span.section_all");
+				if (temp == "リストを見る") {
+					temp.innerHTML = "リストを見る";
+				} else {
+					temp.innerHTML = "リストを見る";
+				}
+			}
+		});
+  	</script>
   </body>
 </html>
