@@ -372,13 +372,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="input_container">
           <label class="input_label">
             <span class="label_text">Eメール</span>
-            <input type="text" name="mbr_email" id="mbr_email">	<br>
+            <input class="text_input" name="email" type="email" minlength="5" required />
           </label>
+          <p class="error_msg"></p>
         </div>
         <div class="input_container">
           <label class="input_label">
             <span class="label_text">名前</span>
-            <input type="text" name="mbr_usernm" id="mbr_usernm">	<br>
+            <input class="text_input" name="email_confirm" type="email" data-role="confirm" required />
           </label>
           <p class="error_msg"></p>
         </div>
