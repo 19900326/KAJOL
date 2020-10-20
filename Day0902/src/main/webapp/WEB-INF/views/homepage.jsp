@@ -359,21 +359,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a class="scene swiper-slide" href="/pages/coding-basic">
           <div
             class="scene_content"
-            style="background-color: #122238"
+            style="background-color: #FFFFFF"
           >
             <div class="container">
               <div class="cover_right">
-                <img class="banner-pc-image" src="/resources/img/banner5.png" alt="banner5">
-                <img class="banner-mobile-image" src="/resources/img/banner5.png" alt="banner5">
+                <img class="banner-pc-image" src="/resources/img/banner5.jpg" alt="banner5">
+                <img class="banner-mobile-image" src="/resources/img/banner5.jpg" alt="banner5">
                 
               </div>
-              <div class="cover_left" id="cover_left_4" style="background: linear-gradient(to bottom, rgba(18, 34, 56, 0), rgba(18, 34, 56, 0.47) 69%, #122238 100%)">
+              <div class="cover_left" id="cover_left_4" style="background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.47) 69%, #ffffff 100%)">
                 <div class="hero-tags ">
-                  <div style="color:#FF2E1E;background-color:#ffffff;">割引</div>
+                  <div style="color:#292666;background-color:#ffffff;">割引</div>
                   
                 </div>
-                <h1 class="admin_hero_title title is-3 bold" style="color: #ffffff;">講義の割引イベント</h1>
-                <p class="text is-1" style="color: #ffffff">誰でも <br/>大幅に割引できる。<br/></p>
+                <h1 class="admin_hero_title title is-3 bold" style="color: #292666;">講義の割引イベント</h1>
+                <p class="text is-1" style="color: #292666">誰でも <br/>大幅に割引できる。<br/></p>
               </div>
             </div>
           </div>
