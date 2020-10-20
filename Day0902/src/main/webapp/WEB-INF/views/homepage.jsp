@@ -281,7 +281,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
         </a>
       
-        <a class="scene swiper-slide" href="/course/css에-날개를-달아주는-sass-scss">
+        <a class="scene swiper-slide" href="/class/drama">
           <div
             class="scene_content"
             style="background-color: #685849"

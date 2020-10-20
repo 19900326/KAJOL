@@ -66,7 +66,7 @@
   <link rel="dns-prefetch" href="//f.vimeocdn.com" />
 
   
-    <title>인프런 - 클라우드 서비스 AWS</title>
+    <title>ドラマで学ぶ韓国語</title>
     <meta name="description" content="이 수업은 클라우드 서비스인 AWS(Amazon Web Services)의 기본적인 사용법과 파일의 저장공간을 제공하는 S3를 다루고 있는 수업입니다.   초급 인프라 AWS 클라우드  온라인 강의 AWS, AWS 강의, 클라우드 강의">
     <meta name="robots" content="all">
     
@@ -269,7 +269,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <a class="navbar-item" href="/courses/it-programming">高級韓国語2</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">ドラマで学ぶ韓国語</a>
+    <a class="navbar-item" href="/class">ドラマで学ぶ韓国語</a>
    </li>
    <li>
     <a class="navbar-item" href="/courses/it-programming">TOPIK</a>
@@ -1078,7 +1078,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="infd-column is-8">
           <div class="left-box">
             <div class="thumbnail-container ">
-              <img src="https://cdn.inflearn.com/wp-content/uploads/AWS-1.png" alt="클라우드 서비스 AWS">
+              <img src="/resources/img/banner2.png" alt="ドラマで学ぶ韓国語">
               
             </div>
             <div class="description-container">

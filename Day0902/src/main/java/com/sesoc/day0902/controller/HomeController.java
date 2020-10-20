@@ -88,11 +88,21 @@ public class HomeController {
 		return "Mypage";
 	}
 	
-	@RequestMapping(value = "/Class", method = RequestMethod.GET)
-	public String Class() {
-		return "Class";
+	@RequestMapping(value = "/drama", method = RequestMethod.GET)
+	public String Drama() {
+		return "classDrama";
 	}
-
+	
+	@RequestMapping(value = "/middle1", method = RequestMethod.GET)
+	public String Middle1() {
+		return "classMiddle1";
+	}
+	
+	@RequestMapping(value = "/middle2", method = RequestMethod.GET)
+	public String Middle2() {
+		return "classMiddle2";
+	}
+	
 	@RequestMapping(value = "/loginInsert", method = RequestMethod.GET)
 	public String loginInsert() {
 		return "loginInsert";

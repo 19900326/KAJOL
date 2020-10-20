@@ -31,8 +31,6 @@
 
 <h1>송현기2</h1>
 
-
-
 <a href="/song">Song.jsp로 이동하기</a>
 
 <a href="/homepage">homepage.jsp로 이동하기</a>
@@ -45,10 +43,13 @@
 
 <a href="/signUp">signUp.jsp로 이동하기</a>
 
-
 <a href="/Mypage">Mypage.jsp로 이동하기</a>
 
-<a href="/Class">Class.jsp로 이동하기</a>
+<a href="/drama">ドラマで学ぶ韓国語로 이동하기</a>
+
+<a href="/middle1">中級韓国語1로 이동하기</a>
+
+<a href="/middle2">中級韓国語2로 이동하기</a>
 
 </body>
 </html>
