@@ -1,6 +1,6 @@
 package com.sesoc.day0902.vo;
 
-public class MemberVo {
+public class MemberVO {
 	
 	 private int mbr_seq;
 		private String mbr_email; 
@@ -10,10 +10,10 @@ public class MemberVo {
 		private String mbr_addr1;
 		private String mbr_addr2;
 		private String reg_dt;
-		public MemberVo() {
+		public MemberVO() {
 			super();
 		}
-		public MemberVo(int mbr_seq, String mbr_email, String mbr_pwd, String mbr_usernm, String mbr_birth,
+		public MemberVO(int mbr_seq, String mbr_email, String mbr_pwd, String mbr_usernm, String mbr_birth,
 				String mbr_addr1, String mbr_addr2, String reg_dt) {
 			super();
 			this.mbr_seq = mbr_seq;
@@ -75,7 +75,7 @@ public class MemberVo {
 		}
 		@Override
 		public String toString() {
-			return "MemberVo [mbr_seq=" + mbr_seq + ", mbr_email=" + mbr_email + ", mbr_pwd=" + mbr_pwd
+			return "MemberVO [mbr_seq=" + mbr_seq + ", mbr_email=" + mbr_email + ", mbr_pwd=" + mbr_pwd
 					+ ", mbr_usernm=" + mbr_usernm + ", mbr_birth=" + mbr_birth + ", mbr_addr1=" + mbr_addr1
 					+ ", mbr_addr2=" + mbr_addr2 + ", reg_dt=" + reg_dt + "]";
 		}
