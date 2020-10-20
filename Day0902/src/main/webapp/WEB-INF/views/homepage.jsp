@@ -189,7 +189,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       
   <div class="mobile_right">
     <a role="button" class="button space-inset-4 text is-5 signin">ログイン</a>
-    <a href="/signUp" class="button space-inset-4 text is-5 is-primary ">会員登録</a>
+    <a href="/member/signUp" class="button space-inset-4 text is-5 is-primary ">会員登録</a>
   </div>
     </div>
   </div>
@@ -242,7 +242,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           
   <div class="navbar-item buttons">
     <a role="/loginInsert" class="button">ログイン</a>
-    <a href="/signUp" class="button space-inset-4 is-primary">会員登録</a>
+    <a href="/member/signUp" class="button space-inset-4 is-primary">会員登録</a>
   </div>
         </div>
       </div>
