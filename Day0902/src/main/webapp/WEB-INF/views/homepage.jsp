@@ -563,7 +563,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/classBasic1">
+    <a href="/class/classBasic1">
       <p class="course_title">基礎韓国語1 - 始めから学ぶ, ハンゲーム</p>
       <p class="course_description">韓国語の初心者向けの講義です。</p>
       <div class="back_course_metas">
@@ -607,7 +607,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/classBasic2" >
+    <a href="/class/classBasic2" >
       <p class="course_title">基礎韓国語2 - どんどん進んでいきましょう。</p>
       <p class="course_description">多様な状況を通じで役に立つ表現を勉強しましょう。</p>
       <div class="back_course_metas">

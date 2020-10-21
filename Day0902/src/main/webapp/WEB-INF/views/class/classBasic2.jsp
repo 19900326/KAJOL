@@ -1078,11 +1078,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="infd-column is-8">
           <div class="left-box">
             <div class="thumbnail-container ">
-              <img src="resources/img/banner3.jpg" alt="基礎韓国語1">
+              <img src="/resources/img/class2.jpg" alt="基礎韓国語2">
               
             </div>
             <div class="description-container">
-              <div class="title">基礎韓国語1</div>
+              <div class="title">基礎韓国語2</div>
               <div class="desc-cover">
                 <div class="desc-row">
                   <span class="desc-label is-hidden-mobile">受講<br>情報</span>
