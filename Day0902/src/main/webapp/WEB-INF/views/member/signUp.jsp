@@ -64,7 +64,46 @@
 
   
     <title>KAJOL - 会員登録 | オンライン 講義 フラットフォーム</title>
-    <meta name="description" content="회원 가입 - 인프런은 누구에게나 성장의 기회를 균등하게 부여하기 위해 만들어진 온라인 학습, 지식 공유 중개 플랫폼 입니다. ">
+    <script type="text/javascript">
+    function formCheck(){
+
+    	var mbr_email = document.getElementById('mbr_email').value;
+    	var mbr_pwd = document.getElementById('mbr_pwd').value;
+    	var mbr_pwd2 = document.getElementById('mbr_pwd2').value;
+    	var mbr_usernm = document.getElementById('mbr_usernm').value;
+    	var mbr_birth = document.getElementById('mbr_birth').value;
+
+    	if(mbr_email == ''){
+    		alert("아이디를 입력해 주세요");
+    		return false;
+    		}
+
+    	if(mbr_usernm == ''){
+    		alert("이름을 입력해 주세요");
+    		return false;
+    	}
+
+    	if(mbr_pwd == ''){
+    		alert("비밀번호를 입력해 주세요");
+    		return false;
+    		}else if(5>mbr_pwd.length || mbr_pwd.length>10){
+    			alert("비밀번호는 5~10글자로 입력해 주세요");
+    			return false;
+    			}
+
+    	if(mbr_pwd != mbr_pwd2){
+    		alert("동일한 비밀번호를 입력해 주세요");
+    		return false;
+    	}
+
+    	if(mbr_birth == ''){
+    		alert("생일을 입력해 주세요");
+    		return false;
+    	}
+
+    	return true;
+    }
+    </script>
     <meta name="robots" content="all">
     
 <meta property="og:type" content="website">
@@ -363,51 +402,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </nav>
 </header>
 
-      <main id="main">
+<main id="main">
 <div class="container sign_up_container">
   <h2 class="heading">会員登録</h2>
   <div class="section_container">
-    <section class="email_section">
-      <form class="signup_form">
+      <form action="/member/join" onsubmit="return formCheck()" method="post" class="join">
         <div class="input_container">
           <label class="input_label">
             <span class="label_text">Eメール</span>
-            <input class="text_input" name="email" type="email" minlength="5" required />
+            <input type="text" name="mbr_email" id="mbr_email">	<br>
           </label>
-          <p class="error_msg"></p>
         </div>
         <div class="input_container">
           <label class="input_label">
             <span class="label_text">名前</span>
-            <input class="text_input" name="email_confirm" type="email" data-role="confirm" required />
+            <input type="text" name="mbr_usernm" id="mbr_usernm">	<br>
           </label>
-          <p class="error_msg"></p>
         </div>
         <div class="input_container">
           <label class="input_label">
             <span class="label_text">パスワード</span>
-            <input class="text_input" type="password" name="password" minlength="8" required />
+            <input type="password" name="mbr_pwd" id="mbr_pwd">	<br>
           </label>
-          <p class="error_msg"></p>
         </div>
         <div class="input_container">
           <label class="input_label">
             <span class="label_text">パスワード<br>確認</span>
-            <input class="text_input" type="password" name="password_confirm" data-role="confirm" required />
+            <input type="password" id="mbr_pwd2">	<br>
           </label>
-          <p class="error_msg"></p>
         </div>
-        <label class="checkbox_label">
-          <span class="checkbox_label_text">KAJOLの様々なお知らせをメールアドレスで受け取る</span>
-          <input class="checkbox_input" type="checkbox" name="news_letter_confirm" checked />
-        </label>
+        <div class="input_container">
+          <label class="input_label">
+            <span class="label_text">生年月日</span>
+            <input type="text" name="mbr_birth" id="mbr_birth" placeholder="ex)19950531"><br>
+          </label>
+        </div>
         <div class="button_wrapper">
           <button type="submit" class="button signup_button">登録する</button>
         </div>
-        <p class="policy_text">
-        </p>
       </form>
-    </section>
     <section class="social_section">
       <a class="google_signin oauth2" data-type="google" href="https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&prompt=consent&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&response_type=code&client_id=887875630717-ror9t8ig4obhvokdij07eoochpqbu5kf.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.inflearn.com%2Fauth%2Fgoogle" aria-label="구글 회원가입" rel="noreferrer noopener">
         <i class="fab fa-google"></i>

@@ -4,10 +4,11 @@
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<typeAliases>
-		<typeAlias type="com.sesoc.day0902.vo.MemberVO" alias="member"/>
+		<typeAlias type="com.sesoc.day0902.vo.MemberVO" alias="member"/>		
 	</typeAliases>
 	
 	<mappers>
-		<mapper resource="mapper/memberMapper.xml"/>
+		<mapper resource="mapper/MemberMapper.xml"/>
+		
 	</mappers>
 </configuration>

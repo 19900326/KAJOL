@@ -98,6 +98,7 @@ public class HomeController {
 		return "loginInsert";
 	}
 	
+
 	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
 	public String signUp() {
 		return "signUp";
@@ -127,5 +128,4 @@ public class HomeController {
 	public String high2() {
 		return "classHigh2";
 	}
-
 }
