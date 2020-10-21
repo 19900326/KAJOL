@@ -228,7 +228,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <a class="navbar-item" href="/courses/it-programming">ドラマで学ぶ韓国語</a>
   </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">TOPIC</a>
+    <a class="navbar-item" href="/courses/it-programming">TOPIK</a>
   </li>
 </ul>
           </div>
