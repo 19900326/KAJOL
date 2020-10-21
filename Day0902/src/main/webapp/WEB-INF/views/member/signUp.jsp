@@ -63,8 +63,47 @@
   <link rel="dns-prefetch" href="//f.vimeocdn.com" />
 
   
-    <title>KAJOL - ログイン | オンライン 講義</title>
-    <meta name="description" content="회원 가입 - 인프런은 누구에게나 성장의 기회를 균등하게 부여하기 위해 만들어진 온라인 학습, 지식 공유 중개 플랫폼 입니다. ">
+    <title>KAJOL - 会員登録 | オンライン 講義 フラットフォーム</title>
+    <script type="text/javascript">
+    function formCheck(){
+
+    	var mbr_email = document.getElementById('mbr_email').value;
+    	var mbr_pwd = document.getElementById('mbr_pwd').value;
+    	var mbr_pwd2 = document.getElementById('mbr_pwd2').value;
+    	var mbr_usernm = document.getElementById('mbr_usernm').value;
+    	var mbr_birth = document.getElementById('mbr_birth').value;
+
+    	if(mbr_email == ''){
+    		alert("아이디를 입력해 주세요");
+    		return false;
+    		}
+
+    	if(mbr_usernm == ''){
+    		alert("이름을 입력해 주세요");
+    		return false;
+    	}
+
+    	if(mbr_pwd == ''){
+    		alert("비밀번호를 입력해 주세요");
+    		return false;
+    		}else if(5>mbr_pwd.length || mbr_pwd.length>10){
+    			alert("비밀번호는 5~10글자로 입력해 주세요");
+    			return false;
+    			}
+
+    	if(mbr_pwd != mbr_pwd2){
+    		alert("동일한 비밀번호를 입력해 주세요");
+    		return false;
+    	}
+
+    	if(mbr_birth == ''){
+    		alert("생일을 입력해 주세요");
+    		return false;
+    	}
+
+    	return true;
+    }
+    </script>
     <meta name="robots" content="all">
     
 <meta property="og:type" content="website">
@@ -264,7 +303,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="/" class="brand_logo">
           <span class="visually_hidden">KAJOL</span>
           <img src="resources/img/LOGO.png">
-          <title>인프런 브랜드 로고</title>
+          <title>KAJOL</title>
         </a> 
       </div>
       
@@ -280,7 +319,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="/" class="brand_logo">
           <span class="visually_hidden">KAJOL</span>
           <img src="resources/img/LOGO.png">
-          <title>인프런 브랜드 로고</title>
+          <title>KAJOL</title>
         </a>
       </div>
       <div class="navbar-menu">
@@ -332,71 +371,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li>
     <a class="navbar-item" href="/courses/korean-topik">TOPIK</a>
     <!-- <ul class="navbar-dropdown is-boxed step_menu step_2"> -->
-      <!-- <li>
-        <a class="navbar-item" href="/courses/ career/get-jobs">취업 ・ 이직</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=employment">취업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=interview">면접</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=mobile-app">모바일 앱 개발</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=algorithm">알고리즘</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=web-publish">웹 퍼블리싱</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=web-design">웹 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=blockchain">블록체인</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=performance-marketing">퍼포먼스 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=communication">커뮤니케이션</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=coding-test">코딩 테스트</a></li>
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/personal-branding">개인 브랜딩</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=writing">집필</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=book-pub">출간</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=copywriting">카피라이팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=relationship">대인관계</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=presentation">PT</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=Video-Production">영상제작</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=project-management">프로젝트 관리</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=sigil">Sigil</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=premiere">Premiere Pro</a></li>
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/business-start-up">창업</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=establishment">창업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=smart-store">스마트스토어</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=blog">블로그</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=digital-marketing">디지털 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=경영노하우">경영노하우</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=knowhow">사무실무</a></li>
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/career-besides">기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=writing">집필</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=digital-marketing">디지털 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=book-pub">출간</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=blog">블로그</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=employment">취업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=relationship">대인관계</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=Video-Production">영상제작</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=agile">애자일</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=online-education">온라인 교육</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li> -->
 </ul>
           </div>
           <!-- <a href="/roadmaps" class="navbar-item">로드맵</a> -->
@@ -427,42 +401,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
   </nav>
 </header>
-<div class="sidebar_dimmed" data-type="close"></div>
 
 <main id="main">
 <div class="container sign_up_container">
-  <h2 class="heading">ログイン</h2>
+  <h2 class="heading">会員登録</h2>
   <div class="section_container">
-    <section class="email_section">
-      <form class="signup_form">
+      <form action="/member/join" onsubmit="return formCheck()" method="post" class="join">
         <div class="input_container">
-          <label class="atom_field">
-            <span class="label visually_hidden">Eメール</span>
-            <input class="input_email" name="email" type="email" autofocus="true" placeholder="Eメール" minlength="5" required />
+          <label class="input_label">
+            <span class="label_text">Eメール</span>
+            <input type="text" name="mbr_email" id="mbr_email">	<br>
           </label>
-          <p class="error_msg"></p>
         </div>
         <div class="input_container">
-          <label class="atom_field">
-            <span class="label visually_hidden">パスワード</span>
-            <input class="input_pwd" type="password" name="password" placeholder="パスワード" >
+          <label class="input_label">
+            <span class="label_text">名前</span>
+            <input type="text" name="mbr_usernm" id="mbr_usernm">	<br>
           </label>
-          <p class="error_msg"></p>
+        </div>
+        <div class="input_container">
+          <label class="input_label">
+            <span class="label_text">パスワード</span>
+            <input type="password" name="mbr_pwd" id="mbr_pwd">	<br>
+          </label>
+        </div>
+        <div class="input_container">
+          <label class="input_label">
+            <span class="label_text">パスワード<br>確認</span>
+            <input type="password" id="mbr_pwd2">	<br>
+          </label>
+        </div>
+        <div class="input_container">
+          <label class="input_label">
+            <span class="label_text">生年月日</span>
+            <input type="text" name="mbr_birth" id="mbr_birth" placeholder="ex)19950531"><br>
+          </label>
         </div>
         <div class="button_wrapper">
-          <button type="submit" class="button signup_button">ログイン</button>
+          <button type="submit" class="button signup_button">登録する</button>
         </div>
-        <p class="policy_text">
-        </p>
       </form>
-      <div class="sub_form">
-         <a href="/findPwd" class="find_password">パスワードをお忘れの方</a>
-        </div>
-      <div class="sub_form">
-        <a href="/signUp" class="button space-inset-4 is-primary">会員登録</a>
-     </div> 
-    </section>
-    
     <section class="social_section">
       <a class="google_signin oauth2" data-type="google" href="https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&prompt=consent&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&response_type=code&client_id=887875630717-ror9t8ig4obhvokdij07eoochpqbu5kf.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.inflearn.com%2Fauth%2Fgoogle" aria-label="구글 회원가입" rel="noreferrer noopener">
         <i class="fab fa-google"></i>
@@ -470,8 +448,80 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </a>
     </section>
   </div>
-  </div>
 </div></main>
+      
+      
+	<!--<footer class="footer">
+    <div class="wrapper">
+      <div class="footer_top menu_list_cover">
+        
+        <div class="menu_list ">
+          <div class="list_title">인프런 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
+          <div class="menu_sublist">
+            <a href="/notices" class="list_link">공지사항</a><a href="/inflearn" class="list_link">인프런 소개</a><a href="/pages" class="list_link">블로그</a><a href="/pages/with-us" class="list_link">채용 안내</a>
+          </div>
+        </div>
+        <div class="menu_list ">
+          <div class="list_title">고객센터 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
+          <div class="menu_sublist">
+            <a href="/faq" class="list_link">자주묻는 질문</a><a href="/certificate" class="list_link">수료증 확인</a><a href="/policy/terms-of-service" class="list_link">이용약관</a><a href="/policy/privacy" class="list_link">개인정보취급방침</a>
+          </div>
+        </div>
+        <div class="menu_list ">
+          <div class="list_title">신청하기 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
+          <div class="menu_sublist">
+            <a href="/open-knowledge" class="list_link">지식공유참여</a><a href="/intro-group" class="list_link">인프런 비즈니스</a><a href="/university" class="list_link">인프런 X 대학교</a>
+          </div>
+        </div>
+        <div class="menu_list is-hidden-mobile">
+          <div class="list_title">학습하기 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
+          <div class="menu_sublist">
+            <a href="/courses/it-programming" class="list_link">IT 프로그래밍</a><a href="/courses/creative" class="list_link">크리에이티브</a><a href="/courses/business" class="list_link">업무스킬</a><a href="/course-code" class="list_link">수강권 등록</a>
+          </div>
+        </div>
+        <div class="menu_list is-hidden-mobile">
+          <div class="list_title">커뮤니티 <span class="is-mobile list_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span></div>
+          <div class="menu_sublist">
+            <a href="/roadmaps" class="list_link">학습로드맵</a><a href="/community/questions" class="list_link">묻고 답하기</a><a href="/community/reviews" class="list_link">수강평 모아보기</a><a href="/request-to-inflearn" class="list_link">강의 · 기능요청</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="footer_bottom_left footer_info">
+          <div class="footer_info_top">
+            <span class="is-hidden-mobile"><a href="/"><svg width="85" id="icon_brand_logo" class="brand_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 90"><path class="A" d="M79.1 31.6c-2-4.6-4.7-8.7-8.1-12.2-3.5-3.5-7.5-6.3-12.1-8.3S49.3 8 43.9 8c-5.2 0-10.2.9-14.9 2.9s-8.8 4.7-12.4 8.1c-3.6 3.5-6.4 7.5-8.4 12.1A37.14 37.14 0 0 0 5.1 46c0 5.2.9 10.2 2.9 14.9s4.7 8.8 8.2 12.4 7.6 6.4 12.2 8.4c4.7 2 9.6 3.1 14.9 3.1l38.3.3.3-38.5c.1-5.3-.9-10.3-2.8-15zM74 77.4l-30.7-.3c-4.2 0-8.2-.9-11.9-2.5s-7-3.9-9.8-6.7A32.99 32.99 0 0 1 15 58c-1.6-3.8-2.3-7.7-2.3-11.9 0-4.3.9-8.3 2.5-12s3.9-6.9 6.7-9.7c2.9-2.8 6.2-4.9 9.9-6.5 3.8-1.6 7.7-2.3 11.9-2.3 4.3 0 8.3.9 12 2.5s6.9 3.8 9.7 6.7c2.8 2.8 4.9 6.1 6.5 9.8s2.3 7.7 2.3 12L74 77.4z"/><path class="A" d="M76.9 83.7c-.9 0-1.8-.3-2.5-1L27.6 35.1c-1.4-1.4-1.3-3.6 0-4.9 1.4-1.4 3.6-1.3 4.9 0l46.8 47.6c1.4 1.4 1.3 3.6 0 4.9-.6.7-1.5 1-2.4 1z"/><path class="A" d="M43.1 47.3c-.4 0-.8-.1-1.2-.2-1.8-.7-2.8-2.7-2.1-4.5l6.3-17.3c.7-1.8 2.7-2.8 4.5-2.1s2.8 2.7 2.1 4.5L46.4 45c-.5 1.4-1.9 2.3-3.3 2.3zm12.2 16.2H33.5C31.6 63.5 30 62 30 60c0-1.9 1.6-3.5 3.5-3.5h21.8c1.9 0 3.5 1.6 3.5 3.5 0 2-1.5 3.5-3.5 3.5zm44.1-32.4V85H88.8V31.1h10.6zm5.6 16.5c1.4-3.2 3.3-6.1 5.8-8.5 2.4-2.4 5.3-4.4 8.6-5.8s6.8-2.1 10.4-2.1c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.6 5.8c2.5 2.4 4.4 5.3 5.8 8.5s2.1 6.7 2.1 10.5v27h-10.7v-27c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.4-1.3-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.7v-27c.2-3.7.9-7.2 2.3-10.5zm76.1-26.2c-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v5.5h21.6v10.7h-21.6V85h-10.7V36.4c0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.4 6.8-2.1 10.4-2.1h5.3v10.7h-5.3c-2.1 0-4.2.4-6.2 1.2zm43.2-11.9V85h-10.7V9.5h10.7zM270.5 66l7.6 7.6-3.7 3.7c-2.6 2.6-5.5 4.5-8.8 5.9s-6.7 2-10.3 2-7-.7-10.3-2c-3.3-1.4-6.2-3.3-8.8-5.9s-4.6-5.6-5.9-8.9-1.9-6.7-1.9-10.1.6-6.8 1.9-10.1 3.2-6.2 5.9-8.9c2.6-2.6 5.6-4.6 8.9-5.9s6.7-2 10.1-2 6.8.7 10.1 2 6.3 3.3 8.9 5.9l3.7 3.7L248 72.9c3 1.5 6.3 2 9.7 1.5s6.4-2.1 8.9-4.6l3.9-3.8zm-26.8-19.3c-3.2 3.2-4.8 7-4.8 11.5 0 2.5.6 4.8 1.7 7.1l10.6-10.6 6.4-6.3 4.7-4.7c-3-1.5-6.3-2-9.7-1.6-3.3.5-6.3 2.1-8.9 4.6zm64.8-15.6c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.5 5.8a27.88 27.88 0 0 1 5.8 8.5c1.4 3.2 2.1 6.7 2.1 10.5v27h-26.9c-3.7 0-7.2-.7-10.4-2.1-3.3-1.4-6.2-3.3-8.6-5.8-2.5-2.5-4.4-5.4-5.8-8.6-1.4-3.3-2.1-6.8-2.1-10.4 0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.5 6.8-2.2 10.4-2.2zm16.2 43.2V58c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.3-1.3s-4.4.4-6.4 1.3c-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3s.4 4.4 1.3 6.4c.8 2 2 3.7 3.5 5.2s3.2 2.6 5.2 3.5c2 .8 4.1 1.3 6.4 1.3h16.3zm46.2-43.2v10.7h-5.4c-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.8V58c0-3.8.7-7.3 2.1-10.5s3.3-6.1 5.8-8.5 5.4-4.4 8.6-5.8c3.3-1.4 6.8-2.1 10.4-2.1h5.6zm5.3 16.5c1.4-3.2 3.3-6.1 5.8-8.5 2.4-2.4 5.3-4.4 8.6-5.8s6.8-2.1 10.4-2.1c3.8 0 7.3.7 10.5 2.1s6.1 3.3 8.6 5.8c2.5 2.4 4.4 5.3 5.8 8.5s2.1 6.7 2.1 10.5v27h-10.7v-27c0-2.2-.4-4.3-1.3-6.3-.8-2-2-3.7-3.5-5.2s-3.2-2.6-5.2-3.5c-2-.8-4.1-1.3-6.4-1.3-2.2 0-4.3.4-6.3 1.3-2 .8-3.7 2-5.2 3.5s-2.6 3.2-3.5 5.2c-.8 2-1.3 4.1-1.3 6.3v27h-10.7v-27c.2-3.7.9-7.2 2.3-10.5z"/><title>인프런 브랜드 로고</title></svg></a></span>
+            <span><a href="/policy/privacy">개인정보취급방침</a></span>
+            <span><a href="/policy/terms-of-service">이용약관</a></span>
+          </div>
+          <div class="footer_info_bottom">
+            <div class="is-mobile info_label">
+              (주)인프랩 사업자 정보
+              <span class="is-mobile info_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span>
+            </div>
+            <div class="info-dropdown"">
+              <span class="is-hidden-mobile">(주)인프랩 | </span>
+              <span>대표자 : 이형주 | </span>
+              <span>사업자번호 : 499-81-00612 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=4998100612" target="_blank">사업자 정보 확인</a> | </span>
+              <br class="is-mobile">
+              <span>개인정보보호책임자 : 구자유 | </span>
+              <span>통신판매업 : 2018-성남분당B-0062</span>
+              <br class="is-hidden-mobile">
+              <span>주소 : 성남시 분당구 삼평동 판교역로 240 삼환하이팩스 A동 208-1호 ㅣ </span>
+              <span>이메일: <a href="mailto:info@inflearn.com">info@inflearn.com</a></span>
+            </div>
+            ©INFLAB. ALL RIGHTS RESERVED
+          </div>
+        </div>
+        <div class="footer_bottom_right is-hidden-mobile">
+          <a href="https://post.naver.com/inflearn"><i class="text">N</i></a>
+          <a href="https://blog.naver.com/inflearn"><i class="text">B</i></a>
+          <a href="https://www.instagram.com/inflearn__official"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UC0Y0T9JpgIBbyGDjvy9PbOg"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/inflearn"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div> 
+    </div>
+  </footer> -->
       
 <div class="loading_spinner_container">
   <svg

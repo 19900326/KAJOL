@@ -41,7 +41,7 @@
 
 <a href="/loginInsert">login.jsp로 이동하기</a>
 
-<a href="/signUp">signUp.jsp로 이동하기</a>
+<a href="/member/signUp">회원가입 이동하기</a>
 
 <a href="/Mypage">Mypage.jsp로 이동하기</a>
 
