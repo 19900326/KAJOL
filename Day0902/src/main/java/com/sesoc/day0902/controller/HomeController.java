@@ -102,5 +102,30 @@ public class HomeController {
 	public String signUp() {
 		return "signUp";
 	}
+	
+	@RequestMapping(value = "/findPwd", method = RequestMethod.GET)
+	public String findPwd() {
+		return "findPwd";
+	}
+	
+	@RequestMapping(value = "/classBasic1", method = RequestMethod.GET)
+	public String basic1() {
+		return "classBasic1";
+	}
+	
+	@RequestMapping(value = "/classBasic2", method = RequestMethod.GET)
+	public String basic2() {
+		return "classBasic2";
+	}
+	
+	@RequestMapping(value = "/classHigh1", method = RequestMethod.GET)
+	public String high1() {
+		return "classHigh1";
+	}
+	
+	@RequestMapping(value = "/classHigh2", method = RequestMethod.GET)
+	public String high2() {
+		return "classHigh2";
+	}
 
 }

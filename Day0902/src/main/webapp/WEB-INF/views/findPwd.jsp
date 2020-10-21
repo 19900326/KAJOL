@@ -63,7 +63,7 @@
   <link rel="dns-prefetch" href="//f.vimeocdn.com" />
 
   
-    <title>KAJOL - ログイン | オンライン 講義</title>
+    <title>KAJOL - パスワード調査 | オンライン 講義</title>
     <meta name="description" content="회원 가입 - 인프런은 누구에게나 성장의 기회를 균등하게 부여하기 위해 만들어진 온라인 학습, 지식 공유 중개 플랫폼 입니다. ">
     <meta name="robots" content="all">
     
@@ -267,11 +267,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <title>인프런 브랜드 로고</title>
         </a> 
       </div>
-      
-  <div class="mobile_right">
-   <a role="button" class="button space-inset-4 text is-5 signin">ログイン</a>
-    <a href="/signUp" class="button space-inset-4 text is-5 is-primary ">会員登録</a>
-  </div>
+    
     </div>
   </div>
     <div class="container desktop_container">
@@ -332,71 +328,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li>
     <a class="navbar-item" href="/courses/korean-topik">TOPIK</a>
     <!-- <ul class="navbar-dropdown is-boxed step_menu step_2"> -->
-      <!-- <li>
-        <a class="navbar-item" href="/courses/ career/get-jobs">취업 ・ 이직</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=employment">취업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=interview">면접</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=java">Java</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=html-css">HTML/CSS</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=mobile-app">모바일 앱 개발</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=algorithm">알고리즘</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=web-publish">웹 퍼블리싱</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=web-design">웹 디자인</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=blockchain">블록체인</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=performance-marketing">퍼포먼스 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=communication">커뮤니케이션</a></li>
-          <li><a class="navbar-item" href="/courses/ career/get-jobs/?skill=coding-test">코딩 테스트</a></li>
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/personal-branding">개인 브랜딩</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=writing">집필</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=book-pub">출간</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=copywriting">카피라이팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=relationship">대인관계</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=presentation">PT</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=Video-Production">영상제작</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=project-management">프로젝트 관리</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=sigil">Sigil</a></li>
-          <li><a class="navbar-item" href="/courses/ career/personal-branding/?skill=premiere">Premiere Pro</a></li>
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/business-start-up">창업</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=establishment">창업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=smart-store">스마트스토어</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=blog">블로그</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=digital-marketing">디지털 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=경영노하우">경영노하우</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/business-start-up/?skill=knowhow">사무실무</a></li>
-        </ul>
-      </li>
-      <li>
-        <a class="navbar-item" href="/courses/ career/career-besides">기타</a>
-        <ul class="navbar-dropdown is-boxed step_menu step_3">
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=writing">집필</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=digital-marketing">디지털 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=book-pub">출간</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=knowhow">사무실무</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=blog">블로그</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=business-productivity">업무 생산성</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=employment">취업</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=relationship">대인관계</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=Video-Production">영상제작</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=contents-marketing">콘텐츠 마케팅</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=agile">애자일</a></li>
-          <li><a class="navbar-item" href="/courses/ career/career-besides/?skill=online-education">온라인 교육</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li> -->
+  </li>
 </ul>
           </div>
           <!-- <a href="/roadmaps" class="navbar-item">로드맵</a> -->
@@ -428,130 +360,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </nav>
 </header>
 <div class="sidebar_dimmed" data-type="close"></div>
-
-<main id="main">
-<div class="container sign_up_container">
-  <h2 class="heading">ログイン</h2>
-  <div class="section_container">
-    <section class="email_section">
-      <form class="signup_form">
-        <div class="input_container">
-          <label class="atom_field">
-            <span class="label visually_hidden">Eメール</span>
-            <input class="input_email" name="email" type="email" autofocus="true" placeholder="Eメール" minlength="5" required />
-          </label>
-          <p class="error_msg"></p>
-        </div>
-        <div class="input_container">
-          <label class="atom_field">
-            <span class="label visually_hidden">パスワード</span>
-            <input class="input_pwd" type="password" name="password" placeholder="パスワード" >
-          </label>
-          <p class="error_msg"></p>
-        </div>
-        <div class="button_wrapper">
-          <button type="submit" class="button signup_button">ログイン</button>
-        </div>
-        <p class="policy_text">
-        </p>
-      </form>
-      <div class="sub_form">
-         <a href="/findPwd" class="find_password">パスワードをお忘れの方</a>
-        </div>
-      <div class="sub_form">
-        <a href="/signUp" class="button space-inset-4 is-primary">会員登録</a>
-     </div> 
-    </section>
-    
-    <section class="social_section">
-      <a class="google_signin oauth2" data-type="google" href="https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&prompt=consent&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&response_type=code&client_id=887875630717-ror9t8ig4obhvokdij07eoochpqbu5kf.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.inflearn.com%2Fauth%2Fgoogle" aria-label="구글 회원가입" rel="noreferrer noopener">
-        <i class="fab fa-google"></i>
-        <span>Googleでログイン</span>
-      </a>
-    </section>
-  </div>
-  </div>
-</div></main>
       
-<div class="loading_spinner_container">
-  <svg
-    class="lds-spinner"
-    id="loading_spinner"
-    width="200"
-    height="200"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 100 100"
-    preserveAspectRatio="xMidYMid">
-    
-<g transform="rotate(0 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="0s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(36 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.1s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(72 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.2s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(108 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.3s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(144 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.4s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(180 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.5s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(216 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.6s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(252 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.7s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(288 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.8s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-<g transform="rotate(324 50 50)">
-<rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#28292f">
-<animate attributeName="opacity" values="1;0" keyTimes="0;1"
-  dur="1s" begin="-0.9s" repeatCount="indefinite"></animate>
-</rect>
-</g>
-  </svg>
-</div>
       <button class="gototop-btn e-gototop" fxd-data='{"left":30,"bottom":70}'><i class="far fa-chevron-up"></i><span class="gototop-text">TOP</span></button>
     </div>
     
     
     <script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/MAIN.592f268b789948314720.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/MAIN.ee18454d2caf5dd15241.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/HEADER.5fbe009c4dbb6ca76d10.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/HEADER.0c299515bb9b222881d3.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/FOOTER.3cf873db029fbd7534f8.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/FOOTER.6fdede785f6cd882436d.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/BOTTOM_NAVIGATION.be09bf65b9d3f29ed6a3.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/BOTTOM_NAVIGATION.ec5dce8562ca4e8f29ec.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_date-fns.4c744d40618420d5a9dc.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_date-fns.559b152d4f55a88555a2.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_sortable.50b3f2cd1aad06f2a043.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_sortable.50aaa3dd5f6660431655.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_tinymce.ef011f516c5160b8ca1c.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_tinymce.4c1a42a99fcc57d2146e.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/GO_TO_TOP.7a92784a40253729534f.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/GO_TO_TOP.3048bce54925ec2d2d37.js" nomodule></script><script crossorigin type="module" id="INF_DATA">INF_BOX.to_box("%7B%7D");</script><script type="text/javascript" id="INF_DATA" nomodule>INF_BOX.to_box("%7B%7D");</script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/signup.2d6cc8babbec85dcecf0.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/signup.26d562c67a6622d2557e.js" nomodule></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/LEGACY_ACTION.97437ba799c516cf895e.js" nomodule defer></script>
-    
+ 
+<div class="modal ">
+
+<section class="find_pwd" style="height: 937px; top: 0px; bottom: 0px;"></section>
+<div>
+	<form>
+		<header>
+		
+		</header>
+	</form>
     
     <!-- Channel Plugin Scripts -->
 	<!--<script>

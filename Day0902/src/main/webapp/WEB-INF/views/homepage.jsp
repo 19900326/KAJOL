@@ -563,7 +563,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/스프링-입문-스프링부트" >
+    <a href="/classBasic1">
       <p class="course_title">基礎韓国語1 - 始めから学ぶ, ハンゲーム</p>
       <p class="course_description">韓国語の初心者向けの講義です。</p>
       <div class="back_course_metas">
@@ -607,7 +607,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/비전공자를-위한-개발자-취업" >
+    <a href="/classBasic2" >
       <p class="course_title">基礎韓国語2 - どんどん進んでいきましょう。</p>
       <p class="course_description">多様な状況を通じで役に立つ表現を勉強しましょう。</p>
       <div class="back_course_metas">
@@ -743,7 +743,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/리액트-네이티브-기초" >
+    <a href="/classHigh1" >
       <p class="course_title">高級韓国語1</p>
       <p class="course_description">より韓国人らしく作文して、話しましょう。</p>
       <div class="back_course_metas">
@@ -787,7 +787,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/나도코딩-파이썬-기본" >
+    <a href="/classHigh2" >
       <p class="course_title">高級韓国語2</p>
       <p class="course_description">より韓国人らしく作文して、話しましょう。
 </p>
