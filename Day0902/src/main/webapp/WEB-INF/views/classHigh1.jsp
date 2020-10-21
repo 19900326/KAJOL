@@ -1078,11 +1078,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="infd-column is-8">
           <div class="left-box">
             <div class="thumbnail-container ">
-              <img src="https://cdn.inflearn.com/wp-content/uploads/AWS-1.png" alt="클라우드 서비스 AWS">
+              <img src="resources/img/고급.png" alt="高級韓国語1">
               
             </div>
             <div class="description-container">
-              <div class="title">ドラマで学ぶ韓国語</div>
+              <div class="title">高級韓国語1</div>
               <div class="desc-cover">
                 <div class="desc-row">
                   <span class="desc-label is-hidden-mobile">受講<br>情報</span>
