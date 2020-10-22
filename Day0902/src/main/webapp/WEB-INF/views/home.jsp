@@ -50,5 +50,7 @@
 
 <a href="/Class">Class.jsp로 이동하기</a>
 
+<a href="/Study">Study.jsp로 이동하기</a>
+
 </body>
 </html>
