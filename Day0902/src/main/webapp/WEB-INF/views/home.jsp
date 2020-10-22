@@ -51,5 +51,7 @@
 
 <a href="/middle2">中級韓国語2로 이동하기</a>
 
+<a href="/Study">Study.jsp로 이동하기</a>
+
 </body>
 </html>
