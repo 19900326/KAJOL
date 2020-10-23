@@ -13,17 +13,17 @@ public class ClassController {
 		return "class/classMain";
 	}
 	
-	@RequestMapping(value = "/drama", method = RequestMethod.GET)
+	@RequestMapping(value = "/classDrama", method = RequestMethod.GET)
 	public String Drama() {
 		return "class/classDrama";
 	}
 	
-	@RequestMapping(value = "/middle1", method = RequestMethod.GET)
+	@RequestMapping(value = "/classMiddle1", method = RequestMethod.GET)
 	public String Middle1() {
 		return "class/classMiddle1";
 	}
 	
-	@RequestMapping(value = "/middle2", method = RequestMethod.GET)
+	@RequestMapping(value = "/classMiddle2", method = RequestMethod.GET)
 	public String Middle2() {
 		return "class/classMiddle2";
 	}
