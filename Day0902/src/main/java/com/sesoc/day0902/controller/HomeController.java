@@ -88,20 +88,6 @@ public class HomeController {
 		return "Mypage";
 	}
 	
-	@RequestMapping(value = "/drama", method = RequestMethod.GET)
-	public String Drama() {
-		return "classDrama";
-	}
-	
-	@RequestMapping(value = "/middle1", method = RequestMethod.GET)
-	public String Middle1() {
-		return "classMiddle1";
-	}
-	
-	@RequestMapping(value = "/middle2", method = RequestMethod.GET)
-	public String Middle2() {
-		return "classMiddle2";
-	}
 	
 	@RequestMapping(value = "/loginInsert", method = RequestMethod.GET)
 	public String loginInsert() {
@@ -119,23 +105,43 @@ public class HomeController {
 		return "findPwd";
 	}
 	
-	@RequestMapping(value = "/classBasic1", method = RequestMethod.GET)
+	@RequestMapping(value = "/class/basic1", method = RequestMethod.GET)
 	public String basic1() {
-		return "classBasic1";
+		return "class/basic1";
 	}
 	
-	@RequestMapping(value = "/classBasic2", method = RequestMethod.GET)
+	@RequestMapping(value = "/class/basic2", method = RequestMethod.GET)
 	public String basic2() {
-		return "classBasic2";
+		return "class/basic2";
 	}
 	
-	@RequestMapping(value = "/classHigh1", method = RequestMethod.GET)
+	@RequestMapping(value = "/class/middle1", method = RequestMethod.GET)
+	public String middle1() {
+		return "class/middle1";
+	}
+	
+	@RequestMapping(value = "/class/middle2", method = RequestMethod.GET)
+	public String middle2() {
+		return "class/middle2";
+	}
+	
+	@RequestMapping(value = "/class/high1", method = RequestMethod.GET)
 	public String high1() {
-		return "classHigh1";
+		return "class/high1";
 	}
 	
-	@RequestMapping(value = "/classHigh2", method = RequestMethod.GET)
+	@RequestMapping(value = "/class/high2", method = RequestMethod.GET)
 	public String high2() {
-		return "classHigh2";
+		return "class/high2";
+	}
+	
+	@RequestMapping(value = "/class/drama", method = RequestMethod.GET)
+	public String drama() {
+		return "class/drama";
+	}
+	
+	@RequestMapping(value = "/class/topik", method = RequestMethod.GET)
+	public String topik() {
+		return "class/topik";
 	}
 }

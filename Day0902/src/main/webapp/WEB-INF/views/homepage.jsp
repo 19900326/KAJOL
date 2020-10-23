@@ -207,28 +207,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
 <ul class="navbar-dropdown is-boxed">
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語1</a>
+    <a class="navbar-item" href="/class/basic1">基礎韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語2</a>
+    <a class="navbar-item" href="/class/basic2">基礎韓国語2</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語1</a>
+    <a class="navbar-item" href="/class/middle1">中級韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語2</a>
+    <a class="navbar-item" href="/class/middle2">中級韓国語2</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語1</a>
+    <a class="navbar-item" href="/class/high1">高級韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語2</a>
+    <a class="navbar-item" href="/class/high2">高級韓国語2</a>
   </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">ドラマで学ぶ韓国語</a>
+    <a class="navbar-item" href="/class/drama">ドラマで学ぶ韓国語</a>
   </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">TOPIC</a>
+    <a class="navbar-item" href="/class/topik">TOPIK</a>
   </li>
 </ul>
           </div>
@@ -563,7 +563,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/classBasic1">
+    <a href="/class/basic1">
       <p class="course_title">基礎韓国語1 - 始めから学ぶ, ハンゲーム</p>
       <p class="course_description">韓国語の初心者向けの講義です。</p>
       <div class="back_course_metas">
@@ -607,7 +607,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/classBasic2" >
+    <a href="/class/basic2" >
       <p class="course_title">基礎韓国語2 - どんどん進んでいきましょう。</p>
       <p class="course_description">多様な状況を通じで役に立つ表現を勉強しましょう。</p>
       <div class="back_course_metas">
@@ -651,7 +651,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/Python-crawling-basic" >
+    <a href="/class/middle1" >
       <p class="course_title">中級韓国語1</p>
       <p class="course_description">様々なテーマと素材で構成された韓国語の文章を学習することができ、
 これにより、日常生活から業務や試験に至るまで、あらゆる分野で遺憾なく発揮できる
@@ -697,7 +697,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/개발자-취업-입문-개론" >
+    <a href="/class/middle2" >
       <p class="course_title">中級韓国語2</p>
       <p class="course_description">様々なテーマと素材で構成された韓国語の文章を学習することができ、
 これにより、日常生活から業務や試験に至るまで、あらゆる分野で遺憾なく発揮できる
@@ -743,7 +743,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/classHigh1" >
+    <a href="/class/high1" >
       <p class="course_title">高級韓国語1</p>
       <p class="course_description">より韓国人らしく作文して、話しましょう。</p>
       <div class="back_course_metas">
@@ -787,7 +787,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/classHigh2" >
+    <a href="/class/high2" >
       <p class="course_title">高級韓国語2</p>
       <p class="course_description">より韓国人らしく作文して、話しましょう。
 </p>
@@ -832,7 +832,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/인프런-오리지널-프로그래밍-3종-원티드" >
+    <a href="/class/drama" >
       <p class="course_title">ドラマで学ぶ韓国語</p>
       <p class="course_description">人気の韓流ドラマで楽しく自然な韓国語の表現を身に着けましょう。</p>
       <div class="back_course_metas">
@@ -854,8 +854,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
   <img
     loading="lazy"
-    src="/resources/img/KAJOLLOGO.png"
-    data-src="/resources/img/KAJOLLOGO.png"
+    src="/resources/img/TOPIK.jpg"
+    data-src="/resources/img/TOPIK.jpg"
     class="swiper-lazy"
     alt="rookiss-rpg-1.png"
   />
@@ -867,8 +867,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </figure>
     </div>
     <div class="card-content">
-      <div class="course_title">新たな講義</div>
-      <div class="instructor">先生</div>
+      <div class="course_title">TOPIK</div>
+      <div class="instructor">イミノ・ソンヒョンギ</div>
       <div class="rating">
         <div class='rating_star'><div class='star_solid' style="width: 0%"><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></pathg></div><span class="review_cnt">(0)</span>
       </div>
@@ -876,9 +876,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/유니티-MMORPG-개발-part1" >
-      <p class="course_title">新たな講義</p>
-      <p class="course_description">講義の紹介
+    <a href="/class/topik" >
+      <p class="course_title">TOPIK</p>
+      <p class="course_description">今まで鍛えてきた韓国語をTOPIKで証明しましょう！</p>
 </p>
       <div class="back_course_metas">
         <div class="course_level">
