@@ -138,4 +138,9 @@ public class HomeController {
 	public String high2() {
 		return "classHigh2";
 	}
+	
+	@RequestMapping(value = "/Study", method = RequestMethod.GET)
+	public String Study() {
+		return "Study";
+	}
 }
