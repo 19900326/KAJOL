@@ -105,8 +105,5 @@ public class HomeController {
 		return "Study";
 	}
 	
-	@RequestMapping(value = "/Study", method = RequestMethod.GET)
-	public String Study() {
-		return "Study";
-	}
+	
 }
