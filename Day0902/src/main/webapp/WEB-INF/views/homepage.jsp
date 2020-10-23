@@ -214,7 +214,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <a class="navbar-item" href="/class/classHigh2">高級韓国語2</a>
   </li>
    <li>
-    <a class="navbar-item" href="/class/classDrama">ドラマで学ぶ韓国語</a>
+    <a class="navbar-item" href="/class/drama">ドラマで学ぶ韓国語</a>
   </li>
    <li>
     <a class="navbar-item" href="/courses/it-programming">TOPIK</a>

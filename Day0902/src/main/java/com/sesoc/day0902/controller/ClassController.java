@@ -47,5 +47,10 @@ public class ClassController {
 	public String high2() {
 		return "class/classHigh2";
 	}
+	
+	@RequestMapping(value = "/classTopik", method = RequestMethod.GET)
+	public String classTopik() {
+		return "class/classTopik";
+	}
 
 }
