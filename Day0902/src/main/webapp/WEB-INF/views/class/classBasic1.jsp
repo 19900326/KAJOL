@@ -66,7 +66,7 @@
   <link rel="dns-prefetch" href="//f.vimeocdn.com" />
 
   
-    <title>인프런 - 클라우드 서비스 AWS</title>
+    <title>KAJOL - 基礎韓国語1</title>
     <meta name="description" content="이 수업은 클라우드 서비스인 AWS(Amazon Web Services)의 기본적인 사용법과 파일의 저장공간을 제공하는 S3를 다루고 있는 수업입니다.   초급 인프라 AWS 클라우드  온라인 강의 AWS, AWS 강의, 클라우드 강의">
     <meta name="robots" content="all">
     
@@ -251,28 +251,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
 <ul class="navbar-dropdown is-boxed">
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語1</a>
+    <a class="navbar-item" href="/class/basic1">基礎韓国語1</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語2</a>
+    <a class="navbar-item" href="/class/basic2">基礎韓国語2</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語1</a>
+    <a class="navbar-item" href="/class/middle1">中級韓国語1</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語2</a>
+    <a class="navbar-item" href="/class/middle2">中級韓国語2</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語1</a>
+    <a class="navbar-item" href="/class/high1">高級韓国語1</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語2</a>
+    <a class="navbar-item" href="/class/high2">高級韓国語2</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">ドラマで学ぶ韓国語</a>
+    <a class="navbar-item" href="/class/drama">ドラマで学ぶ韓国語</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">TOPIK</a>
+    <a class="navbar-item" href="/class/topik">TOPIK</a>
    </li>
       
   
@@ -1078,11 +1078,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="infd-column is-8">
           <div class="left-box">
             <div class="thumbnail-container ">
-              <img src="resources/img/class2.jpg" alt="基礎韓国語2">
+              <img src="/resources/img/banner3.jpg" alt="基礎韓国語1">
               
             </div>
             <div class="description-container">
-              <div class="title">基礎韓国語2</div>
+              <div class="title">基礎韓国語1</div>
               <div class="desc-cover">
                 <div class="desc-row">
                   <span class="desc-label is-hidden-mobile">受講<br>情報</span>
@@ -1138,7 +1138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 <section class="course_description_container">
-  <div class="tabs"><ul class="container"><li class="tabs_li description is-active"><a href="/course/aws-2#">講義紹介</a></li><li class="tabs_li curriculum "><a href="/course/aws-2#curriculum">教育課程</a></li><li class="tabs_li reviews "><a href="/course/aws-2#reviews">受講レビュー</a></li><li class="tabs_li news "><a href="/course/aws-2/news">新しいお知らせ</a></li></ul></div>
+  <div class="tabs"><ul class="container"><li class="tabs_li description is-active"><a href="/course/aws-2#">講義紹介</a></li><li class="tabs_li curriculum "><a href="/course/aws-2#curriculum">教育課程</a></li><li class="tabs_li reviews "><a href="/course/aws-2#reviews">受講レビュー</a></li></ul></div>
   <div class="container">
   <div class="course_description">
     <div class="columns">
@@ -1148,7 +1148,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
     <div class="course_summary description_sub">
       <h4 class="sub_heading has-icon ">この講義は <i class="far fa-lightbulb-on"></i></h4>
-    この講義は韓国ドラマを通して韓国語を学ぶ講義です。 
+    この講義は基礎韓国語を通して韓国語を学ぶ講義です。 
     </div>
             
             <div class="body" itemprop="articleBody"><div><iframe src="https://www.youtube.com/embed/YmHgw4RY-74?rel=0&amp;modestbranding=1&amp;vq=hd720" width="768" height="432" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
@@ -1175,7 +1175,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="section_header_left">
           <span class="section_header_icon plus"><i class="fa fa-plus"></i></span>          
           <span class="section_header_icon minus"><i class="fa fa-minus"></i></span>
-          <span class="unit_title">ドラマページ</span>
+          <span class="unit_title">基礎韓国語Ⅰ ページ</span>
         </div>
         <div class="section_header_right is-hidden-mobile">
           <span class="unit_length">10講義</span>
@@ -1184,7 +1184,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       <div class="lecture_cover"><a class="unit_item" href="/course/aws-2/lecture/16254">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫１</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ１</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1195,7 +1195,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><a class="unit_item" href="/course/aws-2/lecture/16255">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫２</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ２</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1206,7 +1206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><a class="unit_item" href="/course/aws-2/lecture/16256">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫3</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ３</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1217,7 +1217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><a class="unit_item" href="/course/aws-2/lecture/16257">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫４</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ４</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1228,7 +1228,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><a class="unit_item" href="/course/aws-2/lecture/16258">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫５</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ５</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1239,7 +1239,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫６</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ６</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview"></span>
@@ -1249,7 +1249,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></div><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫７</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ７</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview"></span>
@@ -1259,7 +1259,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></div><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫８</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ８</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview"></span>
@@ -1269,7 +1269,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></div><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫９</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ９</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview"></span>
@@ -1279,7 +1279,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></div><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">サイコだけど大丈夫１０</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">基礎韓国語Ⅰ 10</span>
 </div>
 <div class="unit_item_right">
   

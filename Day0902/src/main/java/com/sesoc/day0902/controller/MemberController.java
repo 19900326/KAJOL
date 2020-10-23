@@ -44,4 +44,27 @@ public class MemberController {
 		
 		return "member/loginForm";
 	}
+	
+	@RequestMapping(value="/myPage", method=RequestMethod.GET)
+	public String myPage() {
+		
+		logger.info("마이페이지 이동");
+		
+		return "member/Mypage";
+	}
+	
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public String memberLogin(MemberVO member) {
+		
+		String page = service.memberLogin(member);
+		
+		return page;
+	}
+	
+	@RequestMapping(value = "/logout", method = RequestMethod.GET)
+	public String memberLogout() {
+		service.memberLogout();
+		
+		return "redirect:/homepage";
+	}
 }

@@ -21,4 +21,15 @@
 			)
 	</insert>
 	
+	<select id="memberSelectOne" parameterType="string" resultType="member">
+		select
+			mbr_email
+			,mbr_usernm
+			,mbr_pwd
+		from
+			tb_mbr_mng
+		where
+			mbr_email = #{mbr_email}
+	
+	</select>
 </mapper>

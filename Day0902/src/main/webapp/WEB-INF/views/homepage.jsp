@@ -14,10 +14,7 @@
 </style>
   <meta charset="utf-8" />
   
-  <!--<meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-  />-->
+  
   <meta name="viewport" content="height=device-height, 
                       width=device-width, initial-scale=1.0, 
                       minimum-scale=1.0, maximum-scale=1.0, 
@@ -135,14 +132,6 @@
   
   <script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/polyfills.e543bd5d30d0a3983a58.js" nomodule></script>
   <script type="text/javascript" src="https://unpkg.com/element-closest/browser" nomodule></script>
-  <script>
-    dataLayer = [
-      { 
-        userId: 'null' || null,
-        user_info : {},
-      },
-    ];
-  </script>
 
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -207,28 +196,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
 <ul class="navbar-dropdown is-boxed">
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語1</a>
+    <a class="navbar-item" href="/class/classBasic1">基礎韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語2</a>
+    <a class="navbar-item" href="/class/classBasic2">基礎韓国語2</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語1</a>
+    <a class="navbar-item" href="/class/classMiddle1">中級韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語2</a>
+    <a class="navbar-item" href="/class/classMiddle2">中級韓国語2</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語1</a>
+    <a class="navbar-item" href="/class/classHigh1">高級韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語2</a>
+    <a class="navbar-item" href="/class/classHigh2">高級韓国語2</a>
   </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">ドラマで学ぶ韓国語</a>
+    <a class="navbar-item" href="/class/classDrama">ドラマで学ぶ韓国語</a>
   </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">TOPIC</a>
+    <a class="navbar-item" href="/courses/it-programming">TOPIK</a>
   </li>
 </ul>
           </div>
@@ -236,21 +225,133 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="navbar-right">
           
   <div class="search search_bar navbar-item header_search">
-    <input type="text" class="input" placeholder="">
+    <input type="text" class="input"　placeholder="">
     <i class="far fa-search"></i>
   </div>
-          
-  <div class="navbar-item buttons">
-    <a role="/loginInsert" class="button">ログイン</a>
-    <a href="/member/signUp" class="button space-inset-4 is-primary">会員登録</a>
-  </div>
+  
+  <ul>
+  	<c:choose>
+  	<c:when test="${not empty sessionScope.loginId }">
+  		<div class="navbar-item">
+    		<span class="profile_hoverable">
+     		 <span class="profile_cover e_profile_modal_btn nav-modal-btn">
+        		<a href="/member/myPage">
+          <img src="/resources/img/태극무늬.png" alt="profile_img">
+        	</a>
+      	</span>
+     	 <div class="profile_modal_cover has_bubble nav-modal-cover">
+     	 <div class="profile_modal">
+    	<div class="close_content">
+     		 <span class="e_close_btn" data-type="close">
+        	<span class="icon"><i class="fal fa-times"></i></span>
+      		</span>
+      	<a class="message-icon-cover" href="/messages">
+        	<span class="icon"><i class="fal fa-bell"></i></span>
+       	 <span class="new-message-mark"></span>
+     	 </a>
+    </div>
+  	
+  		<div class="info_content">
+      		<div class="user_content">
+       			<div class="left_content">
+        			 <div class="thumbnail">
+           				 <img src="/resources/img/태극무늬.png" alt="profile_img">
+            			 <a href="/settings/account">設定</a>
+          			</div>
+        		</div>
+       			<div class="right_content">
+          			<a href="/member/myPage"><span class="name">${sessionScope.loginId }</span><span class="icon"><i class="fas fa-chevron-right"></i></span></a>
+          			<div class="policy">学生</div>
+        		</div>
+      		</div>
+    	</div>
+    	
+    <div class="menu_content">
+      <div class="tab_content">
+        <span class="tab_menu active" data-id="0">学生</span>
+      </div>
+      <div class="list_content">
+        <div class="tab_list active" data-id="0">
+	        <div class="list_el">
+		      <a href="/chobo" class="title">
+		        <span class="icon"><i class="fal fa-search-location"></i></span> <span class="name">お勧めの講義検索</span>
+		      </a>
+	    	</div>
+    	<div class="list_el">
+	      <a href="/my-courses" class="title">
+	        <span class="icon"><i class="fal fa-books"></i></span> <span class="name">マイ講義</span>
+	      </a>
+    	</div>
+    	<div class="list_el">
+	      <a href="/my-questions" class="title">
+	        <span class="icon"><i class="fal fa-comment-alt-edit"></i></span> <span class="name">マイ質問返事</span>
+	      </a>
+    	</div>
+    	<div class="list_el">
+	      <a href="/my-notes" class="title">
+	        <span class="icon"><i class="fal fa-pen"></i></span> <span class="name">講義ノート</span>
+	      </a>
+	    </div>
+	    <div class="list_el dropdown_el">
+	      <div class="title">
+	        <span class="icon"><i class="fal fa-ellipsis-h-alt"></i></span> <span class="name">もっと</span>
+	        <span class="caret_el">
+	          <span class="icon"><i class="fas fa-chevron-down"></i></span>
+	          <span class="icon"><i class="fas fa-chevron-up"></i></span>
+	        </span>
+	      </div>
+      	  <div class="sub_list">
+        	<div class="list_el">
+		      <a href="/my-inquiries" class="title">
+		        <span class="icon"><i class="far fa-comment-alt-edit"></i></span> <span class="name">お問い合わせ内訳</span>
+		      </a>
+    		</div>
+    		<div class="list_el">
+		      <a href="/orders" class="title">
+		        <span class="icon"><i class="fal fa-receipt"></i></span> <span class="name">購買内訳</span>
+		      </a>
+    		</div>
+      	  </div>
+    	</div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="footer_content">
+      <span class="left_content">
+        <a href="/member/logout" class="link">ログアウト</a>
+      </span>
+      <span class="right_content">
+        <span class="link"><a href="/faq" class="link">カストマセンター</a><span class="icon"><i class="fal fa-chevron-right"></i></span></span>
+      </span>
+    </div>
+  
+	<div class="sidebar_dimmed" data-type="close"></div>
+   		
+   		
+  	</c:when>
+  	<c:otherwise>
+  		<div class="navbar-item buttons">
+    		<a href="/member/loginForm" class="button">ログイン</a>
+    		<a href="/member/signUp" class="button space-inset-4 is-primary">会員登録</a>
+  		</div>
+  	</c:otherwise>
+  	</c:choose>
+  </ul>
+  
         </div>
       </div>
     </div>
   </div>
   </nav>
 </header>
+	<aside class="mobile_left_aside">
 
+  <div class="search search_bar header_search e_header_search">
+    <input type="text" class="input" placeholder="강의/강사명을 입력해주세요">
+    <i class="far fa-search"></i>
+  </div>
+</aside>
       <main id="main">
     <section id="pg___main" class="infD_flow">
       
@@ -281,7 +382,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
         </a>
       
-        <a class="scene swiper-slide" href="/class/drama">
+        <a class="scene swiper-slide" href="/class/classDrama">
           <div
             class="scene_content"
             style="background-color: #685849"
@@ -515,7 +616,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="main_course_list">
       <div class="header">
         <div class="courses_header">
-          <a href="/courses?level=level-1&view=list&order=popular"><h1 class="title is-4 is-spaced">
+          <a href="/class/classMain"><h1 class="title is-4 is-spaced">
     ここから始めよう!
     <span class="courses_tag">Ready!!</span>
     <span class="icon"><i class="fal fa-angle-right"></i></span>
@@ -563,7 +664,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/classBasic1">
+    <a href="/class/classBasic1">
       <p class="course_title">基礎韓国語1 - 始めから学ぶ, ハンゲーム</p>
       <p class="course_description">韓国語の初心者向けの講義です。</p>
       <div class="back_course_metas">
@@ -607,7 +708,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/classBasic2" >
+    <a href="/class/classBasic2" >
       <p class="course_title">基礎韓国語2 - どんどん進んでいきましょう。</p>
       <p class="course_description">多様な状況を通じで役に立つ表現を勉強しましょう。</p>
       <div class="back_course_metas">
@@ -832,7 +933,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/인프런-오리지널-프로그래밍-3종-원티드" >
+    <a href="/class/classDrama" >
       <p class="course_title">ドラマで学ぶ韓国語</p>
       <p class="course_description">人気の韓流ドラマで楽しく自然な韓国語の表現を身に着けましょう。</p>
       <div class="back_course_metas">
@@ -851,11 +952,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <a class="course_card_front" href="/course/유니티-MMORPG-개발-part1" >
     <div class="card-image">
       <figure class="image is_thumbnail">
-        
-  <img
+       
+        <img
     loading="lazy"
-    src="/resources/img/KAJOLLOGO.png"
-    data-src="/resources/img/KAJOLLOGO.png"
+    src="/resources/img/TOPIK.jpg"
+    data-src="/resources/img/TOPIK.jpg"
     class="swiper-lazy"
     alt="rookiss-rpg-1.png"
   />
@@ -867,19 +968,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </figure>
     </div>
     <div class="card-content">
-      <div class="course_title">新たな講義</div>
-      <div class="instructor">先生</div>
+      <div class="course_title">TOPIK</div>
+      <div class="instructor">イミノ・ソンヒョンギ</div>
       <div class="rating">
-        <div class='rating_star'><div class='star_solid' style="width: 0%"><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></pathg></div><span class="review_cnt">(0)</span>
+        <div class='rating_star'><div class='star_solid' style="width: 95.8%"><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></pathg></div><span class="review_cnt">(128)</span>
       </div>
       <div class="price">フリー</div>
     </div>
   </a>
   <div class="course_card_back">
-    <a href="/course/유니티-MMORPG-개발-part1" >
-      <p class="course_title">新たな講義</p>
-      <p class="course_description">講義の紹介
+    <a href="/class/classTopik" >
+      <p class="course_title">TOPIK</p>
+      <p class="course_description">今まで鍛えてきた韓国語をTOPIKで証明しましょう！</p>
 </p>
+        
       <div class="back_course_metas">
         <div class="course_level">
           <span><svg width="16" aria-hidden="true" data-prefix="fal" data-icon="signal-alt" class="svg-inline--fa fa-signal-alt fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M576 32v448h-32V32h32M416 160v320h-32V160h32M256 288v192h-32V288h32M96 416v64H64v-64h32M576 0h-32c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32zM416 128h-32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zM256 256h-32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V288c0-17.67-14.33-32-32-32zM96 384H64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32z"></path></svg>입문</span>
@@ -1109,7 +1211,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   			var sl = $("span[data-id='87']");
   			console.log(sl);
   			sl.innerHTML = "KAJOLとは";
-  			
   	  	});
   	</script>
   </body>

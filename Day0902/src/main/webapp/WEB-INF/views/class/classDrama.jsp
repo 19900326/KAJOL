@@ -66,7 +66,7 @@
   <link rel="dns-prefetch" href="//f.vimeocdn.com" />
 
   
-    <title>ドラマで学ぶ韓国語</title>
+    <title>KAJOL - ドラマで学ぶ韓国語</title>
     <meta name="description" content="이 수업은 클라우드 서비스인 AWS(Amazon Web Services)의 기본적인 사용법과 파일의 저장공간을 제공하는 S3를 다루고 있는 수업입니다.   초급 인프라 AWS 클라우드  온라인 강의 AWS, AWS 강의, 클라우드 강의">
     <meta name="robots" content="all">
     
@@ -251,28 +251,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
 <ul class="navbar-dropdown is-boxed">
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語1</a>
+    <a class="navbar-item" href="/class/basic1">基礎韓国語1</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語2</a>
+    <a class="navbar-item" href="/class/basic2">基礎韓国語2</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語1</a>
+    <a class="navbar-item" href="/class/middle1">中級韓国語1</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語2</a>
+    <a class="navbar-item" href="/class/middle2">中級韓国語2</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語1</a>
+    <a class="navbar-item" href="/class/high1">高級韓国語1</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語2</a>
+    <a class="navbar-item" href="/class/high2">高級韓国語2</a>
    </li>
    <li>
-    <a class="navbar-item" href="/class">ドラマで学ぶ韓国語</a>
+    <a class="navbar-item" href="/class/drama">ドラマで学ぶ韓国語</a>
    </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">TOPIK</a>
+    <a class="navbar-item" href="/class/topik">TOPIK</a>
    </li>
       
   
@@ -1138,7 +1138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 <section class="course_description_container">
-  <div class="tabs"><ul class="container"><li class="tabs_li description is-active"><a href="/course/aws-2#">講義紹介</a></li><li class="tabs_li curriculum "><a href="/course/aws-2#curriculum">教育課程</a></li><li class="tabs_li reviews "><a href="/course/aws-2#reviews">受講レビュー</a></li><li class="tabs_li news "><a href="/course/aws-2/news">新しいお知らせ</a></li></ul></div>
+  <div class="tabs"><ul class="container"><li class="tabs_li description is-active"><a href="/course/aws-2#">講義紹介</a></li><li class="tabs_li curriculum "><a href="/course/aws-2#curriculum">教育課程</a></li><li class="tabs_li reviews "><a href="/course/aws-2#reviews">受講レビュー</a></li></ul></div>
   <div class="container">
   <div class="course_description">
     <div class="columns">

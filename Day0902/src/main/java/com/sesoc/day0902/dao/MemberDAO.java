@@ -24,4 +24,17 @@ public class MemberDAO {
 		
 		return cnt;
 	}
+
+	public MemberVO memberSelectOne(String mbr_email) {
+		MemberMapper mapper = session.getMapper(MemberMapper.class);
+		MemberVO member = null;
+		
+		try {
+			member = mapper.memberSelectOne(mbr_email);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return member;
+	}
 }

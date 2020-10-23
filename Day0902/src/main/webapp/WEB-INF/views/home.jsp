@@ -37,19 +37,9 @@
 
 <a href="/art">art.jsp로 이동하기</a>
 
-<a href="/Mypage">Mypage.jsp로 이동하기</a>
-
-<a href="/loginInsert">login.jsp로 이동하기</a>
-
 <a href="/member/signUp">회원가입 이동하기</a>
 
-<a href="/Mypage">Mypage.jsp로 이동하기</a>
-
-<a href="/drama">ドラマで学ぶ韓国語로 이동하기</a>
-
-<a href="/middle1">中級韓国語1로 이동하기</a>
-
-<a href="/middle2">中級韓国語2로 이동하기</a>
+<a href="/member/myPage">Mypage.jsp로 이동하기</a>
 
 <a href="/Study">Study.jsp로 이동하기</a>
 
