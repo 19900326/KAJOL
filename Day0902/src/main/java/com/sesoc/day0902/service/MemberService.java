@@ -13,10 +13,9 @@ public class MemberService {
 
 	@Autowired
 	private MemberDAO dao;
-
-	/*
-	 * @Autowired private HttpSession session;
-	 */
+	
+	@Autowired private HttpSession session;
+	
 
 	public String join(MemberVO member) {
 		int cnt = dao.join(member);
@@ -30,6 +29,23 @@ public class MemberService {
 		}
 		
 		return page;
+	}
+
+	public String memberLogin(MemberVO member) {
+		MemberVO loginCheck = dao.memberSelectOne(member.getMbr_email());
+		String page = "";
+		
+		if (loginCheck != null && loginCheck.getMbr_pwd().equals(member.getMbr_pwd())) {
+			session.setAttribute("loginId", loginCheck.getMbr_email());
+			page = "redirect:/homepage";
+		} else {
+			page = "redirect:/member/loginForm";
+		}
+				return page;
+	}
+
+	public void memberLogout() {
+		session.removeAttribute("loginId");
 	}
 }
 

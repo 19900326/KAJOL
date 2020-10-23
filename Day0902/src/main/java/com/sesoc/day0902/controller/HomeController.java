@@ -83,17 +83,6 @@ public class HomeController {
 		return "art";
 	}
 	
-	@RequestMapping(value = "/Mypage", method = RequestMethod.GET)
-	public String Mypage() {
-		return "Mypage";
-	}
-	
-	@RequestMapping(value = "/loginInsert", method = RequestMethod.GET)
-	public String loginInsert() {
-		return "loginInsert";
-	}
-	
-
 	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
 	public String signUp() {
 		return "signUp";
@@ -104,5 +93,14 @@ public class HomeController {
 		return "findPwd";
 	}
 	
+	@RequestMapping(value = "/Study", method = RequestMethod.GET)
+	public String Study() {
+		return "Study";
+	}
+	
+	@RequestMapping(value = "/loginInsert", method = RequestMethod.GET)
+	public String loginInsert() {
+		return "loginInsert";
+	}
 	
 }

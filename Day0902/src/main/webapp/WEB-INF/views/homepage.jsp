@@ -14,10 +14,7 @@
 </style>
   <meta charset="utf-8" />
   
-  <!--<meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-  />-->
+  
   <meta name="viewport" content="height=device-height, 
                       width=device-width, initial-scale=1.0, 
                       minimum-scale=1.0, maximum-scale=1.0, 
@@ -135,14 +132,6 @@
   
   <script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/polyfills.e543bd5d30d0a3983a58.js" nomodule></script>
   <script type="text/javascript" src="https://unpkg.com/element-closest/browser" nomodule></script>
-  <script>
-    dataLayer = [
-      { 
-        userId: 'null' || null,
-        user_info : {},
-      },
-    ];
-  </script>
 
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -207,25 +196,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
 <ul class="navbar-dropdown is-boxed">
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語1</a>
+    <a class="navbar-item" href="/class/classBasic1">基礎韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">基礎韓国語2</a>
+    <a class="navbar-item" href="/class/classBasic2">基礎韓国語2</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語1</a>
+    <a class="navbar-item" href="/class/classMiddle1">中級韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">中級韓国語2</a>
+    <a class="navbar-item" href="/class/classMiddle2">中級韓国語2</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語1</a>
+    <a class="navbar-item" href="/class/classHigh1">高級韓国語1</a>
   </li>
   <li>
-    <a class="navbar-item" href="/courses/it-programming">高級韓国語2</a>
+    <a class="navbar-item" href="/class/classHigh2">高級韓国語2</a>
   </li>
    <li>
-    <a class="navbar-item" href="/courses/it-programming">ドラマで学ぶ韓国語</a>
+    <a class="navbar-item" href="/class/classDrama">ドラマで学ぶ韓国語</a>
   </li>
    <li>
     <a class="navbar-item" href="/courses/it-programming">TOPIK</a>
@@ -236,21 +225,133 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="navbar-right">
           
   <div class="search search_bar navbar-item header_search">
-    <input type="text" class="input" placeholder="">
+    <input type="text" class="input"　placeholder="">
     <i class="far fa-search"></i>
   </div>
-          
-  <div class="navbar-item buttons">
-    <a role="/loginInsert" class="button">ログイン</a>
-    <a href="/member/signUp" class="button space-inset-4 is-primary">会員登録</a>
-  </div>
+  
+  <ul>
+  	<c:choose>
+  	<c:when test="${not empty sessionScope.loginId }">
+  		<div class="navbar-item">
+    		<span class="profile_hoverable">
+     		 <span class="profile_cover e_profile_modal_btn nav-modal-btn">
+        		<a href="/member/myPage">
+          <img src="/resources/img/태극무늬.png" alt="profile_img">
+        	</a>
+      	</span>
+     	 <div class="profile_modal_cover has_bubble nav-modal-cover">
+     	 <div class="profile_modal">
+    	<div class="close_content">
+     		 <span class="e_close_btn" data-type="close">
+        	<span class="icon"><i class="fal fa-times"></i></span>
+      		</span>
+      	<a class="message-icon-cover" href="/messages">
+        	<span class="icon"><i class="fal fa-bell"></i></span>
+       	 <span class="new-message-mark"></span>
+     	 </a>
+    </div>
+  	
+  		<div class="info_content">
+      		<div class="user_content">
+       			<div class="left_content">
+        			 <div class="thumbnail">
+           				 <img src="/resources/img/태극무늬.png" alt="profile_img">
+            			 <a href="/settings/account">設定</a>
+          			</div>
+        		</div>
+       			<div class="right_content">
+          			<a href="/member/myPage"><span class="name">${sessionScope.loginId }</span><span class="icon"><i class="fas fa-chevron-right"></i></span></a>
+          			<div class="policy">学生</div>
+        		</div>
+      		</div>
+    	</div>
+    	
+    <div class="menu_content">
+      <div class="tab_content">
+        <span class="tab_menu active" data-id="0">学生</span>
+      </div>
+      <div class="list_content">
+        <div class="tab_list active" data-id="0">
+	        <div class="list_el">
+		      <a href="/chobo" class="title">
+		        <span class="icon"><i class="fal fa-search-location"></i></span> <span class="name">お勧めの講義検索</span>
+		      </a>
+	    	</div>
+    	<div class="list_el">
+	      <a href="/my-courses" class="title">
+	        <span class="icon"><i class="fal fa-books"></i></span> <span class="name">マイ講義</span>
+	      </a>
+    	</div>
+    	<div class="list_el">
+	      <a href="/my-questions" class="title">
+	        <span class="icon"><i class="fal fa-comment-alt-edit"></i></span> <span class="name">マイ質問返事</span>
+	      </a>
+    	</div>
+    	<div class="list_el">
+	      <a href="/my-notes" class="title">
+	        <span class="icon"><i class="fal fa-pen"></i></span> <span class="name">講義ノート</span>
+	      </a>
+	    </div>
+	    <div class="list_el dropdown_el">
+	      <div class="title">
+	        <span class="icon"><i class="fal fa-ellipsis-h-alt"></i></span> <span class="name">もっと</span>
+	        <span class="caret_el">
+	          <span class="icon"><i class="fas fa-chevron-down"></i></span>
+	          <span class="icon"><i class="fas fa-chevron-up"></i></span>
+	        </span>
+	      </div>
+      	  <div class="sub_list">
+        	<div class="list_el">
+		      <a href="/my-inquiries" class="title">
+		        <span class="icon"><i class="far fa-comment-alt-edit"></i></span> <span class="name">お問い合わせ内訳</span>
+		      </a>
+    		</div>
+    		<div class="list_el">
+		      <a href="/orders" class="title">
+		        <span class="icon"><i class="fal fa-receipt"></i></span> <span class="name">購買内訳</span>
+		      </a>
+    		</div>
+      	  </div>
+    	</div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="footer_content">
+      <span class="left_content">
+        <a href="/member/logout" class="link">ログアウト</a>
+      </span>
+      <span class="right_content">
+        <span class="link"><a href="/faq" class="link">カストマセンター</a><span class="icon"><i class="fal fa-chevron-right"></i></span></span>
+      </span>
+    </div>
+  
+	<div class="sidebar_dimmed" data-type="close"></div>
+   		
+   		
+  	</c:when>
+  	<c:otherwise>
+  		<div class="navbar-item buttons">
+    		<a href="/member/loginForm" class="button">ログイン</a>
+    		<a href="/member/signUp" class="button space-inset-4 is-primary">会員登録</a>
+  		</div>
+  	</c:otherwise>
+  	</c:choose>
+  </ul>
+  
         </div>
       </div>
     </div>
   </div>
   </nav>
 </header>
+	<aside class="mobile_left_aside">
 
+  <div class="search search_bar header_search e_header_search">
+    <input type="text" class="input" placeholder="강의/강사명을 입력해주세요">
+    <i class="far fa-search"></i>
+  </div>
+</aside>
       <main id="main">
     <section id="pg___main" class="infD_flow">
       
@@ -515,7 +616,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="main_course_list">
       <div class="header">
         <div class="courses_header">
-          <a href="/courses?level=level-1&view=list&order=popular"><h1 class="title is-4 is-spaced">
+          <a href="/class/classMain"><h1 class="title is-4 is-spaced">
     ここから始めよう!
     <span class="courses_tag">Ready!!</span>
     <span class="icon"><i class="fal fa-angle-right"></i></span>
@@ -1109,7 +1210,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   			var sl = $("span[data-id='87']");
   			console.log(sl);
   			sl.innerHTML = "KAJOLとは";
-  			
   	  	});
   	</script>
   </body>

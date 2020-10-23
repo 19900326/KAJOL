@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping(value="/class")
 public class ClassController {
 
+	@RequestMapping(value = "/classMain", method = RequestMethod.GET)
+	public String classMain() {
+		return "class/classMain";
+	}
+	
 	@RequestMapping(value = "/drama", method = RequestMethod.GET)
 	public String Drama() {
 		return "class/classDrama";
