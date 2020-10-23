@@ -66,7 +66,7 @@
   <link rel="dns-prefetch" href="//f.vimeocdn.com" />
 
   
-    <title>KAJOL - 中級韓国語1</title>
+    <title>KAJOL - 高級韓国語1</title>
     <meta name="description" content="이 수업은 클라우드 서비스인 AWS(Amazon Web Services)의 기본적인 사용법과 파일의 저장공간을 제공하는 S3를 다루고 있는 수업입니다.   초급 인프라 AWS 클라우드  온라인 강의 AWS, AWS 강의, 클라우드 강의">
     <meta name="robots" content="all">
     
@@ -1078,11 +1078,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="infd-column is-8">
           <div class="left-box">
             <div class="thumbnail-container ">
-              <img src="/resources/img/중급.png" alt="中級韓国語1">
+              <img src="/resources/img/고급.png" alt="高級韓国語1">
               
             </div>
             <div class="description-container">
-              <div class="title">中級韓国語1</div>
+              <div class="title">高級韓国語1</div>
               <div class="desc-cover">
                 <div class="desc-row">
                   <span class="desc-label is-hidden-mobile">受講<br>情報</span>
@@ -1148,7 +1148,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
     <div class="course_summary description_sub">
       <h4 class="sub_heading has-icon ">この講義は <i class="far fa-lightbulb-on"></i></h4>
-    この講義は中級韓国語を通して韓国語を学ぶ講義です。 
+    この講義は高級韓国語を通して韓国語を学ぶ講義です。 
     </div>
             
             <div class="body" itemprop="articleBody"><div><iframe src="https://www.youtube.com/embed/YmHgw4RY-74?rel=0&amp;modestbranding=1&amp;vq=hd720" width="768" height="432" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
@@ -1175,7 +1175,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="section_header_left">
           <span class="section_header_icon plus"><i class="fa fa-plus"></i></span>          
           <span class="section_header_icon minus"><i class="fa fa-minus"></i></span>
-          <span class="unit_title">中級韓国語Ⅰ ページ</span>
+          <span class="unit_title">高級韓国語Ⅰ ページ</span>
         </div>
         <div class="section_header_right is-hidden-mobile">
           <span class="unit_length">10講義</span>
@@ -1184,7 +1184,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       <div class="lecture_cover"><a class="unit_item" href="/course/aws-2/lecture/16254">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ１</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ１</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1195,7 +1195,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><a class="unit_item" href="/course/aws-2/lecture/16255">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ２</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ２</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1206,7 +1206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><a class="unit_item" href="/course/aws-2/lecture/16256">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ３</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ３</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1217,7 +1217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><a class="unit_item" href="/course/aws-2/lecture/16257">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ４</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ４</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1228,7 +1228,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><a class="unit_item" href="/course/aws-2/lecture/16258">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ５</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ５</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview">
@@ -1239,7 +1239,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></a><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ６</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ６</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview"></span>
@@ -1249,7 +1249,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></div><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ７</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ７</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview"></span>
@@ -1259,7 +1259,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></div><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ８</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ８</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview"></span>
@@ -1269,7 +1269,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></div><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ９</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ９</span>
 </div>
 <div class="unit_item_right">
   <span class="unit_preview"></span>
@@ -1279,7 +1279,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="unit_time is-hidden-mobile"><i class="far fa-clock"></i>60 : 00</span>
 </div></div><div class="unit_item">
 <div class="unit_item_left">
-  <i class="fal fa-play-circle"></i><span class="unit_title">中級韓国語Ⅰ 10</span>
+  <i class="fal fa-play-circle"></i><span class="unit_title">高級韓国語Ⅰ 10</span>
 </div>
 <div class="unit_item_right">
   
