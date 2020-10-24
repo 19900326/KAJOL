@@ -278,7 +278,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		      </a>
 	    	</div>
     	<div class="list_el">
-	      <a href="/my-courses" class="title">
+	      <a href="/class/classDrama" class="title">
 	        <span class="icon"><i class="fal fa-books"></i></span> <span class="name">マイ講義</span>
 	      </a>
     	</div>

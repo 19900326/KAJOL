@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE html>
 <html lang="ko-KR">
@@ -142,7 +142,7 @@
   <link rel="dns-prefetch" href="//f.vimeocdn.com" />
 
   
-    <title>인프런 - 클라우드 서비스 AWS | 가격</title>
+    <title>学習 - ドラマで学ぶ日本語</title>
     <meta name="description" content="  AWS, AWS 강의, 클라우드 강의    ">
     <meta name="robots" content="all">
     
@@ -242,7 +242,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="course-content active">
       <div class="course-desktop-header is-hidden-mobile">
         <span class="header-buttons">
-          <a class="arrow-button has-icon" href="/course/aws-2/dashboard">
+          <a class="arrow-button has-icon" href="/class/classDrama">
             <span class="infd-icon"><svg width="14" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path fill="#ffffff"fill-rule="evenodd" d="M12.031 7h-.437c-.121 0-.219.098-.219.219v5.468c0 .242-.196.438-.438.438H1.313c-.242 0-.438-.196-.438-.438V3.063c0-.242.196-.438.438-.438H6.78c.121 0 .219-.098.219-.219V1.97c0-.121-.098-.219-.219-.219H1.313C.588 1.75 0 2.338 0 3.063v9.624C0 13.412.588 14 1.313 14h9.624c.725 0 1.313-.588 1.313-1.313V7.22c0-.121-.098-.219-.219-.219zm1.64-7L9.954.01c-.181 0-.328.146-.328.327v.274c0 .181.147.328.328.328l2.461-.01.02.02-8.838 8.836c-.062.062-.097.145-.097.233 0 .087.035.17.097.232l.155.155c.061.062.145.096.232.096.087 0 .171-.034.233-.096l8.835-8.837.02.019-.01 2.461c0 .181.147.328.328.328h.274c.18 0 .328-.147.328-.328L14 .328C14 .147 13.853 0 13.672 0z"/></svg></span> 講義ダッシュボード
           </a>
           <span class="unit-title">講座</span>
@@ -275,29 +275,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
           </div>
-          <div class="buttons">
-            
-            <a href="/course/aws-2/dashboard" class="button-cover">
-              <span class="infd-icon"><svg width="18" aria-hidden="true" focusable="false" data-prefix="far" data-icon="external-link" class="svg-inline--fa fa-external-link fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#212529"fill="currentColor" d="M497.6,0,334.4.17A14.4,14.4,0,0,0,320,14.57V47.88a14.4,14.4,0,0,0,14.69,14.4l73.63-2.72,2.06,2.06L131.52,340.49a12,12,0,0,0,0,17l23,23a12,12,0,0,0,17,0L450.38,101.62l2.06,2.06-2.72,73.63A14.4,14.4,0,0,0,464.12,192h33.31a14.4,14.4,0,0,0,14.4-14.4L512,14.4A14.4,14.4,0,0,0,497.6,0ZM432,288H416a16,16,0,0,0-16,16V458a6,6,0,0,1-6,6H54a6,6,0,0,1-6-6V118a6,6,0,0,1,6-6H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V304A16,16,0,0,0,432,288Z"></path></svg></span>
-              <span class="caption">나가기</span>
-            </a>
-            <div class="button-cover e-review">
-    <span class="infd-icon"><svg width="22" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#212529"fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></span>
-    <span class="caption">수강평</span>
-  </div>
-            <div class="button-cover complete-button disabled">
-    <span class="infd-icon"><svg width="19" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 14"><path fill="#212529"fill-rule="evenodd" d="M16.08.14L5.725 10.599 1.92 6.756c-.185-.187-.484-.187-.668 0L.138 7.88c-.184.187-.184.489 0 .675l5.253 5.305c.184.187.483.187.668 0L17.862 1.94c.184-.187.184-.49 0-.676L16.748.14c-.184-.187-.483-.187-.668 0z"/></svg></span>
-    <span class="caption">봤어요</span>
-  </div>
-            <div class="button-cover e-move-button" data-type="prev">
-    <span class="infd-icon"><svg width="18" aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#212529"fill="currentColor" d="M229.9 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L94.569 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H94.569l155.13-155.13c4.686-4.686 4.686-12.284 0-16.971L229.9 38.101c-4.686-4.686-12.284-4.686-16.971 0L3.515 247.515c-4.686 4.686-4.686 12.284 0 16.971L212.929 473.9c4.686 4.686 12.284 4.686 16.971-.001z"></path></svg></span>
-    <span class="caption">이전수업</span>
-  </div> 
-            <div class="button-cover e-move-button" data-type="next">
-    <span class="infd-icon"><svg width="18" aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#212529"fill="currentColor" d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></span>
-    <span class="caption">다음수업</span>
-  </div> 
-          </div>
         </div>
         
           <div class="note-content"><div class="note markdown-body"> 
@@ -318,7 +295,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
   <div class="aside-content" data-loading="true">
 <div class="info-content">
-  <div class="title">サイコだけど大丈夫</div>
+  <div class="title">ドラマで学ぶ日本語</div>
    
   <div class="progress-cover">
   <div class="terms">受講期限 　:　 無制限</div>
@@ -330,7 +307,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div> 
 <div class="list-content e-border-scroll-content">
   <div class="curriculum-list">
-  	<div class="section-el">サイコだけど大丈夫</div>
+  	<div class="section-el">ドラマで学ぶ日本語</div>
   		<div class="unit-el   is-completed" data-id="16254">
   			<div class="complete-check-cover">
     			<span class="infd-icon circle">
@@ -354,6 +331,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   			</div>
   			<div class="download-cover"></div>
 		</div>
+		
+		
 		<div class="unit-el   is-completed" data-id="16255">
   			<div class="complete-check-cover">
     			<span class="infd-icon circle">
@@ -504,34 +483,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        
     </div>
   </div>
-  <div class="download-cover">
-  
-  </div>
-</div><div class="unit-el   " data-id="16264">
-  <div class="complete-check-cover">
-  </div>
-  <div class="title-cover">
-    <div class="unit-info">
-      
-       
-    </div>
-  </div>
-  <div class="download-cover">
-  
-  </div>
-</div><div class="unit-el   " data-id="16265">
-  <div class="complete-check-cover">
-  </div>
-  <div class="title-cover">
-    <div class="unit-info">
-      
-       
-    </div>
-  </div>
-  <div class="download-cover">
-  
-  </div>
-</div><div class="unit-el   " data-id="16266">
+</div>
+<div class="unit-el   " data-id="16266">
   <div class="complete-check-cover">
   </div>
   <div class="title-cover">

@@ -1,10 +1,22 @@
-CREATE TABLE "tb_mbr_mng" (
-   "mbr_seq"        int      NOT NULL,
-   "mbr_email"      varchar2(100)   NOT NULL,
-   "mbr_pwd"        varchar2(40)    NOT NULL,
-   "mbr_usernm"     varchar2(50)    NOT NULL,
-   "mbr_birth"      varchar2(10)    NOT NULL,
-   "mbr_indate"     Date            default sysdate
+CREATE TABLE tb_mbr_mng (
+   mbr_seq        int      NOT NULL,
+   mbr_email      varchar2(100)   NOT NULL,
+   mbr_pwd      varchar2(40)    NOT NULL,
+   mbr_usernm     varchar2(50)    NOT NULL,
+   mbr_birth      varchar2(10)    NOT NULL,
+   mbr_indate     Date            default sysdate
 );
 
-create sequence mbr_seq nocache;
+CREATE TABLE tb_memo (
+   memo_seq    int      NOT NULL,
+   reg_id   varchar2(100) not null REFERENCES tb_mbr_mng(mbr_email),
+   memo_content   varchar2(1000)   NULL,
+   reg_dt   date   default sysdate
+);
+
+ALTER TABLE tb_memo ADD CONSTRAINT PK_TB_MEMO PRIMARY KEY (
+   memo_seq
+);
+
+create sequence memo_seq nocache;
+
