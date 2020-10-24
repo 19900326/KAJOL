@@ -1093,12 +1093,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="float-buttons">
       <div class="buy-box">
         <div class="price-cover">
-          <div class="price-box"><span class="price">無料</span></div>
+          <div class="price-box"><span class="price">勉強しよう。</span></div>
         </div>
         <div class="buttons-cover">
-          
-          <button class="infd-button is-primary-500 full-width float-button e-float-button" data-type="learn">学習する</button>
-          <div class="sub-button-cover is-free">
+          			<ul>
+          				<c:choose>
+          					<c:when test="${not empty sessionScope.loginId }">
+          						<button class="infd-button is-primary-500 full-width float-button e-float-button" data-type="learn" onClick="window.open('http://localhost:9999/Study?tab=note')">学習する</button>
+          					</c:when>
+          					
+          					<c:otherwise>
+          						<button class="infd-button is-primary-500 full-width float-button e-float-button" data-type="learn" onclick="alert('ログインしてください。')">学習する</button>
+          					</c:otherwise>
+          				</c:choose>
+          			</ul>
+          			
+    
+    
+    <div class="sub-button-cover is-free">
     <button class="infd-button is-basic-gray300 is-stroke has-icon add-playlist e-add-playlist">
       <span class="infd-icon"><svg width="16" fill="#343a40" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus-square" class="svg-inline--fa fa-plus-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#343a40"fill="currentColor" d="M400 64c8.8 0 16 7.2 16 16v352c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V80c0-8.8 7.2-16 16-16h352m0-32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-60 206h-98v-98c0-6.6-5.4-12-12-12h-12c-6.6 0-12 5.4-12 12v98h-98c-6.6 0-12 5.4-12 12v12c0 6.6 5.4 12 12 12h98v98c0 6.6 5.4 12 12 12h12c6.6 0 12-5.4 12-12v-98h98c6.6 0 12-5.4 12-12v-12c0-6.6-5.4-12-12-12z"></path></svg></span>リスト追加
     </button>
