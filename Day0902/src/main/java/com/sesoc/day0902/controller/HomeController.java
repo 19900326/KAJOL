@@ -104,4 +104,6 @@ public class HomeController {
 	public String Study() {
 		return "Study";
 	}
+	
+	
 }

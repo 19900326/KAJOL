@@ -439,13 +439,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="input_container">
           <label class="atom_field">
             <span class="label visually_hidden">Eメール</span>
-             <input type="text" name="mbr_email" id="mbr_email" placeholder="Eメール">	<br>
+             Eメール<input type="text" name="mbr_email" id="mbr_email" placeholder="Eメール">	
           </label>
         </div>
         <div class="input_container">
           <label class="atom_field">
             <span class="label visually_hidden">パスワード</span>
-            <input type="password" name="mbr_pwd" id="mbr_pwd" placeholder="パスワード">	<br>
+           パスワード<input type="password" name="mbr_pwd" id="mbr_pwd" placeholder="パスワード">	
           </label>
         </div>
         <div class="button_wrapper">

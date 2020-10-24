@@ -953,7 +953,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="card-image">
       <figure class="image is_thumbnail">
        
-        <img
+    <img
     loading="lazy"
     src="/resources/img/TOPIK.jpg"
     data-src="/resources/img/TOPIK.jpg"

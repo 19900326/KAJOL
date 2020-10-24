@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE html>
 <html lang="ko-KR">
@@ -221,7 +221,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       <div class="brand_header">
         <a href="/" class="brand_logo">
-        <img src="/resources/img/KakaoTalk_20201016_112450266.png">
+        <img src="/resources/img/LOGO.png">
         </a> 
       </div>
       
@@ -230,7 +230,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      
     <span class="profile_cover e_right_aside_btn" data-type="open">
       <span class="img_cover">
-      	 <img src="/resources/img/KakaoTalk_20201016_112450266.png">
+      	 <img src="/resources/img/LOGO.png">
       </span>        
       <span class="new-message-mark"></span>
     </span>
@@ -288,123 +288,115 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
           
            
-  <div class="navbar-item">
-    
-  </div>
-  <div class="navbar-item">
-    <span class="cart_hoverable">
-      <span class="el cart_modal_btn e_cart_modal_btn nav-modal-btn">
-       
-      </span>
-      <div class="cart_modal_cover has_bubble nav-modal-cover">
-<div class="cart_modal">
-  
-  <div class="bottom_content">
-    <div class="list_content">
-      <div class="tab_list">
-      </div>
+  <ul>
+  	<c:choose>
+  	<c:when test="${not empty sessionScope.loginId }">
+  		<div class="navbar-item">
+    		<span class="profile_hoverable">
+     		 <span class="profile_cover e_profile_modal_btn nav-modal-btn">
+        		<a href="/member/myPage">
+          <img src="/resources/img/태극무늬.png" alt="profile_img">
+        	</a>
+      	</span>
+     	 <div class="profile_modal_cover has_bubble nav-modal-cover">
+     	 <div class="profile_modal">
+    	<div class="close_content">
+     		 <span class="e_close_btn" data-type="close">
+        	<span class="icon"><i class="fal fa-times"></i></span>
+      		</span>
+      	<a class="message-icon-cover" href="/messages">
+        	<span class="icon"><i class="fal fa-bell"></i></span>
+       	 <span class="new-message-mark"></span>
+     	 </a>
     </div>
-    <div class="button_content">
-      
-    </div>
-  </div>
-</div></div>
-    </span>
-  </div>
-  <div class="navbar-item">
-    <span class="message-hoverable">
-     
-      
-    </span>
-  </div>
-  <div class="navbar-item">
-    <span class="profile_hoverable">
-      <span class="profile_cover e_profile_modal_btn nav-modal-btn">
-        <a href="/dashboard">
-          <img src="https://cdn.inflearn.com/public/main/profile/default_profile.png" alt="profile_img">
-        </a>
-      </span>
-      <div class="profile_modal_cover has_bubble nav-modal-cover"><div class="profile_modal">
-    <div class="close_content">
-      <span class="e_close_btn" data-type="close">
-        <span class="icon"><i class="fal fa-times"></i></span>
-      </span>
-      <a class="message-icon-cover" href="/messages">
-        <span class="icon"><i class="fal fa-bell"></i></span>
-        <span class="new-message-mark"></span>
-      </a>
-    </div>
-    <div class="info_content">
-      <div class="user_content">
-        <div class="left_content">
-          <div class="thumbnail">
-            <img src="https://cdn.inflearn.com/public/main/profile/default_profile.png" alt="profile_img">
-            <a href="/settings/account">設置</a>
-          </div>
-        </div>
-        <div class="right_content">
-          <a href="/dashboard"><span class="name">ベジェヒョン</span><span class="icon"><i class="fas fa-chevron-right"></i></span></a>
-          <div class="policy">学生</div>
-        </div>
-      </div>
-      
-    </div>
+  	
+  		<div class="info_content">
+      		<div class="user_content">
+       			<div class="left_content">
+        			 <div class="thumbnail">
+           				 <img src="/resources/img/태극무늬.png" alt="profile_img">
+            			 <a href="/settings/account">設定</a>
+          			</div>
+        		</div>
+       			<div class="right_content">
+          			<a href="/member/myPage"><span class="name">${sessionScope.loginId }</span><span class="icon"><i class="fas fa-chevron-right"></i></span></a>
+          			<div class="policy">学生</div>
+        		</div>
+      		</div>
+    	</div>
+    	
     <div class="menu_content">
       <div class="tab_content">
         <span class="tab_menu active" data-id="0">学生</span>
       </div>
       <div class="list_content">
-        <div class="tab_list active" data-id="0"><div class="list_el">
-      <a href="/course/IBM-마인크래프트-서버/lecture/36316" class="title">
-        <span class="icon"><i class="fal fa-play-circle"></i></span> <span class="name">お勧めの講義検索</span>
-      </a>
-    </div><div class="list_el">
-      <a href="/my-courses" class="title">
-        <span class="icon"><i class="fal fa-books"></i></span> <span class="name">マイ講義</span>
-      </a>
-    </div><div class="list_el">
-      <a href="/my-list" class="title">
-        <span class="icon"><i class="fal fa-list-ul"></i></span> <span class="name">マイリスト</span>
-      </a>
-    </div><div class="list_el">
-      <a href="/my-questions" class="title">
-        <span class="icon"><i class="fal fa-comment-alt-edit"></i></span> <span class="name">マイ質問返事</span>
-      </a>
-    </div><div class="list_el">
-      <a href="/my-notes" class="title">
-        <span class="icon"><i class="fal fa-pen"></i></span> <span class="name">講義ノート</span>
-      </a>
-    </div><div class="list_el dropdown_el">
-      <div class="title">
-        <span class="icon"><i class="fal fa-ellipsis-h-alt"></i></span> <span class="name">もっと</span>
-        
+        <div class="tab_list active" data-id="0">
+	        <div class="list_el">
+		      <a href="/chobo" class="title">
+		        <span class="icon"><i class="fal fa-search-location"></i></span> <span class="name">お勧めの講義検索</span>
+		      </a>
+	    	</div>
+    	<div class="list_el">
+	      <a href="/my-courses" class="title">
+	        <span class="icon"><i class="fal fa-books"></i></span> <span class="name">マイ講義</span>
+	      </a>
+    	</div>
+    	<div class="list_el">
+	      <a href="/my-questions" class="title">
+	        <span class="icon"><i class="fal fa-comment-alt-edit"></i></span> <span class="name">マイ質問返事</span>
+	      </a>
+    	</div>
+    	<div class="list_el">
+	      <a href="/my-notes" class="title">
+	        <span class="icon"><i class="fal fa-pen"></i></span> <span class="name">講義ノート</span>
+	      </a>
+	    </div>
+	    <div class="list_el dropdown_el">
+	      <div class="title">
+	        <span class="icon"><i class="fal fa-ellipsis-h-alt"></i></span> <span class="name">もっと</span>
+	        <span class="caret_el">
+	          <span class="icon"><i class="fas fa-chevron-down"></i></span>
+	          <span class="icon"><i class="fas fa-chevron-up"></i></span>
+	        </span>
+	      </div>
+      	  <div class="sub_list">
+        	<div class="list_el">
+		      <a href="/my-inquiries" class="title">
+		        <span class="icon"><i class="far fa-comment-alt-edit"></i></span> <span class="name">お問い合わせ内訳</span>
+		      </a>
+    		</div>
+    		<div class="list_el">
+		      <a href="/orders" class="title">
+		        <span class="icon"><i class="fal fa-receipt"></i></span> <span class="name">購買内訳</span>
+		      </a>
+    		</div>
+      	  </div>
+    	</div>
       </div>
-      <div class="sub_list">
-        <div class="list_el">
-      <a href="/my-inquiries" class="title">
-        <span class="icon"><i class="far fa-comment-alt-edit"></i></span> <span class="name"></span>
-      </a>
-    </div><div class="list_el">
-      <a href="/orders" class="title">
-        <span class="icon"><i class="fal fa-receipt"></i></span> <span class="name"></span>
-      </a>
+      </div>
     </div>
-      </div>
-    </div></div>
-      </div>
-    </div>
+    
     <div class="footer_content">
       <span class="left_content">
-        <a href="/signout" class="link">ログアウト</a>
+        <a href="/member/logout" class="link">ログアウト</a>
       </span>
       <span class="right_content">
-        
         <span class="link"><a href="/faq" class="link">カストマセンター</a><span class="icon"><i class="fal fa-chevron-right"></i></span></span>
       </span>
     </div>
-  </div></div>
-    </span>
-  </div>
+  
+	<div class="sidebar_dimmed" data-type="close"></div>
+   		
+   		
+  	</c:when>
+  	<c:otherwise>
+  		<div class="navbar-item buttons">
+    		<a href="/member/loginForm" class="button">ログイン</a>
+    		<a href="/member/signUp" class="button space-inset-4 is-primary">会員登録</a>
+  		</div>
+  	</c:otherwise>
+  	</c:choose>
+  </ul>
         </div>
       </div>
     </div>
@@ -1101,12 +1093,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="float-buttons">
       <div class="buy-box">
         <div class="price-cover">
-          <div class="price-box"><span class="price">無料</span></div>
+          <div class="price-box"><span class="price">勉強しよう。</span></div>
         </div>
         <div class="buttons-cover">
-          
-          <button class="infd-button is-primary-500 full-width float-button e-float-button" data-type="learn">学習する</button>
-          <div class="sub-button-cover is-free">
+          			<ul>
+          				<c:choose>
+          					<c:when test="${not empty sessionScope.loginId }">
+          						<button class="infd-button is-primary-500 full-width float-button e-float-button" data-type="learn" onClick="window.open('http://localhost:9999/Study?tab=note')">学習する</button>
+          					</c:when>
+          					
+          					<c:otherwise>
+          						<button class="infd-button is-primary-500 full-width float-button e-float-button" data-type="learn" onclick="alert('ログインしてください。')">学習する</button>
+          					</c:otherwise>
+          				</c:choose>
+          			</ul>
+          			
+    
+    
+    <div class="sub-button-cover is-free">
     <button class="infd-button is-basic-gray300 is-stroke has-icon add-playlist e-add-playlist">
       <span class="infd-icon"><svg width="16" fill="#343a40" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus-square" class="svg-inline--fa fa-plus-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#343a40"fill="currentColor" d="M400 64c8.8 0 16 7.2 16 16v352c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V80c0-8.8 7.2-16 16-16h352m0-32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-60 206h-98v-98c0-6.6-5.4-12-12-12h-12c-6.6 0-12 5.4-12 12v98h-98c-6.6 0-12 5.4-12 12v12c0 6.6 5.4 12 12 12h98v98c0 6.6 5.4 12 12 12h12c6.6 0 12-5.4 12-12v-98h98c6.6 0 12-5.4 12-12v-12c0-6.6-5.4-12-12-12z"></path></svg></span>リスト追加
     </button>
@@ -1151,7 +1155,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     この講義は韓国ドラマを通して韓国語を学ぶ講義です。 
     </div>
             
-            <div class="body" itemprop="articleBody"><div><iframe src="https://www.youtube.com/embed/YmHgw4RY-74?rel=0&amp;modestbranding=1&amp;vq=hd720" width="768" height="432" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+            <div class="body" itemprop="articleBody"><div><iframe src="https://player.vimeo.com/video/471220263" width="640" height="360" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe></div>
 <div>
 
 
@@ -1426,7 +1430,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       
     </div>
   </div>
-</article></div><button class="is-fullwidth button is-link e_show_more_review">他のレビュー見る</button>
+</article></div>
 </div>
           </article>
           <article class="inquiries" id="inquiries">
