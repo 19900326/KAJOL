@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.sesoc.day0902.dao.BoardMapper">
+<mapper namespace="com.sesoc.day0902.dao.NoteMapper">
 
 	<insert id="noteWrite" parameterType="note">
 		insert into
@@ -31,7 +31,7 @@
 	
 	</select>
 	
-	<delete id="noteDelete" parameterType="string">
+	<delete id="noteDelete" parameterType="int">
 		delete from
 	   		tb_memo
 		where

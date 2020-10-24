@@ -288,7 +288,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	      </a>
     	</div>
     	<div class="list_el">
-	      <a href="/my-notes" class="title">
+	      <a href="/note/noteList" class="title">
 	        <span class="icon"><i class="fal fa-pen"></i></span> <span class="name">講義ノート</span>
 	      </a>
 	    </div>

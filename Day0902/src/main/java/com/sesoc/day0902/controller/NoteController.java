@@ -20,12 +20,29 @@ public class NoteController {
 	@Autowired
 	private NoteService service;
 	
-	@RequestMapping(value="/noteWriteForm", method=RequestMethod.GET)
-	public String noteWriteForm() {
+	@RequestMapping(value="/noteList", method=RequestMethod.GET)
+	public String noteList() {
 		
 		logger.info("메모 작성 폼 이동");
 		
-		return "note/noteWriteForm";
+		return "note/noteList";
+	}
+	
+	@RequestMapping(value="/notePage", method=RequestMethod.GET)
+	public String notePage(NoteVO note) {
+		
+		logger.info("메모 작성 폼 이동");
+		
+		return "note/notePage";
+	}
+	
+	@RequestMapping(value="/noteViewer", method=RequestMethod.POST)
+	public String noteViewer(NoteVO note, Model model) {
+		
+		model.addAttribute("note", note);
+		logger.info("메모 작성 폼 이동");
+		
+		return "note/noteViewer";
 	}
 	
 	@RequestMapping(value="/noteSelectOne")
@@ -50,7 +67,7 @@ public class NoteController {
 		return "redirect:/note/noteWriteForm";
 	}
 	
-	@RequestMapping(value="/noteUpdate", method=RequestMethod.POST)
+	@RequestMapping(value="/noteUpdate", method=RequestMethod.GET)
 	public String noteUpdate(NoteVO note) {
 		int cnt = service.noteUpdate(note);
 		
