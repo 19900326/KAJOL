@@ -1107,18 +1107,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           					</c:otherwise>
           				</c:choose>
           			</ul>
-          			
-    
-    
-    <div class="sub-button-cover is-free">
-    <button class="infd-button is-basic-gray300 is-stroke has-icon add-playlist e-add-playlist">
-      <span class="infd-icon"><svg width="16" fill="#343a40" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus-square" class="svg-inline--fa fa-plus-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#343a40"fill="currentColor" d="M400 64c8.8 0 16 7.2 16 16v352c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V80c0-8.8 7.2-16 16-16h352m0-32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-60 206h-98v-98c0-6.6-5.4-12-12-12h-12c-6.6 0-12 5.4-12 12v98h-98c-6.6 0-12 5.4-12 12v12c0 6.6 5.4 12 12 12h98v98c0 6.6 5.4 12 12 12h12c6.6 0 12-5.4 12-12v-98h98c6.6 0 12-5.4 12-12v-12c0-6.6-5.4-12-12-12z"></path></svg></span>リスト追加
-    </button>
-    
-    <button class="infd-button is-basic-gray300 is-stroke e-share">
-      <span class="infd-icon"><svg width="14" fill="#343a40" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share-alt" class="svg-inline--fa fa-share-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#343a40"fill="currentColor" d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z"></path></svg></span><span class="hd-text">シェアする</span>
-    </button>
-  </div>
+        <input type="button" id="btn1" style="width: 270px; height: 50px" value="シェアする">
+
+			<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+			<script>
+			function copyToClipboard(val) {
+			  var t = document.createElement("textarea");
+			  document.body.appendChild(t);
+			  t.value = val;
+			  t.select();
+			  document.execCommand('copy');
+			  document.body.removeChild(t);
+			}
+			$('#btn1').click(function() {
+			  copyToClipboard('http://localhost:9999/class/classDrama#');
+			  alert('コビーしました。');
+			});
+			</script>
         </div>
         
       </div>
