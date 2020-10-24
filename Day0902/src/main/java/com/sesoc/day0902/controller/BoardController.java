@@ -15,9 +15,17 @@ public class BoardController {
 	@RequestMapping(value="/boardList", method=RequestMethod.GET)
 	public String boardList() {
 		
-		logger.info("회원 가입 이동");
+		logger.info("보드 리스트 이동");
 		
 		return "board/boardList";
+	}
+	
+	@RequestMapping(value="/boardWriteForm", method=RequestMethod.GET)
+	public String boardWriteForm() {
+		
+		logger.info("보드 라이트 폼 이동");
+		
+		return "board/boardWriteForm";
 	}
 
 

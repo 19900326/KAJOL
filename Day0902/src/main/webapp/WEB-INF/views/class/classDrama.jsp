@@ -1107,6 +1107,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           					</c:otherwise>
           				</c:choose>
           			</ul>
+        
         <input type="button" id="btn1" style="width: 270px; height: 50px" value="シェアする">
 
 			<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
