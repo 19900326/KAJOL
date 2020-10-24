@@ -1,5 +1,8 @@
 package com.sesoc.day0902.controller;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.sesoc.day0902.service.BoardService;
 import com.sesoc.day0902.vo.BoardVO;
@@ -16,16 +20,11 @@ import com.sesoc.day0902.vo.BoardVO;
 @RequestMapping(value = "/board")
 public class BoardController {
 
+	@Autowired
+	private BoardService service;
+	
 	private static final Logger logger = LoggerFactory.getLogger(BoardController.class);
 
-	@RequestMapping(value="/boardList", method=RequestMethod.GET)
-	public String boardList() {
-		
-		logger.info("보드 리스트 이동");
-		
-		return "board/boardList";
-	}
-	
 	@RequestMapping(value="/boardWriteForm", method=RequestMethod.GET)
 	public String boardWriteForm() {
 		
@@ -33,18 +32,31 @@ public class BoardController {
 		
 		return "board/boardWriteForm";
 	}
-
-	@Autowired
-	private BoardService service;
 	
-	@RequestMapping(value="/boardWriteForm", method=RequestMethod.GET)
-	public String boardWriteForm() {
+	@RequestMapping(value = "/boardWrite", method = RequestMethod.POST)
+	public String boardWrite(BoardVO board) {
 		
-		logger.info("메모 작성 폼 이동");
+		service.boardWrite(board);
 		
-		return "board/boardWriteForm";
+		return "redirect:/board/boardList";
 	}
 	
+	@RequestMapping(value = "/boardList", method = RequestMethod.GET)
+	public String boardList(
+			@RequestParam(value = "searchText" , defaultValue = "") String searchText, 
+			@RequestParam(value = "searchType" , defaultValue = "none")String searchType, 
+			Model model) {
+		
+		//글 목록을 조회 한 후에 Model에 저장
+		ArrayList<HashMap<String,Object>> list = service.boardList(searchText, searchType);
+		
+		logger.info("list의 사이즈 {}", list.size());
+		
+		model.addAttribute("list", list);
+		
+		return "board/boardList";
+	}
+
 	@RequestMapping(value="/boardSelectOne")
 	public String boardSelectOne(String reg_id, Model model) {
 		BoardVO board = service.boardSelectOne(reg_id);

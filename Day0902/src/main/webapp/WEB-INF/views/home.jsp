@@ -41,5 +41,6 @@
 <a href="/board/boardList">board.jsp로 이동하기</a>
 
 
+
 </body>
 </html>

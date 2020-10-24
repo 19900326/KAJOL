@@ -10,16 +10,41 @@
 				,board_title
 				,reg_id
 				,board_content
-				,reg_dt
 			)values(
 				board_seq.nextval
 				,#{board_title}
-				,#{board_content}
 				,#{reg_id}
-				,#{reg_dt}
+				,#{board_content}
 			)
 	
 	</insert>
+	
+	 <select id="boardList" parameterType="hashmap" resultType="hashmap">
+		select
+				b.board_seq as board_seq
+				,b.board_title as board_title
+				,b.reg_id as reg_id
+				,b.board_content as board_content
+				,to_char(reg_dt, 'YYYY-MM-DD') as reg_dt
+		from
+			tb_board b, tb_mbr_mng m
+		where
+			b.reg_id = m.mbr_email
+			<if test="searchType != 'none'">
+				<if test="searchType == 'title'">
+					and
+						b.board_title like '%'||#{searchText}||'%'
+				</if>
+				
+				<if test="searchType == 'name'">
+					and
+						m.mbr_email like '%'||#{searchText}||'%'
+				</if>
+			</if>
+		order by
+			board_seq desc
+	
+	</select>
 
 	<select id="boardSelectOne" parameterType="string" resultType="board">
 		select

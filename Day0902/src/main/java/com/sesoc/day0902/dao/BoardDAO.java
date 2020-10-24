@@ -1,5 +1,9 @@
 package com.sesoc.day0902.dao;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -14,15 +18,30 @@ public class BoardDAO {
 	
 	public int boardWrite(BoardVO board) {
 		BoardMapper mapper = session.getMapper(BoardMapper.class);
-		int cnt = 0;
+		int cnt =0;
 		
 		try {
+			
 			cnt = mapper.boardWrite(board);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return cnt;
+	}
+	
+	public ArrayList<HashMap<String, Object>> boardList(HashMap<String, Object> map)
+		{
+		BoardMapper mapper = session.getMapper(BoardMapper.class);
+		ArrayList<HashMap<String, Object>> list = null;
+		
+		try {
+			list = mapper.boardList(map);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
-		return cnt;
+		return list;
 	}
 
 	public BoardVO boardSelectOne(String reg_id) {

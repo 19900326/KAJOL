@@ -593,14 +593,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<c:forEach items="${list }" var="data" varStatus="status">
 			<tr>
 				<td>${status.count }</td>
-				<td>${data.MEMBER_TITLE }</td>
-				<td> ${data.MEMBER_NM }</td>
-				<td> ${data.BOARD_INDATE }</td>
+				<td>${data.BOARD_TITLE }</td>
+				<td> ${data.REG_ID }</td>
+				<td> ${data.REG_DT }</td>
 				<td>
-					<a href="/board/boardUpdateForm?moneybook_no=${data.moneybook_no }"><input type="button" value="修正"></a>
+					<input type="button" value="修正">
 				</td>
 				<td>
-					<a href="/board/boardDelete?moneybook_no=${data.moneybook_no }"><input type="button" value="削除"></a>				
+					<input type="button" value="削除">				
 				</td>
 			</tr>
 		</c:forEach>	
