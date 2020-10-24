@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sesoc.day0902.dao.BoardMapper">
+
+	<insert id="boardWrite" parameterType="board">
+		insert into
+			tb_board(
+				board_seq
+				,board_title
+				,reg_id
+				,board_content
+				,reg_dt
+			)values(
+				board_seq.nextval
+				,#{board_title}
+				,#{board_content}
+				,#{reg_id}
+				,#{reg_dt}
+			)
+	
+	</insert>
+
+	<select id="boardSelectOne" parameterType="string" resultType="board">
+		select
+			,board_content
+			,reg_id
+			,reg_dt
+		from
+			tb_board
+		where
+			reg_id = #{reg_id}
+	
+	</select>
+	
+	<delete id="boardDelete" parameterType="string">
+		delete from
+	   		tb_board
+		where
+	    	reg_id = #{reg_id}
+	
+	</delete>
+	
+	<update id="boardUpdate" parameterType="board">
+		update
+			tb_board
+		set
+			board_content = #{board_content}
+		where
+			reg_id = #{member_id}
+	
+	</update>
+
+</mapper>
