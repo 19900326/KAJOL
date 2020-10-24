@@ -38,23 +38,7 @@
 
 <a href="/Study">Study.jsp로 이동하기</a>
 
-<button id='btn1'>Greet</button>
-
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-<script>
-function copyToClipboard(val) {
-  var t = document.createElement("textarea");
-  document.body.appendChild(t);
-  t.value = val;
-  t.select();
-  document.execCommand('copy');
-  document.body.removeChild(t);
-}
-$('#btn1').click(function() {
-  copyToClipboard('Hello World');
-  alert('Copied!');
-});
-</script>
+<a href="/board/boardList">board.jsp로 이동하기</a>
 
 
 </body>

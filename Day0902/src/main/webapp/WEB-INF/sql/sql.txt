@@ -19,3 +19,4 @@ ALTER TABLE tb_memo ADD CONSTRAINT PK_TB_MEMO PRIMARY KEY (
 );
 
 create sequence memo_seq nocache;
+
