@@ -60,4 +60,11 @@ public class BoardService {
 			
 		return cnt;
 	}
+
+	public HashMap<String, Object> boardRead(int board_seq) {
+		
+		HashMap<String, Object> map = dao.boardRead(board_seq);
+		
+		return map;
+	}
 }

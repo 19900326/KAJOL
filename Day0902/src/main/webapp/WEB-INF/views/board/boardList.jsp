@@ -587,25 +587,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<th>タイトル</th>
 			<th>ID</th>
 			<th>作成日</th>
-			<th>修正</th>
-			<th>削除</th>
 		</tr>
 		
 		<c:forEach items="${list }" var="data" varStatus="status">
 			<tr>
 				<td>${status.count }</td>
-				<td>${data.board_title }</td>
-				<td> ${data.reg_id }</td>
-				<td> ${data.board_content }</td>
-				<td> ${data.reg_dt }</td>
-				<td>
-					<a href="/board/boardUpdateForm?board_seq=${data.board_seq }"></a><input type="button" value="修正" >
-					
+				<td> 
+					<a href="/board/boardRead?board_seq=${data.BOARD_SEQ }">${data.BOARD_TITLE }</a>
 				</td>
-				<td>
-					<a href="/board/boardDelete?board_seq=${data.board_seq}"></a><input type="button" value="削除">
-					
-				</td>
+				<td> ${data.REG_ID }</td>
+				<td> ${data.REG_DT }</td>
 			</tr>
 		</c:forEach>	
 	</table>

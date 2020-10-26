@@ -66,6 +66,16 @@ public class BoardController {
 		
 	}
 	
+	@RequestMapping(value="/boardRead", method = RequestMethod.GET)
+	public String boardRead(int board_seq, Model model) {
+		
+		HashMap<String, Object> map = service.boardRead(board_seq);
+		model.addAttribute("map", map);
+		
+		return "board/boardRead";
+		
+	}
+	
 	@RequestMapping(value="/boardDelete", method=RequestMethod.GET)
 	public String boardDelete(int board_seq) {
 		int cnt = service.boardDelete(board_seq);
@@ -76,7 +86,7 @@ public class BoardController {
 			logger.info("삭제 성공 : {}", board_seq);
 		}
 		
-		return "redirect:/board/boardWriteForm";
+		return "redirect:/board/boardList";
 	}
 	
 	@RequestMapping(value="/boardUpdate", method=RequestMethod.POST)

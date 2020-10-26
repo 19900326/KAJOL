@@ -58,6 +58,23 @@
 	
 	</select>
 	
+	<select id="boardRead" parameterType="int" resultType="hashmap">
+		select
+			b.board_seq as board_seq
+			,b.board_title as board_title
+			,b.reg_id as reg_id
+			,b.board_content as board_content
+			,to_char(b.reg_dt,'YYYY-MM-DD') as reg_dt
+		from
+			tb_board b, tb_mbr_mng m
+		where
+			b.reg_id = m.mbr_email
+		and
+			b.board_seq = #{board_seq}
+			
+	
+	</select>
+	
 	<delete id="boardDelete" parameterType="int">
 		delete from
 	   		tb_board
