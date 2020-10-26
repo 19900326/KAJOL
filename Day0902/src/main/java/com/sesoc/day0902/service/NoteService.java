@@ -49,4 +49,10 @@ public class NoteService {
 			
 		return cnt;
 	}
+	
+	public int noteViewer(int memo_seq) {
+		int cnt = dao.noteViewer(memo_seq);
+		
+		return cnt;
+	}
 }

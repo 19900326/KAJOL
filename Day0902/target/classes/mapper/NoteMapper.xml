@@ -67,5 +67,21 @@
 			memo_seq = #{memo_seq}
 	
 	</update>
+	
+	<select id="noteViewer" parameterType="int" resultType="note">
+		select
+			t.memo_seq as memo_seq
+			,t.memo_content as memo_content
+			,t.reg_id as reg_id
+			,t.reg_dt as reg_dt
+			,m.mbr_email as mbr_email
+		from
+			tb_memo t, tb_mbr_mng m
+		where
+			t.reg_id = m.mbr_email
+		and
+			t.memo_seq = #{memo_seq}
+		
+	</select>
 
 </mapper>

@@ -78,4 +78,17 @@ public class NoteDAO {
 			
 		return cnt;
 	}
+	
+	public int noteViewer(int memo_seq) {
+		NoteMapper mapper = session.getMapper(NoteMapper.class);
+		int cnt = 0;
+		
+		try {
+			cnt = mapper.noteViewer(memo_seq);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+			
+		return cnt;
+	}
 }

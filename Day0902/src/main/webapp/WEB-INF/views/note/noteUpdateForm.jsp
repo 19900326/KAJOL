@@ -1111,7 +1111,7 @@ function formCheck(){
   </div>
   <div class="note-body markdown-body">
   	
-  	<form action="note/noteUpdate" method="post">
+  	<form action="/note/noteUpdate" method="post">
 		内容<br>
 		<textarea rows="15" cols="100" name="memo_content">${note.memo_content }</textarea><br>
 		<input type="hidden" name="memo_seq" value="${note.memo_seq }">

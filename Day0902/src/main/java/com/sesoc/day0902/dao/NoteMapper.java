@@ -16,4 +16,6 @@ public interface NoteMapper {
 	
 	public int noteUpdate(NoteVO note);
 	
+	public int noteViewer(int memo_seq);
+	
 }

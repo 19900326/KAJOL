@@ -99,7 +99,8 @@ public class NoteController {
 	@RequestMapping(value="/noteUpdateForm", method=RequestMethod.GET)
 	public String noteUpdateForm(int memo_seq, Model model) {
 		
-		
+		int cnt = service.noteViewer(memo_seq);
+		model.addAttribute("cnt", cnt);
 		
 		return "note/noteUpdateForm";
 	}
@@ -116,5 +117,6 @@ public class NoteController {
 		
 		return "redirect:/note/noteViewer";
 	}
+	
 	
 }
