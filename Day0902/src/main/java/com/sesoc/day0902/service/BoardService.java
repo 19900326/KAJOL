@@ -56,6 +56,8 @@ public class BoardService {
 	}
 	
 	public int boardUpdate(BoardVO board) {
+		String reg_id = (String)session.getAttribute("loginId");
+		board.setReg_id(reg_id);
 		int cnt = dao.boardUpdate(board);
 			
 		return cnt;

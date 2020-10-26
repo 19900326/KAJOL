@@ -89,6 +89,15 @@ public class BoardController {
 		return "redirect:/board/boardList";
 	}
 	
+	@RequestMapping(value = "/boardUpdateForm", method = RequestMethod.GET)
+	public String boardUpdateForm(int board_seq, Model model) {
+	
+		HashMap<String, Object> map = service.boardRead(board_seq);
+		model.addAttribute("map", map);
+	
+		return "board/boardUpdateForm";
+	}
+	
 	@RequestMapping(value="/boardUpdate", method=RequestMethod.POST)
 	public String boardUpdate(BoardVO board) {
 		int cnt = service.boardUpdate(board);
@@ -99,7 +108,7 @@ public class BoardController {
 			logger.info("수정 성공 : {}", board);
 		}
 		
-		return "redirect:/board/boardWriteForm";
+		return "redirect:/board/boardList";
 	}
 	
 }

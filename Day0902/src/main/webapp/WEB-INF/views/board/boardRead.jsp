@@ -14,14 +14,14 @@
 
 	function boardUpdateForm(){
 		var board_seq = document.getElementById("board_seq").value;
-		location.href = "/board/boardUpdateForm?board_seq="+encodeURI(board_seq);
+		location.href = "/board/boardUpdateForm?board_seq="+board_seq;
 		}
 
 
 </script>
 </head>
 <body>
-	<h1>[ 글 내용 페이지 ]</h1>
+	<h1>[ 質問の内容ページ ]</h1>
 	番号 : ${map.BOARD_SEQ }<br>
 	タイトル : ${map.BOARD_TITLE }<br>
 	ID : ${map.REG_ID }<br>
@@ -33,8 +33,8 @@
 		<c:if test="${sessionScope.loginId == map.REG_ID }">
 		<br>
 		<input type="hidden" id="board_seq" value="${map.BOARD_SEQ}">
-		<input type="button" value="수정 폼 이동" onclick="boardUpdateForm()">
-		<input type="button" value="삭제" onclick="boardDelete()"><br>
+		<input type="button" value="修正ページへ移動" onclick="boardUpdateForm()">
+		<input type="button" value="削除" onclick="boardDelete()"><br>
 		</c:if>
 </body>
 </html>

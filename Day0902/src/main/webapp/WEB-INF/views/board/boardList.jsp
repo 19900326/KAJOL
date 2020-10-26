@@ -13,6 +13,16 @@
 		location.href = "/board/boardWriteForm";
 	}
 
+	function searchBoard(){
+		var searchType = document.getElementById("searchType").value;
+		var searchText = document.getElementById("searchText").value;
+
+		document.getElementById("type").value = searchType;
+		document.getElementById("text").value = searchText;
+
+		document.getElementById("searchForm").submit();
+		}
+
 
 </script>
   <meta charset="utf-8" />

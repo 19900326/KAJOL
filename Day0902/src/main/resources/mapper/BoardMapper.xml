@@ -87,8 +87,11 @@
 		update
 			tb_board
 		set
-			board_content = #{board_content}
+			board_title = #{board_title}
+			,board_content = #{board_content}
 		where
+			board_seq = #{board_seq}
+		and	
 			reg_id = #{reg_id}
 	
 	</update>
