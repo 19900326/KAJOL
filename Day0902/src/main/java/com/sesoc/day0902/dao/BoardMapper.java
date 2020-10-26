@@ -17,7 +17,7 @@ public interface BoardMapper {
 	
 	public int boardDelete(int board_seq);
 	
-	public BoardVO boardSelectOne(String reg_id);
+	public BoardVO boardSelectOne(int board_seq);
 	
 	
 	public int boardUpdate(BoardVO board);

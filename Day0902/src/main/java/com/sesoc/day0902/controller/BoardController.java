@@ -58,8 +58,8 @@ public class BoardController {
 	}
 
 	@RequestMapping(value="/boardSelectOne")
-	public String boardSelectOne(String reg_id, Model model) {
-		BoardVO board = service.boardSelectOne(reg_id);
+	public String boardSelectOne(int board_seq, Model model) {
+		BoardVO board = service.boardSelectOne(board_seq);
 		
 		model.addAttribute("board", board);
 		return "board/boardWriteForm";

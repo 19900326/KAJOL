@@ -44,12 +44,12 @@ public class BoardDAO {
 		return list;
 	}
 
-	public BoardVO boardSelectOne(String reg_id) {
+	public BoardVO boardSelectOne(int board_seq) {
 		BoardMapper mapper = session.getMapper(BoardMapper.class);
 		BoardVO board = null;
 		
 		try {
-			board = mapper.boardSelectOne(reg_id);
+			board = mapper.boardSelectOne(board_seq);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

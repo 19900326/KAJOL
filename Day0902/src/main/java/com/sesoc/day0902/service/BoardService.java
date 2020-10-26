@@ -43,8 +43,8 @@ public class BoardService {
 		return list;
 	}
 	
-	public BoardVO boardSelectOne(String reg_id) {
-		BoardVO board = dao.boardSelectOne(reg_id);
+	public BoardVO boardSelectOne(int board_seq) {
+		BoardVO board = dao.boardSelectOne(board_seq);
 
 		return board;
 	}

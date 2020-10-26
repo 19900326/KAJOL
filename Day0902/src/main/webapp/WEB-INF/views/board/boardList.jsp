@@ -13,6 +13,7 @@
 		location.href = "/board/boardWriteForm";
 	}
 
+
 </script>
   <meta charset="utf-8" />
   <meta name="user_id" content="387257" />
@@ -24,13 +25,13 @@
                       width=device-width, initial-scale=1.0, 
                       minimum-scale=1.0, maximum-scale=1.0, 
                       user-scalable=no, target-densitydpi=device-dpi">
-  <link rel="manifest" href="/manifest-web.json" />
+  
   <!-- include PWACompat _after_ your manifest -->
   <script type="text/javascript">
     window.isReactNative = false;
     window.isIos = false;
   </script>
-  <script async src="/pwacompat.min.js"></script>
+ 
 
   <link
     rel="icon"
@@ -593,14 +594,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<c:forEach items="${list }" var="data" varStatus="status">
 			<tr>
 				<td>${status.count }</td>
-				<td>${data.BOARD_TITLE }</td>
-				<td> ${data.REG_ID }</td>
-				<td> ${data.REG_DT }</td>
+				<td>${data.board_title }</td>
+				<td> ${data.reg_id }</td>
+				<td> ${data.board_content }</td>
+				<td> ${data.reg_dt }</td>
 				<td>
-					<input type="button" value="修正">
+					<a href="/board/boardUpdateForm?board_seq=${data.board_seq }"></a><input type="button" value="修正" >
+					
 				</td>
 				<td>
-					<input type="button" value="削除">				
+					<a href="/board/boardDelete?board_seq=${data.board_seq}"></a><input type="button" value="削除">
+					
 				</td>
 			</tr>
 		</c:forEach>	

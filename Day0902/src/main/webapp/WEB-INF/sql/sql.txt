@@ -1,22 +1,57 @@
 CREATE TABLE tb_mbr_mng (
    mbr_seq        int      NOT NULL,
-   mbr_email      varchar2(100)   NOT NULL,
-   mbr_pwd      varchar2(40)    NOT NULL,
+   mbr_email      varchar2(100)  NOT NULL,
+   mbr_pwd        varchar2(40)    NOT NULL,
    mbr_usernm     varchar2(50)    NOT NULL,
-   mbr_birth      varchar2(10)    NOT NULL,
-   mbr_indate     Date            default sysdate
-);
+   mbr_birth     varchar2(10)    NOT NULL,
+   mbr_indate     Date   default sysdate);
+
+ALTER TABLE tb_mbr_mng ADD CONSTRAINT pk_tb_mbr_mng PRIMARY KEY (
+	mbr_seq);
+
+ALTER TABLE tb_mbr_mng ADD CONSTRAINT uq_mbr_email unique (mbr_email);
+
+create sequence mbr_seq nocache;
 
 CREATE TABLE tb_memo (
-   memo_seq    int      NOT NULL,
-   reg_id   varchar2(100) not null REFERENCES tb_mbr_mng(mbr_email),
-   memo_content   varchar2(1000)   NULL,
-   reg_dt   date   default sysdate
+	memo_seq 	int		NOT NULL,
+	reg_id	varchar2(100) not null REFERENCES tb_mbr_mng(mbr_email),
+	memo_content	varchar2(1000)	NULL,
+	reg_dt	date   default sysdate
 );
 
-ALTER TABLE tb_memo ADD CONSTRAINT PK_TB_MEMO PRIMARY KEY (
-   memo_seq
+ALTER TABLE tb_memo ADD CONSTRAINT pk_tb_memo PRIMARY KEY (
+	memo_seq
 );
 
 create sequence memo_seq nocache;
+
+
+CREATE TABLE tb_board (
+	board_seq	int		NOT NULL,
+	board_title	varchar2(100)		NOT NULL,
+	reg_id	varchar2(100)		NOT NULL	REFERENCES tb_mbr_mng(mbr_email),
+	board_content	varchar2(1000)	NOT NULL,
+	reg_dt	Date	default sysdate
+	);
+
+ALTER TABLE tb_board ADD CONSTRAINT PK_tb_board PRIMARY KEY (
+	board_seq
+);
+
+CREATE	SEQUENCE board_seq nocache;
+
+CREATE TABLE tb_comment (
+	comment_seq	int		NOT NULL,
+	commnet_board int NOT NULL REFERENCES tb_board(board_seq),
+	reg_id	varchar2(100)	NOT NULL	REFERENCES tb_mbr_mng(mbr_email),
+	comment_content	varchar2(1000)		NOT NULL,
+	reg_dt	Date	   default sysdate
+);
+
+ALTER TABLE tb_comment ADD CONSTRAINT PK_tb_comment PRIMARY KEY (
+	comment_seq
+);
+
+CREATE	SEQUENCE comment_seq nocache;
 
