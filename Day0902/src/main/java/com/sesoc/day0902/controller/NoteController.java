@@ -1,5 +1,9 @@
 package com.sesoc.day0902.controller;
 
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpSession;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,26 +40,48 @@ public class NoteController {
 		return "note/notePage";
 	}
 	
-	@RequestMapping(value="/noteViewer", method=RequestMethod.POST)
-	public String noteViewer(NoteVO note, Model model) {
-		
-		model.addAttribute("note", note);
-		logger.info("메모 작성 폼 이동");
-		
-		return "note/noteViewer";
-	}
+	/*
+	 * @RequestMapping(value="/noteViewer", method=RequestMethod.POST) 
+	 * public String noteViewer(NoteVO note, Model model, HttpSession session) {
+	 * 
+	 * 
+	 * String loginId = (String)session.getAttribute("loginId");
+	 * note.setReg_id(loginId);
+	 * 
+	 * int cnt = service.noteWrite(note);
+	 * 
+	 * NoteVO nt = service.noteSelectOne(loginId); model.addAttribute("note", nt);
+	 * 
+	 * logger.info("메모 : {}", nt);
+	 * 
+	 * return "note/noteViewer"; }
+	 * 
+	 * @RequestMapping(value="/noteSelectOne") public String noteSelectOne(String
+	 * reg_id, Model model) { NoteVO note = service.noteSelectOne(reg_id);
+	 * 
+	 * model.addAttribute("note", note); return "note/noteWriteForm";
+	 * 
+	 * }
+	 */
 	
-	@RequestMapping(value="/noteSelectOne")
-	public String noteSelectOne(String reg_id, Model model) {
-		NoteVO note = service.noteSelectOne(reg_id);
+	@RequestMapping(value="/noteViewer",method = RequestMethod.POST)
+	public String noteSelect(Model model,HttpSession session,NoteVO note) {
 		
-		model.addAttribute("note", note);
-		return "note/noteWriteForm";
+		String loginId = (String)session.getAttribute("loginId");
+		 note.setReg_id(loginId);
+		 
+		 service.noteWrite(note);
+		
+		
+		ArrayList<NoteVO>nt = service.noteSelect();
+		model.addAttribute("note", nt);
+		return "note/noteViewer";
+		
 		
 	}
 	
 	@RequestMapping(value="/noteDelete", method=RequestMethod.GET)
-	public String noteDelete(int memo_seq) {
+	public String noteDelete(int memo_seq, Model model) {
 		int cnt = service.noteDelete(memo_seq);
 		
 		if (cnt == 0) {
@@ -64,10 +90,21 @@ public class NoteController {
 			logger.info("삭제 성공 : {}", memo_seq);
 		}
 		
-		return "redirect:/note/noteWriteForm";
+		ArrayList<NoteVO>nt = service.noteSelect();
+		model.addAttribute("note", nt);
+		
+		return "note/noteViewer";
 	}
 	
-	@RequestMapping(value="/noteUpdate", method=RequestMethod.GET)
+	@RequestMapping(value="/noteUpdateForm", method=RequestMethod.GET)
+	public String noteUpdateForm(int memo_seq, Model model) {
+		
+		
+		
+		return "note/noteUpdateForm";
+	}
+	
+	@RequestMapping(value="/noteUpdate", method=RequestMethod.POST)
 	public String noteUpdate(NoteVO note) {
 		int cnt = service.noteUpdate(note);
 		
@@ -77,7 +114,7 @@ public class NoteController {
 			logger.info("수정 성공 : {}", note);
 		}
 		
-		return "redirect:/note/noteWriteForm";
+		return "redirect:/note/noteViewer";
 	}
 	
 }

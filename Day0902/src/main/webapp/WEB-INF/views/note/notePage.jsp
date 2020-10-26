@@ -114,7 +114,7 @@ function formCheck(){
 	     var context = document.getElementById("memo_content").value;
 
 	      if(context == ''){
-	         alert("글내용은 반드시 입력해주세요.");
+	         alert("必ず内容をご記入ください。.");
 	         return false;
 
 		}
@@ -1106,8 +1106,7 @@ function formCheck(){
   <div class="note-tool">
     
     <div class="is-editable" data-id="81419">
-      <span class="e-edit">수정</span>
-      <span class="e-delete">삭제</span>
+      
     </div>
   </div>
   <div class="note-body markdown-body">

@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>KAJOL -  韓国語学習サイト</title>
 <script type="text/javascript">
 	function noteDelete(){
 		var memo_seq = document.getElementById("memo_seq").value;
@@ -20,12 +20,17 @@
 </script>
 </head>
 <body>
-	글번호 : ${MEMO_SEQ }<br>
-	글내용 : ${MEMO_CONTENT }<br>
-	작성자 : ${REG_ID }<br>
-	작성일 : ${REG_DT }<br>
-	
+	<c:forEach items="${note }" var="note">
 	<br>
+	No : ${note.memo_seq }<br>
+	内容 : ${note.memo_content }<br>
+	投稿者 : ${note.reg_id }<br>
+	投稿日 : ${note.reg_dt }<br>
+	<a href="/note/noteUpdateForm?memo_seq=${note.memo_seq }">修正</a>
+	<a href="/note/noteDelete?memo_seq=${note.memo_seq }">削除</a>
+	<br>
+	</c:forEach>
+	
 	
 	<c:if test="${sessionScope.loginId == REG_ID }">
 		<input type="hidden" id="memo_seq" value="${MEMO_SEQ }">
