@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.sesoc.day0902.dao.BoardMapper">
+<mapper namespace="com.sesoc.day0902.dao.NoteMapper">
 
 	<insert id="noteWrite" parameterType="note">
 		insert into
@@ -9,33 +9,52 @@
 				memo_seq
 				,memo_content
 				,reg_id
-				,reg_dt
 			)values(
 				memo_seq.nextval
 				,#{memo_content}
 				,#{reg_id}
-				,#{reg_dt}
 			)
 	
 	</insert>
 
-	<select id="noteSelectOne" parameterType="string" resultType="note">
+	<!-- <select id="noteSelectOne" parameterType="string" resultType="note">
 		select
-			,memo_content
+			memo_content
 			,reg_id
 			,reg_dt
 		from
-			tb_mbr_mng
+			(
+				select
+					*
+				from
+					tb_memo
+				order by rownum desc
+			)
 		where
 			reg_id = #{reg_id}
+		and
+			rownum = 1
+	</select> -->
 	
+	<select id="noteSelect" resultType="note">
+		select
+			memo_seq
+			,memo_content
+			,reg_id
+			,reg_dt
+		from			
+			tb_memo
+			
+		order by
+			reg_id
+		
 	</select>
 	
-	<delete id="noteDelete" parameterType="string">
+	<delete id="noteDelete" parameterType="int">
 		delete from
 	   		tb_memo
 		where
-	    	reg_id = #{reg_id}
+	    	memo_seq = #{memo_seq}
 	
 	</delete>
 	
@@ -45,7 +64,7 @@
 		set
 			memo_content = #{memo_content}
 		where
-			reg_id = #{member_id}
+			memo_seq = #{memo_seq}
 	
 	</update>
 

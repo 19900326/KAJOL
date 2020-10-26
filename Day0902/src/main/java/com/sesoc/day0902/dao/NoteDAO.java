@@ -1,5 +1,7 @@
 package com.sesoc.day0902.dao;
 
+import java.util.ArrayList;
+
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -31,6 +33,19 @@ public class NoteDAO {
 		
 		try {
 			note = mapper.noteSelectOne(reg_id);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return note;
+	}
+	
+	public ArrayList<NoteVO> noteSelect(){
+		NoteMapper mapper = session.getMapper(NoteMapper.class);
+		ArrayList<NoteVO> note = null;
+		
+		try {
+			note = mapper.noteSelect();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

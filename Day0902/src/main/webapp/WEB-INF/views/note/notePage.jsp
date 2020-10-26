@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
 
 
 <!DOCTYPE html>
@@ -20,6 +18,7 @@
                       user-scalable=no, target-densitydpi=device-dpi">
   <link rel="manifest" href="/manifest-web.json" />
   <!-- include PWACompat _after_ your manifest -->
+
   <script type="text/javascript">
     window.isReactNative = false;
     window.isIos = false;
@@ -66,7 +65,9 @@
   <link rel="dns-prefetch" href="//www.youtube.com" />
   <link rel="dns-prefetch" href="//f.vimeocdn.com" />
 
-  
+      <title>KAJOL - 韓国語学習サイト</title>
+    <meta name="description" content="KAJOL - 韓国語学習サイト">
+    <meta name="robots" content="all">
 
   <link rel="stylesheet" href="https://cdn.inflearn.com/dist/css/npm_tinymce.c7fe5d5dbe2fc59dcc14.css" />
   <link rel="stylesheet" href="https://cdn.inflearn.com/dist/css/MAIN.312f7b242278d7551a94.css" />
@@ -95,7 +96,7 @@
     dataLayer = [
       { 
         userId: '311103' || null,
-        user_info : {"id":311103,"group_id":null,"thumb_file":null,"signature_file":null,"status":"validated","email":"tosanawai@gmail.com","login_id":null,"name":"이민호","realname":null,"phone":null,"allowed_marketing":true,"allowed_news_email":true,"is_instructor":false,"is_admin":false,"buyer_name":"이민호","buyer_tel":"01083137455","buyer_email":"tosanawai@gmail.com","accessed_at":"2020-10-24T07:02:08.619Z","last_allowed_at":null,"created_at":"2020-03-31T14:29:12.285Z","updated_at":"2020-03-31T14:29:12.285Z","deleted_at":null,"supervisor":{},"category_ids":[],"e_mode":"10","email_token":"f9abefe0-a2bd-472b-982f-c736cdee8bc4","_point":0,"be_instructor_at":null,"spam_type":{},"manage_group_id":null},
+        user_info : {"id":311103,"group_id":null,"thumb_file":null,"signature_file":null,"status":"validated","email":"tosanawai@gmail.com","login_id":null,"name":"이민호","realname":null,"phone":null,"allowed_marketing":true,"allowed_news_email":true,"is_instructor":false,"is_admin":false,"buyer_name":"이민호","buyer_tel":"01083137455","buyer_email":"tosanawai@gmail.com","accessed_at":"2020-10-24T07:53:41.765Z","last_allowed_at":null,"created_at":"2020-03-31T14:29:12.285Z","updated_at":"2020-03-31T14:29:12.285Z","deleted_at":null,"supervisor":{},"category_ids":[],"e_mode":"10","email_token":"f9abefe0-a2bd-472b-982f-c736cdee8bc4","_point":0,"be_instructor_at":null,"spam_type":{},"manage_group_id":null},
       },
     ];
   </script>
@@ -107,6 +108,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MVM7ZHX');</script>
 <!-- End Google Tag Manager -->
+
+<script>
+function formCheck(){
+	     var context = document.getElementById("memo_content").value;
+
+	      if(context == ''){
+	         alert("必ず内容をご記入ください。.");
+	         return false;
+
+		}
+			return true;
+	}
+
+</script>
 
   <script type="application/ld+json">
     {
@@ -1055,72 +1070,71 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </span>
     </div>
   </div></aside>
-      <main id="main"><section class="pg___my-notes">
-    <div class="container">
-      <div class="columns">
-       
-        <div class="column is-10 main_container">
-          <small class="is-hidden-mobile">
-<nav class="breadcrumb" aria-label="breadcrumbs">
-</nav></small>
-          <h3 class="heading">講義ノート</h3>
-          <div class="tool-section">
-            <div class="infd-button-select e-infd-button-select order-select">
-  <button id="" class="button-select-el e-button-select-el is-selected e-select-accessed " data-kv="order" data-value="accessed" data-op="data is-selected">
-    <span class="infd-icon check-icon"><svg width="12" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"><path fill="#212529"fill="" fill-rule="evenodd" d="M29.84 16L23.256 22.008 20.006 19.673 19 20.848 22.821 23.588 23.392 24 23.904 23.525 31 17.051z" transform="translate(-19 -16)"/></svg></span>
-  最近学習順</button><button id="" class="button-select-el e-button-select-el  e-select-created " data-kv="order" data-value="created" data-op="data is-selected">
-    <span class="infd-icon check-icon"><svg width="12" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"><path fill="#212529"fill="" fill-rule="evenodd" d="M29.84 16L23.256 22.008 20.006 19.673 19 20.848 22.821 23.588 23.392 24 23.904 23.525 31 17.051z" transform="translate(-19 -16)"/></svg></span>
-  講義申請順</button>
-</div>
-            
-<div class="infd-sel-ipt-container  theme-primary note-search e-note-search">
-  <div class="infd-sel-ipt-outer-wrapper">
-    <div class="infd-sel-ipt-inner-wrapper">
-      
-<div class="infd-select  infd-sel-ipt-select ">
-  <select name="" id="" data-kv="type" data-op="" >
-    
-    <option value="all" selected>全部</option>
-    <option value="course" >講義名</option>
-    <option value="note" >ノート内容</option>
-  </select>
-</div>
-      <input type="text" placeholder="検索する"  class="infd-sel-ipt-input " value=""  data-kv="s" data-op="" />
-    </div>
-    <button type="button"  class="infd-button is-primary-500 " >検索</button>
-  </div>
-</div>
-     
+      <main id="main"><div class="pg___note">
+    <div class="note-header-container">
+      <div class="menu-content">
+        <a href="/note/noteList" class="left">
+          <span class="infd-icon"><svg width="12" aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#212529"fill="currentColor" d="M229.9 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L94.569 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H94.569l155.13-155.13c4.686-4.686 4.686-12.284 0-16.971L229.9 38.101c-4.686-4.686-12.284-4.686-16.971 0L3.515 247.515c-4.686 4.686-4.686 12.284 0 16.971L212.929 473.9c4.686 4.686 12.284 4.686 16.971-.001z"></path></svg></span>講義ノートリストへ戻る
+        </a>
+        <div class="right">
+          <div class="MB-right">
+            <span class="infd-icon e-note-tool"><svg width="14" aria-hidden="true" focusable="false" data-prefix="far" data-icon="ellipsis-h" class="svg-inline--fa fa-ellipsis-h fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#212529"fill="currentColor" d="M304 256c0 26.5-21.5 48-48 48s-48-21.5-48-48 21.5-48 48-48 48 21.5 48 48zm120-48c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48zm-336 0c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48z"></path></svg></span>
           </div>
-          <div class="list-section">
+          <div class="PC-right">
+            <!--<span class="right-el down=pdf e-pdf-down">
+              <span class="infd-icon"><svg width="12" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="file-pdf" class="svg-inline--fa fa-file-pdf fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#212529"fill="currentColor" d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z"></path></svg></span>PDF 다운
+            </span>-->
             
-            <div class="list-content">
-              <a href="/note/notePage" class="list-content-el" data-id="3019">
-  <div class="course-box">
-    <div class="left">
-      <div class="course-title">ドラマで学ぶ韓国語</div>
-      <div class="course-info">
-        <span class="primary">ノート数 1</span>
-        <span class="divider"></span>
-        <span>非公開ノート</span>
-        <span class="divider hidden-mobile"></span>
-        <span class="accessed-at hidden-mobile">最近学習日: 2020. 10. 24</span>
-      </div>
-    </div>
-    <div class="right">
-      <div class="thumbnail-cover">
-        <img src="/resources/img/banner2.png" alt="ドラマで学ぶ韓国語">
-      </div>
-    </div>
-  </div>
-  <span class="infd-icon"><svg width="9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 12"><path fill="#212529"fill-rule="evenodd" d="M6.834 5.602L1.298.165c-.22-.22-.578-.22-.799 0L.166.498c-.221.22-.221.576 0 .797L4.973 6 .17 10.705c-.22.22-.22.577 0 .797l.334.333c.22.22.578.22.799 0l5.535-5.437c.217-.22.217-.576-.004-.796z"/></svg></span>
-</a>
+            <div class="is-public e-is-public " data-id="3019">
+  <label class="infd-toggle is-public e-is-public ">
+    <input type="checkbox"  data-kv="is_public" data-op="is_checked"  >
+  </label>
             </div>
+            
           </div>
         </div>
       </div>
+      <div class="title-content">ドラマで学ぶ韓国語</div>
     </div>
-  </section></main>
+    <div class="horizon-divider"></div>
+    <div class="note-body-container">
+      <div class="body-cover">
+        <div class="section-el" id="s-13674"><div class="section-title e-section-title">
+    <span class="infd-icon"><svg width="12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bookmark" class="svg-inline--fa fa-bookmark fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#212529"fill="currentColor" d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"></path></svg></span>ドラマページ</div><div class="unit-title" id="u-13675">ノート作成</div>
+<div class="note-list">
+  <div class="note-el" id="n-81419" data-id="81419">
+  <div class="note-tool">
+    
+    <div class="is-editable" data-id="81419">
+      
+    </div>
+  </div>
+  <div class="note-body markdown-body">
+  	
+  		<form action="/note/noteViewer" method="post" onsubmit="return formCheck();">
+		
+		<textarea rows="15" cols="100" name="memo_content" id="memo_content"></textarea><br>
+		
+		<input type="submit" value="作成">
+	
+
+	</form>
+	
+</div>   
+</div></div>
+      </div>
+      <div class="toc-cover">
+        <div class="toc-header">
+          이 노트의 섹션 
+          <span class="infd-icon is-open"><svg width="10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-up" class="svg-inline--fa fa-caret-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#212529"fill="currentColor" d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg></span>
+          <span class="infd-icon is-close"><svg width="10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#212529"fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></span>
+        </div>
+        <div class="toc-box">
+          
+        </div>
+      </div>
+    </div>
+  </div></main>
       
       
 <div class="loading_spinner_container">
@@ -1198,8 +1212,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
       <button class="gototop-btn e-gototop" fxd-data='{"left":30,"bottom":70}'><i class="far fa-chevron-up"></i><span class="gototop-text">TOP</span></button>
     </div>
-    <script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/MAIN.312f7b242278d7551a94.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/MAIN.b0da853a8f45f6f2898f.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/HEADER.efe42c4006460e92bd09.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/HEADER.60a008066501e3fb6fb3.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/FOOTER.2060e1604f5ff23ffcc9.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/FOOTER.80ee2f7978f200d0729e.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/BOTTOM_NAVIGATION.45d5a3e6232beb5c0b90.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/BOTTOM_NAVIGATION.bbe4d8642d0d5d0afadd.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_date-fns.f4579552c09054e77373.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_date-fns.fe356c66f1dbad1ba5de.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_sortable.f8ed76713e4e38fb1e1c.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_sortable.9c5d737180a92d2232e0.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_tinymce.c7fe5d5dbe2fc59dcc14.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_tinymce.482b476c120294d29545.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/GO_TO_TOP.2c2fc00564dde8f4cdbe.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/GO_TO_TOP.9925f629fee1f4906866.js" nomodule></script><script crossorigin type="module" id="INF_DATA">INF_BOX.to_box("%7B%7D");</script><script type="text/javascript" id="INF_DATA" nomodule>INF_BOX.to_box("%7B%7D");</script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/_my_notes.b481cae83e7182f7d8bc.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/_my_notes.73ba301e1c11c92e6eec.js" nomodule></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/LEGACY_ACTION.5db8bcf671e5ff2b3ec2.js" nomodule defer></script>
+    <script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/MAIN.312f7b242278d7551a94.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/MAIN.b0da853a8f45f6f2898f.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/HEADER.efe42c4006460e92bd09.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/HEADER.60a008066501e3fb6fb3.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/FOOTER.2060e1604f5ff23ffcc9.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/FOOTER.80ee2f7978f200d0729e.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/BOTTOM_NAVIGATION.45d5a3e6232beb5c0b90.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/BOTTOM_NAVIGATION.bbe4d8642d0d5d0afadd.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_date-fns.f4579552c09054e77373.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_date-fns.fe356c66f1dbad1ba5de.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_sortable.f8ed76713e4e38fb1e1c.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_sortable.9c5d737180a92d2232e0.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/npm_tinymce.c7fe5d5dbe2fc59dcc14.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/npm_tinymce.482b476c120294d29545.js" nomodule></script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/GO_TO_TOP.2c2fc00564dde8f4cdbe.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/GO_TO_TOP.9925f629fee1f4906866.js" nomodule></script><script crossorigin type="module" id="INF_DATA">INF_BOX.to_box("%7B%22note%22%3A%7B%22id%22%3A3019%2C%22is_public%22%3Afalse%2C%22course_id%22%3A182835%2C%22is_editable%22%3Atrue%2C%22username%22%3A%22%EC%9D%B4%EB%AF%BC%ED%98%B8%22%2C%22user_thumbnail%22%3A%22https%3A%2F%2Fcdn.inflearn.com%2Fpublic%2Fmain%2Fprofile%2Fdefault_profile.png%22%2C%22course_title%22%3A%22%EC%9E%90%EB%B0%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%9E%85%EB%AC%B8%20%EA%B0%95%EC%A2%8C%20(renew%20ver.)%20-%20%EC%B4%88%EB%B3%B4%EB%B6%80%ED%84%B0%20%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EC%B7%A8%EC%97%85%EA%B9%8C%EC%A7%80!!%22%2C%22course_slug%22%3A%22%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94_java-renew%22%2C%22thumbnail_url%22%3A%22https%3A%2F%2Fcdn.inflearn.com%2Fwp-content%2Fuploads%2Fjava_ver.2018-2.jpg%22%2C%22sections%22%3A%5B%7B%22id%22%3A13674%2C%22title%22%3A%22%EC%98%A4%EB%A6%AC%EC%97%94%ED%85%8C%EC%9D%B4%EC%85%98%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Atrue%7D%2C%22units%22%3A%5B%7B%22id%22%3A13675%2C%22title%22%3A%22Java%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80%3F%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%7B%22id%22%3A81419%2C%22body%22%3A%22%3Cp%3E%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%3C%2Fp%3E%22%2C%22unit_current_time%22%3A44%2C%22user_id%22%3A311103%2C%22unit_id%22%3A13675%2C%22_%22%3A%7B%22is_editable%22%3Atrue%7D%7D%5D%2C%22has_notes%22%3A1%7D%7D%2C%7B%22id%22%3A13676%2C%22title%22%3A%22%EA%B0%95%EC%9D%98%EC%9E%90%EB%A3%8C%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%2C%7B%22id%22%3A13677%2C%22title%22%3A%22JAVA%20%EA%B8%B0%EC%B4%88%20%EB%AC%B8%EB%B2%95%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Afalse%7D%2C%22units%22%3A%5B%7B%22id%22%3A13678%2C%22title%22%3A%22Java%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98%20%EC%8B%A4%ED%96%89%20%EA%B5%AC%EC%A1%B0%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13679%2C%22title%22%3A%22%EB%B3%80%EC%88%98%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13680%2C%22title%22%3A%22%EA%B8%B0%EB%B3%B8%EC%9E%90%EB%A3%8C%ED%98%95%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13681%2C%22title%22%3A%22%ED%8A%B9%EC%88%98%20%EB%AC%B8%EC%9E%90%EC%99%80%20%EC%84%9C%EC%8B%9D%20%EB%AC%B8%EC%9E%90%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13682%2C%22title%22%3A%22%EC%97%B0%EC%82%B0%EC%9E%90%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13683%2C%22title%22%3A%22%EB%B0%B0%EC%97%B4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13684%2C%22title%22%3A%22%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EB%A9%94%EB%AA%A8%EB%A6%AC%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13685%2C%22title%22%3A%22%EC%A1%B0%EA%B1%B4%EB%AC%B8%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13686%2C%22title%22%3A%22%EB%B0%98%EB%B3%B5%EB%AC%B8%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%2C%7B%22id%22%3A13687%2C%22title%22%3A%22JAVA%20%EA%B0%9D%EC%B2%B4%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Afalse%7D%2C%22units%22%3A%5B%7B%22id%22%3A13688%2C%22title%22%3A%22%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13689%2C%22title%22%3A%22%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%A0%9C%EC%9E%91%EA%B3%BC%20%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13690%2C%22title%22%3A%22%EB%A9%94%EC%84%9C%EB%93%9C%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13691%2C%22title%22%3A%22%EA%B0%9D%EC%B2%B4%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13692%2C%22title%22%3A%22%EC%83%9D%EC%84%B1%EC%9E%90%EC%99%80%20%EC%86%8C%EB%A9%B8%EC%9E%90%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20this%20%ED%82%A4%EC%9B%8C%EB%93%9C%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13693%2C%22title%22%3A%22%ED%8C%A8%ED%82%A4%EC%A7%80%EC%99%80%20static%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13694%2C%22title%22%3A%22%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9D%80%EB%8B%89%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%2C%7B%22id%22%3A13695%2C%22title%22%3A%22JAVA%20%EC%83%81%EC%86%8D%20%EB%B0%8F%20%ED%81%B4%EB%9E%98%EC%8A%A4%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Afalse%7D%2C%22units%22%3A%5B%7B%22id%22%3A13696%2C%22title%22%3A%22%EC%83%81%EC%86%8D%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13697%2C%22title%22%3A%22%EC%83%81%EC%86%8D%20%ED%8A%B9%EC%A7%95%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13698%2C%22title%22%3A%22%EB%82%B4%EB%B6%80%20%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80%20%EC%9D%B5%EB%AA%85%20%ED%81%B4%EB%9E%98%EC%8A%A4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13699%2C%22title%22%3A%22%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13700%2C%22title%22%3A%22%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13701%2C%22title%22%3A%22%EB%9E%8C%EB%8B%A4%EC%8B%9D%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13702%2C%22title%22%3A%22%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13703%2C%22title%22%3A%22Collections%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%2C%7B%22id%22%3A13704%2C%22title%22%3A%22JAVA%20%EB%A7%88%EB%AC%B4%EB%A6%AC%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Afalse%7D%2C%22units%22%3A%5B%7B%22id%22%3A13705%2C%22title%22%3A%22%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13706%2C%22title%22%3A%22%EC%9E%85%EB%A0%A5%EA%B3%BC%20%EC%B6%9C%EB%A0%A5%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13707%2C%22title%22%3A%22%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%5D%7D%2C%22user_id%22%3A311103%2C%22APP_DOMAIN%22%3A%22https%3A%2F%2Fwww.inflearn.com%22%2C%22KAKAO_KEY%22%3A%228f17311b7fd807d919fee08975e30bc7%22%2C%22SHORT_URL_DOMAIN%22%3A%22https%3A%2F%2Finf.run%22%7D");</script><script type="text/javascript" id="INF_DATA" nomodule>INF_BOX.to_box("%7B%22note%22%3A%7B%22id%22%3A3019%2C%22is_public%22%3Afalse%2C%22course_id%22%3A182835%2C%22is_editable%22%3Atrue%2C%22username%22%3A%22%EC%9D%B4%EB%AF%BC%ED%98%B8%22%2C%22user_thumbnail%22%3A%22https%3A%2F%2Fcdn.inflearn.com%2Fpublic%2Fmain%2Fprofile%2Fdefault_profile.png%22%2C%22course_title%22%3A%22%EC%9E%90%EB%B0%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%9E%85%EB%AC%B8%20%EA%B0%95%EC%A2%8C%20(renew%20ver.)%20-%20%EC%B4%88%EB%B3%B4%EB%B6%80%ED%84%B0%20%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EC%B7%A8%EC%97%85%EA%B9%8C%EC%A7%80!!%22%2C%22course_slug%22%3A%22%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94_java-renew%22%2C%22thumbnail_url%22%3A%22https%3A%2F%2Fcdn.inflearn.com%2Fwp-content%2Fuploads%2Fjava_ver.2018-2.jpg%22%2C%22sections%22%3A%5B%7B%22id%22%3A13674%2C%22title%22%3A%22%EC%98%A4%EB%A6%AC%EC%97%94%ED%85%8C%EC%9D%B4%EC%85%98%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Atrue%7D%2C%22units%22%3A%5B%7B%22id%22%3A13675%2C%22title%22%3A%22Java%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80%3F%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%7B%22id%22%3A81419%2C%22body%22%3A%22%3Cp%3E%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%3C%2Fp%3E%22%2C%22unit_current_time%22%3A44%2C%22user_id%22%3A311103%2C%22unit_id%22%3A13675%2C%22_%22%3A%7B%22is_editable%22%3Atrue%7D%7D%5D%2C%22has_notes%22%3A1%7D%7D%2C%7B%22id%22%3A13676%2C%22title%22%3A%22%EA%B0%95%EC%9D%98%EC%9E%90%EB%A3%8C%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%2C%7B%22id%22%3A13677%2C%22title%22%3A%22JAVA%20%EA%B8%B0%EC%B4%88%20%EB%AC%B8%EB%B2%95%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Afalse%7D%2C%22units%22%3A%5B%7B%22id%22%3A13678%2C%22title%22%3A%22Java%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98%20%EC%8B%A4%ED%96%89%20%EA%B5%AC%EC%A1%B0%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13679%2C%22title%22%3A%22%EB%B3%80%EC%88%98%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13680%2C%22title%22%3A%22%EA%B8%B0%EB%B3%B8%EC%9E%90%EB%A3%8C%ED%98%95%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13681%2C%22title%22%3A%22%ED%8A%B9%EC%88%98%20%EB%AC%B8%EC%9E%90%EC%99%80%20%EC%84%9C%EC%8B%9D%20%EB%AC%B8%EC%9E%90%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13682%2C%22title%22%3A%22%EC%97%B0%EC%82%B0%EC%9E%90%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13683%2C%22title%22%3A%22%EB%B0%B0%EC%97%B4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13684%2C%22title%22%3A%22%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EB%A9%94%EB%AA%A8%EB%A6%AC%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13685%2C%22title%22%3A%22%EC%A1%B0%EA%B1%B4%EB%AC%B8%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13686%2C%22title%22%3A%22%EB%B0%98%EB%B3%B5%EB%AC%B8%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%2C%7B%22id%22%3A13687%2C%22title%22%3A%22JAVA%20%EA%B0%9D%EC%B2%B4%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Afalse%7D%2C%22units%22%3A%5B%7B%22id%22%3A13688%2C%22title%22%3A%22%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13689%2C%22title%22%3A%22%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%A0%9C%EC%9E%91%EA%B3%BC%20%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13690%2C%22title%22%3A%22%EB%A9%94%EC%84%9C%EB%93%9C%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13691%2C%22title%22%3A%22%EA%B0%9D%EC%B2%B4%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13692%2C%22title%22%3A%22%EC%83%9D%EC%84%B1%EC%9E%90%EC%99%80%20%EC%86%8C%EB%A9%B8%EC%9E%90%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20this%20%ED%82%A4%EC%9B%8C%EB%93%9C%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13693%2C%22title%22%3A%22%ED%8C%A8%ED%82%A4%EC%A7%80%EC%99%80%20static%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13694%2C%22title%22%3A%22%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9D%80%EB%8B%89%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%2C%7B%22id%22%3A13695%2C%22title%22%3A%22JAVA%20%EC%83%81%EC%86%8D%20%EB%B0%8F%20%ED%81%B4%EB%9E%98%EC%8A%A4%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Afalse%7D%2C%22units%22%3A%5B%7B%22id%22%3A13696%2C%22title%22%3A%22%EC%83%81%EC%86%8D%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13697%2C%22title%22%3A%22%EC%83%81%EC%86%8D%20%ED%8A%B9%EC%A7%95%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13698%2C%22title%22%3A%22%EB%82%B4%EB%B6%80%20%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80%20%EC%9D%B5%EB%AA%85%20%ED%81%B4%EB%9E%98%EC%8A%A4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13699%2C%22title%22%3A%22%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13700%2C%22title%22%3A%22%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13701%2C%22title%22%3A%22%EB%9E%8C%EB%8B%A4%EC%8B%9D%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13702%2C%22title%22%3A%22%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13703%2C%22title%22%3A%22Collections%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%2C%7B%22id%22%3A13704%2C%22title%22%3A%22JAVA%20%EB%A7%88%EB%AC%B4%EB%A6%AC%22%2C%22type%22%3A%22section%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3Afalse%7D%2C%22units%22%3A%5B%7B%22id%22%3A13705%2C%22title%22%3A%22%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13706%2C%22title%22%3A%22%EC%9E%85%EB%A0%A5%EA%B3%BC%20%EC%B6%9C%EB%A0%A5%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%2C%7B%22id%22%3A13707%2C%22title%22%3A%22%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%22%2C%22type%22%3A%22lecture%22%2C%22course_id%22%3A182835%2C%22_%22%3A%7B%22posts%22%3A%5B%5D%2C%22has_notes%22%3A0%7D%7D%5D%7D%5D%7D%2C%22user_id%22%3A311103%2C%22APP_DOMAIN%22%3A%22https%3A%2F%2Fwww.inflearn.com%22%2C%22KAKAO_KEY%22%3A%228f17311b7fd807d919fee08975e30bc7%22%2C%22SHORT_URL_DOMAIN%22%3A%22https%3A%2F%2Finf.run%22%7D");</script><script crossorigin type="module" src="https://cdn.inflearn.com/dist/js/_my_notes_$id.84b38d2d402136b4ff6a.js"></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/_my_notes_$id.18e63a81a92c974a153b.js" nomodule></script><script type="text/javascript" src="https://cdn.inflearn.com/dist/js/legacy/LEGACY_ACTION.5db8bcf671e5ff2b3ec2.js" nomodule defer></script>
     
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({ appId: 1101702136522636, autoLogAppEvents: true, xfbml: true, version: 'v3.3' });
+  }
+</script>
     
     <!-- Channel Plugin Scripts -->
     <script>
@@ -1244,6 +1265,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       })();
     </script>
     <!-- End Channel Plugin -->
- 
+  
   </body>
 </html>
