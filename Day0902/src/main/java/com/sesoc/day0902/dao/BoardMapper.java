@@ -19,7 +19,6 @@ public interface BoardMapper {
 	
 	public BoardVO boardSelectOne(int board_seq);
 	
-	
 	public int boardUpdate(BoardVO board);
 	
 }

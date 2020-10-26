@@ -56,8 +56,17 @@ public class BoardService {
 	}
 	
 	public int boardUpdate(BoardVO board) {
+		String reg_id = (String)session.getAttribute("loginId");
+		board.setReg_id(reg_id);
 		int cnt = dao.boardUpdate(board);
 			
 		return cnt;
+	}
+
+	public HashMap<String, Object> boardRead(int board_seq) {
+		
+		HashMap<String, Object> map = dao.boardRead(board_seq);
+		
+		return map;
 	}
 }

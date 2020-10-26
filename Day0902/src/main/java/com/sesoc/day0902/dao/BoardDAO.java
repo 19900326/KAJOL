@@ -82,4 +82,17 @@ public class BoardDAO {
 			
 		return cnt;
 	}
+
+	public HashMap<String, Object> boardRead(int board_seq) {
+		BoardMapper mapper = session.getMapper(BoardMapper.class);
+		HashMap<String, Object> map = null;
+		
+		try {
+			map = mapper.boardRead(board_seq);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return map;
+	}
 }
