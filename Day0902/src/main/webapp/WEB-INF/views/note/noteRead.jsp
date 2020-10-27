@@ -20,20 +20,18 @@
 </script>
 </head>
 <body>
-	<c:forEach items="${note }" var="note">
 	<br>
-	No : ${note.memo_seq }<br>
-	内容 : ${note.memo_content }<br>
-	投稿者 : ${note.reg_id }<br>
-	投稿日 : ${note.reg_dt }<br>
-	<a href="/note/noteUpdateForm?memo_seq=${note.memo_seq }">修正</a>
-	<a href="/note/noteDelete?memo_seq=${note.memo_seq }">削除</a>
+	No : ${data.memo_seq }<br>
+	内容 : ${data.memo_content }<br>
+	投稿者 : ${data.reg_id }<br>
+	投稿日 : ${data.reg_dt }<br>
+	<a href="/note/noteUpdateForm?memo_seq=${data.memo_seq }">修正</a>
+	<a href="/note/noteDelete?memo_seq=${data.memo_seq }">削除</a>
 	<br>
-	</c:forEach>
 	
 	
-	<c:if test="${sessionScope.loginId == REG_ID }">
-		<input type="hidden" id="memo_seq" value="${MEMO_SEQ }">
+	<c:if test="${sessionScope.loginId == data.reg_id }">
+		<input type="hidden" id="memo_seq" value="${data.memo_seq }">
 		<input type="button" value="수정하기" onclick="noteUpdateForm()"><input type="button" value="삭제" onclick="noteDelete()">
 	</c:if>
 

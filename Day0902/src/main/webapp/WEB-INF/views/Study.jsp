@@ -898,74 +898,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 </aside>
   
-<aside class="aside-container tab-content question-container tab-toggle "
-       data-type="question">
-  <div class="aside-handle"></div>
-  <div class="aside-header">
-    <span class="title">質問掲示板</span>
-    
-    <span class="infd-icon circle tab-item" data-type="note"><svg width="15" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="times" class="svg-inline--fa fa-times fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#212529"fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"></path></svg></span>
-  </div>
-  <div class="aside-content" data-loading="true">
-<div class="question-header">
-  <div class="search-content">
-    
-    <div class="button-cover"><button class="infd-button is-basic-gray700 is-p-14 open-add-qt e-open-add-qt">質問作成</button></div>
-    
-<div class="infd-input-with-icon search-cover">
-  <input  class="infd-input full-width" value=""  type="text" data-kv="s" data-op="" placeholder="質問を入力してください。">
-  <span class="infd-icon"><svg width="18" fill="#868e96" aria-hidden="true" focusable="false" data-prefix="far" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#868e96"fill="currentColor" d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z"></path></svg></span>
-</div>
-  </div>
-</div>
-<div class="list-content e-border-scroll-content is-empty" data-loading="true">
-  <div class="empty-list">
-   質問を作成してください。
-  </div>
-  <div class="question-list"></div>
-</div></div>
-  
-</aside>
   <span class="infd-icon circle float-close-qt-desc e-close-qt-desc">
     <svg width="16" fill="#ffffff" aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff"fill="currentColor" d="M229.9 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L94.569 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H94.569l155.13-155.13c4.686-4.686 4.686-12.284 0-16.971L229.9 38.101c-4.686-4.686-12.284-4.686-16.971 0L3.515 247.515c-4.686 4.686-4.686 12.284 0 16.971L212.929 473.9c4.686 4.686 12.284 4.686 16.971-.001z"></path></svg>
   </span>
   
-<aside class="aside-container tab-content memo-container tab-toggle "
-       data-type="memo">
-  <div class="aside-handle"></div>
-  <div class="aside-header">
-    <span class="title">ノート</span>
-    <span class="caption">
-      <span class="divider"></span>
-      <a href="/note/noteList">ノートを全部見る</a>
-    </span>
-    <span class="infd-icon circle tab-item" data-type="note"><svg width="15" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="times" class="svg-inline--fa fa-times fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#212529"fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"></path></svg></span>
-  </div>
-  <div class="aside-content" data-loading="true">
-<div class="list-content e-border-scroll-content is-empty " data-loading="true">
-  <div class="empty-list">
-    簡単にメモしてください。
-  </div>
-  <div class="memo-list">
-  
-</div>
-</div>
-<div class="add-content">
-  
-  <div class="caption"><a href="/my-notes">내 노트 모두보기 <span class="infd-icon"><svg width="6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 12"><path fill="#212529"fill-rule="evenodd" d="M6.834 5.602L1.298.165c-.22-.22-.578-.22-.799 0L.166.498c-.221.22-.221.576 0 .797L4.973 6 .17 10.705c-.22.22-.22.577 0 .797l.334.333c.22.22.578.22.799 0l5.535-5.437c.217-.22.217-.576-.004-.796z"/></svg></span></a></div>
-    <div class="course-editor comment-editor add-mm-post on-block-content"  data-type="노트" data-action="작성">
-    <div class="infd-field">
-      <textarea data-kv="body" data-editor="true"></textarea>
-    </div>
-    <div class="buttons">
-      
-      <button class="infd-button is-basic-gray700 is-p-14 confirm e-confirm">ノートを入力</button>
-    </div>
-  </div>
-
-</div></div>
-  
-</aside>
    
   </div>
   <ul class="course-mobile-tabs">
@@ -987,9 +923,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <li class="tab-item infd-tooltip tooltip-left tab-toggle active" 
          data-type="curriculum" data-tooltip="目次"><span class="infd-icon"><svg width="24" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 19"><path fill="#212529"fill-rule="evenodd" d="M3.75 14.615h-3c-.414 0-.75.328-.75.731v2.923c0 .404.336.731.75.731h3c.414 0 .75-.327.75-.73v-2.924c0-.403-.336-.73-.75-.73zM3.75 0h-3C.336 0 0 .327 0 .73v2.924c0 .403.336.73.75.73h3c.414 0 .75-.327.75-.73V.73C4.5.327 4.164 0 3.75 0zm0 7.308h-3c-.414 0-.75.327-.75.73v2.924c0 .403.336.73.75.73h3c.414 0 .75-.327.75-.73V8.038c0-.403-.336-.73-.75-.73zm19.5 8.038h-15c-.414 0-.75.327-.75.73v1.462c0 .404.336.731.75.731h15c.414 0 .75-.327.75-.73v-1.462c0-.404-.336-.73-.75-.73zm0-14.615h-15c-.414 0-.75.327-.75.73v1.462c0 .404.336.73.75.73h15c.414 0 .75-.326.75-.73V1.462c0-.404-.336-.731-.75-.731zm0 7.307h-15c-.414 0-.75.328-.75.731v1.462c0 .403.336.73.75.73h15c.414 0 .75-.327.75-.73V8.769c0-.403-.336-.73-.75-.73z"/></svg></span></li>
     <li class="tab-item infd-tooltip tooltip-left tab-toggle " 
-         data-type="question" data-tooltip="質問"><span class="infd-icon"><svg width="24" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="comment-alt-dots" class="svg-inline--fa fa-comment-alt-dots fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#212529"fill="currentColor" d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zM128 240c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg></span></li>
+         data-type="question" data-tooltip="質問">
+        <a href="/board/boardList" class="q_logo">
+          <span class="visually_hidden">KAJOL</span>
+          <img src="/resources/img/질문.png" width="27">
+        </a>
+         </li>
     <li class="tab-item infd-tooltip tooltip-left tab-toggle " 
-         data-type="memo" data-tooltip="ノート"><span class="infd-icon"><svg width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 23"><path fill="#212529"fill-rule="evenodd" d="M13.629 4.188l6 5.751L6.6 22.427l-5.35.566c-.716.076-1.322-.504-1.242-1.19l.595-5.132L13.63 4.188zm9.712-.856l-2.818-2.7c-.879-.843-2.304-.843-3.183 0l-2.65 2.54 6 5.751 2.65-2.54c.88-.843.88-2.209 0-3.051z"/></svg></span></li>
+         data-type="memo" data-tooltip="ノート">
+         <a href="/note/noteList" class="note_logo">
+          <span class="visually_hidden">KAJOL</span>
+          <img src="/resources/img/note.png" width="27">
+        </a> 
+         </li>
     
   </ul>
 </section></main>

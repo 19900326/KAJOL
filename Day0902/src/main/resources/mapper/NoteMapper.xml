@@ -17,38 +17,19 @@
 	
 	</insert>
 
-	<!-- <select id="noteSelectOne" parameterType="string" resultType="note">
+	<select id="noteList" resultType="note">
 		select
-			memo_content
-			,reg_id
-			,reg_dt
+				memo_seq
+				,reg_id 
+				,memo_content
+				,to_char(reg_dt, 'YYYY-MM-DD') as reg_dt
 		from
-			(
-				select
-					*
-				from
-					tb_memo
-				order by rownum desc
-			)
-		where
-			reg_id = #{reg_id}
-		and
-			rownum = 1
-	</select> -->
-	
-	<select id="noteSelect" resultType="note">
-		select
-			memo_seq
-			,memo_content
-			,reg_id
-			,reg_dt
-		from			
 			tb_memo
-			
 		order by
-			reg_id
-		
+			memo_seq desc
+	
 	</select>
+	
 	
 	<delete id="noteDelete" parameterType="int">
 		delete from
@@ -68,20 +49,5 @@
 	
 	</update>
 	
-	<select id="noteViewer" parameterType="int" resultType="note">
-		select
-			t.memo_seq as memo_seq
-			,t.memo_content as memo_content
-			,t.reg_id as reg_id
-			,t.reg_dt as reg_dt
-			,m.mbr_email as mbr_email
-		from
-			tb_memo t, tb_mbr_mng m
-		where
-			t.reg_id = m.mbr_email
-		and
-			t.memo_seq = #{memo_seq}
-		
-	</select>
 
 </mapper>

@@ -1,6 +1,7 @@
 package com.sesoc.day0902.dao;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,31 +28,20 @@ public class NoteDAO {
 		return cnt;
 	}
 
-	public NoteVO noteSelectOne(String reg_id) {
-		NoteMapper mapper = session.getMapper(NoteMapper.class);
-		NoteVO note = null;
-		
-		try {
-			note = mapper.noteSelectOne(reg_id);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-		return note;
-	}
 	
-	public ArrayList<NoteVO> noteSelect(){
-		NoteMapper mapper = session.getMapper(NoteMapper.class);
-		ArrayList<NoteVO> note = null;
-		
-		try {
-			note = mapper.noteSelect();
-		} catch (Exception e) {
-			e.printStackTrace();
+	public ArrayList<NoteVO> noteList() 
+		{
+			NoteMapper mapper = session.getMapper(NoteMapper.class);
+			ArrayList<NoteVO> list = null;
+			
+			try {
+				list = mapper.noteList();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			return list;
 		}
-		
-		return note;
-	}
 	
 	public int noteDelete(int memo_seq) {
 		NoteMapper mapper = session.getMapper(NoteMapper.class);
@@ -79,16 +69,6 @@ public class NoteDAO {
 		return cnt;
 	}
 	
-	public int noteViewer(int memo_seq) {
-		NoteMapper mapper = session.getMapper(NoteMapper.class);
-		int cnt = 0;
-		
-		try {
-			cnt = mapper.noteViewer(memo_seq);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-			
-		return cnt;
-	}
+
+
 }

@@ -1,11 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE html>
 <html lang="ko-KR">
   
 <head>
+<style type="text/css">
+#ch-plugin-launcher {
+	display: none;
+}
+</style>
   <meta charset="utf-8" />
   <meta name="user_id" content="311103" />
   <!--<meta
@@ -241,10 +246,6 @@ function formCheck(){
         </a> 
       </div>
       
-  <div class="mobile_right">
-    <a role="button" class="button space-inset-4 text is-5 signin">ログイン</a>
-    <a href="/member/signUp" class="button space-inset-4 text is-5 is-primary ">会員登録</a>
-  </div>
     </div>
   </div>
     <div class="container desktop_container">

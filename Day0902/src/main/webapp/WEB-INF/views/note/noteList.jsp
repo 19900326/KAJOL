@@ -8,6 +8,19 @@
 <html lang="ko-KR">
   
 <head>
+<script type="text/javascript" src="/resources/js/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+	function noteWriteForm(){
+
+	location.href = "/note/noteWriteForm";
+	}
+
+</script>
+<style type="text/css">
+#ch-plugin-launcher {
+	display: none;
+}
+</style>
   <meta charset="utf-8" />
   <meta name="user_id" content="311103" />
   <!--<meta
@@ -1092,7 +1105,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
      
           </div>
-          <div class="list-section">
+          
+          <h3> [ 質問ページ ]</h3>
+  
+  <table border="1">
+		<tr>
+			<th>番号</th>
+			<th>作成日</th>
+			<th>内容</th>
+		</tr>
+		
+		<c:forEach items="${list }" var="data" varStatus="status">
+			<tr>
+				<td>${status.count }</td>
+				<td> ${data.reg_dt }</td>
+				<td> 
+					<a href="/note/noteRead?memo_seq=${data.memo_seq }">${data.memo_content }</a>
+				</td>
+			</tr>
+		</c:forEach>	
+	</table>
+           <div class="list-section">
             
             <div class="list-content">
               <a href="/note/notePage" class="list-content-el" data-id="3019">
@@ -1116,7 +1149,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="infd-icon"><svg width="9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 12"><path fill="#212529"fill-rule="evenodd" d="M6.834 5.602L1.298.165c-.22-.22-.578-.22-.799 0L.166.498c-.221.22-.221.576 0 .797L4.973 6 .17 10.705c-.22.22-.22.577 0 .797l.334.333c.22.22.578.22.799 0l5.535-5.437c.217-.22.217-.576-.004-.796z"/></svg></span>
 </a>
             </div>
-          </div>
+          </div> 
+          <br>
+	<input type="button" value="作成" onclick="noteWriteForm()">
+	<br>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ package com.sesoc.day0902.service;
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,26 +18,19 @@ public class NoteService {
 	public NoteDAO dao;
 	
 	
-	
 	public int noteWrite(NoteVO note) {
 		int cnt = dao.noteWrite(note);
 		
 		return cnt;
 	}
 	
-	public NoteVO noteSelectOne(String reg_id) {
-		NoteVO note = dao.noteSelectOne(reg_id);
-
-		return note;
+	public ArrayList<NoteVO> noteList() {
+		
+		
+		ArrayList<NoteVO> list = dao.noteList();
+		return list;
 	}
 	
-	public ArrayList<NoteVO> noteSelect(){
-		
-		ArrayList<NoteVO> note = dao.noteSelect();
-		
-		
-		return note;
-	}
 	
 	public int noteDelete(int memo_seq) {
 		int cnt = dao.noteDelete(memo_seq);
@@ -50,9 +44,5 @@ public class NoteService {
 		return cnt;
 	}
 	
-	public int noteViewer(int memo_seq) {
-		int cnt = dao.noteViewer(memo_seq);
-		
-		return cnt;
-	}
+	
 }

@@ -1113,8 +1113,8 @@ function formCheck(){
   	
   	<form action="/note/noteUpdate" method="post">
 		内容<br>
-		<textarea rows="15" cols="100" name="memo_content">${note.memo_content }</textarea><br>
-		<input type="hidden" name="memo_seq" value="${note.memo_seq }">
+		<textarea rows="15" cols="100" name="memo_content">${map.memo_content }</textarea><br>
+		<input type="hidden" name="memo_seq" value="${map.memo_seq }">
 		<input type="submit" value="修正">
 	</form>
 	
