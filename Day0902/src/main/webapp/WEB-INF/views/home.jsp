@@ -26,22 +26,21 @@
 <a href="/login">구글로그인api</a>
 <a href="/video">비디오api</a>
 
-<a href="/what">whatapi</a>
 <h1>송현기</h1>
 
 <h1>송현기2</h1>
 
-<a href="/song">Song.jsp로 이동하기</a>
-
 <a href="/homepage">homepage.jsp로 이동하기</a>
-
-<a href="/art">art.jsp로 이동하기</a>
 
 <a href="/member/signUp">회원가입 이동하기</a>
 
 <a href="/member/myPage">Mypage.jsp로 이동하기</a>
 
 <a href="/Study">Study.jsp로 이동하기</a>
+
+<a href="/board/boardList">board.jsp로 이동하기</a>
+
+
 
 </body>
 </html>

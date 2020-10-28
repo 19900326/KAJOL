@@ -278,7 +278,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		      </a>
 	    	</div>
     	<div class="list_el">
-	      <a href="/my-courses" class="title">
+	      <a href="/class/classDrama" class="title">
 	        <span class="icon"><i class="fal fa-books"></i></span> <span class="name">マイ講義</span>
 	      </a>
     	</div>
@@ -288,7 +288,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	      </a>
     	</div>
     	<div class="list_el">
-	      <a href="/my-notes" class="title">
+	      <a href="/note/noteList" class="title">
 	        <span class="icon"><i class="fal fa-pen"></i></span> <span class="name">講義ノート</span>
 	      </a>
 	    </div>
@@ -953,7 +953,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="card-image">
       <figure class="image is_thumbnail">
        
-        <img
+    <img
     loading="lazy"
     src="/resources/img/TOPIK.jpg"
     data-src="/resources/img/TOPIK.jpg"

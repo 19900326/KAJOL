@@ -506,8 +506,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="box recent_course">
               <div class="box_title"><p>学習情報</p></div>
               <div class="box_content">
-<p class="course_title">新しいスキルを学んで行きましょう</p>
-<a class="button is-primary bottom_right" href="/courses/">講義を探す</a></div>
+<a href="/class/classDrama">ドラマで学ぶ日本語</p>
+<a href="/class/classBasic1">基礎韓国語1</p>
+<a href="/class/classTopik">TOPIK</p>
+<a class="button is-primary bottom_right" href="/class/classMain">講義を探す</a></div>
             </div>
           </div>
           

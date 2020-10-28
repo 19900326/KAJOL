@@ -302,7 +302,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="brand_header">
         <a href="/" class="brand_logo">
           <span class="visually_hidden">KAJOL</span>
-          <img src="resources/img/LOGO.png">
+          <img src="/resources/img/LOGO.png">
           <title>KAJOL</title>
         </a> 
       </div>
@@ -318,7 +318,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="brand_header">
         <a href="/" class="brand_logo">
           <span class="visually_hidden">KAJOL</span>
-          <img src="resources/img/LOGO.png">
+          <img src="/resources/img/LOGO.png">
           <title>KAJOL</title>
         </a>
       </div>
